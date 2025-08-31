@@ -28,5 +28,5 @@ jobs:
         if: success()
         run: |
           echo "Purging jsDelivr cache for merged_config.yaml..."
-          curl https://purge.jsdelivr.net/gh/lkchx123/get_nodes/merged_config.yaml
+          curl https://purge.jsdelivr.net/gh/lkchx123/get_nodes@main/merged_config.yaml
           echo "Purge request sent."
