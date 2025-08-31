@@ -83,7 +83,7 @@ proxies:
   type: vless
   server: freem.vidalith.com
   port: 20101
-  uuid: accad0e4-1027-4dad-9378-36954cd30c5a
+  uuid: 9e81fe85-eba3-4fc1-928a-f009531d3f4b
   udp: true
   tls: true
   skip-cert-verify: true
@@ -97,7 +97,7 @@ proxies:
   type: vless
   server: freem.vidalith.com
   port: 20102
-  uuid: accad0e4-1027-4dad-9378-36954cd30c5a
+  uuid: 9e81fe85-eba3-4fc1-928a-f009531d3f4b
   udp: true
   tls: true
   skip-cert-verify: true
@@ -111,7 +111,7 @@ proxies:
   type: vless
   server: freem.vidalith.com
   port: 20103
-  uuid: accad0e4-1027-4dad-9378-36954cd30c5a
+  uuid: 9e81fe85-eba3-4fc1-928a-f009531d3f4b
   udp: true
   tls: true
   skip-cert-verify: true
@@ -125,7 +125,7 @@ proxies:
   type: vless
   server: freem.vidalith.com
   port: 20201
-  uuid: accad0e4-1027-4dad-9378-36954cd30c5a
+  uuid: 9e81fe85-eba3-4fc1-928a-f009531d3f4b
   udp: true
   tls: true
   skip-cert-verify: true
@@ -139,7 +139,7 @@ proxies:
   type: vless
   server: freem.vidalith.com
   port: 20202
-  uuid: accad0e4-1027-4dad-9378-36954cd30c5a
+  uuid: 9e81fe85-eba3-4fc1-928a-f009531d3f4b
   udp: true
   tls: true
   skip-cert-verify: true
@@ -153,7 +153,7 @@ proxies:
   type: vless
   server: freem.vidalith.com
   port: 20203
-  uuid: accad0e4-1027-4dad-9378-36954cd30c5a
+  uuid: 9e81fe85-eba3-4fc1-928a-f009531d3f4b
   udp: true
   tls: true
   skip-cert-verify: true
@@ -167,7 +167,7 @@ proxies:
   type: vless
   server: freem.vidalith.com
   port: 20301
-  uuid: accad0e4-1027-4dad-9378-36954cd30c5a
+  uuid: 9e81fe85-eba3-4fc1-928a-f009531d3f4b
   udp: true
   tls: true
   skip-cert-verify: true
@@ -181,7 +181,7 @@ proxies:
   type: vless
   server: freem.vidalith.com
   port: 20302
-  uuid: accad0e4-1027-4dad-9378-36954cd30c5a
+  uuid: 9e81fe85-eba3-4fc1-928a-f009531d3f4b
   udp: true
   tls: true
   skip-cert-verify: true
@@ -195,7 +195,7 @@ proxies:
   type: vless
   server: freem.vidalith.com
   port: 20303
-  uuid: accad0e4-1027-4dad-9378-36954cd30c5a
+  uuid: 9e81fe85-eba3-4fc1-928a-f009531d3f4b
   udp: true
   tls: true
   skip-cert-verify: true
@@ -209,7 +209,7 @@ proxies:
   type: vless
   server: freem.vidalith.com
   port: 20401
-  uuid: accad0e4-1027-4dad-9378-36954cd30c5a
+  uuid: 9e81fe85-eba3-4fc1-928a-f009531d3f4b
   udp: true
   tls: true
   skip-cert-verify: true
@@ -223,7 +223,7 @@ proxies:
   type: vless
   server: freem.vidalith.com
   port: 20402
-  uuid: accad0e4-1027-4dad-9378-36954cd30c5a
+  uuid: 9e81fe85-eba3-4fc1-928a-f009531d3f4b
   udp: true
   tls: true
   skip-cert-verify: true
@@ -237,7 +237,7 @@ proxies:
   type: vless
   server: freem.vidalith.com
   port: 20403
-  uuid: accad0e4-1027-4dad-9378-36954cd30c5a
+  uuid: 9e81fe85-eba3-4fc1-928a-f009531d3f4b
   udp: true
   tls: true
   skip-cert-verify: true
@@ -251,7 +251,7 @@ proxies:
   type: vless
   server: freem.vidalith.com
   port: 20501
-  uuid: accad0e4-1027-4dad-9378-36954cd30c5a
+  uuid: 9e81fe85-eba3-4fc1-928a-f009531d3f4b
   udp: true
   tls: true
   skip-cert-verify: true
@@ -265,7 +265,7 @@ proxies:
   type: vless
   server: freem.vidalith.com
   port: 20601
-  uuid: accad0e4-1027-4dad-9378-36954cd30c5a
+  uuid: 9e81fe85-eba3-4fc1-928a-f009531d3f4b
   udp: true
   tls: true
   skip-cert-verify: true
@@ -279,7 +279,7 @@ proxies:
   type: vless
   server: freem.vidalith.com
   port: 20701
-  uuid: accad0e4-1027-4dad-9378-36954cd30c5a
+  uuid: 9e81fe85-eba3-4fc1-928a-f009531d3f4b
   udp: true
   tls: true
   skip-cert-verify: true
@@ -293,7 +293,7 @@ proxies:
   type: vless
   server: freem.vidalith.com
   port: 20702
-  uuid: accad0e4-1027-4dad-9378-36954cd30c5a
+  uuid: 9e81fe85-eba3-4fc1-928a-f009531d3f4b
   udp: true
   tls: true
   skip-cert-verify: true
@@ -307,7 +307,7 @@ proxies:
   type: vless
   server: freem.vidalith.com
   port: 20703
-  uuid: accad0e4-1027-4dad-9378-36954cd30c5a
+  uuid: 9e81fe85-eba3-4fc1-928a-f009531d3f4b
   udp: true
   tls: true
   skip-cert-verify: true
@@ -321,7 +321,7 @@ proxies:
   type: vless
   server: freem.vidalith.com
   port: 20704
-  uuid: accad0e4-1027-4dad-9378-36954cd30c5a
+  uuid: 9e81fe85-eba3-4fc1-928a-f009531d3f4b
   udp: true
   tls: true
   skip-cert-verify: true
@@ -335,7 +335,7 @@ proxies:
   type: vless
   server: freem.vidalith.com
   port: 20705
-  uuid: accad0e4-1027-4dad-9378-36954cd30c5a
+  uuid: 9e81fe85-eba3-4fc1-928a-f009531d3f4b
   udp: true
   tls: true
   skip-cert-verify: true
@@ -349,7 +349,7 @@ proxies:
   type: vless
   server: freem.vidalith.com
   port: 20706
-  uuid: accad0e4-1027-4dad-9378-36954cd30c5a
+  uuid: 9e81fe85-eba3-4fc1-928a-f009531d3f4b
   udp: true
   tls: true
   skip-cert-verify: true
