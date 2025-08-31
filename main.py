@@ -175,11 +175,15 @@ def merge_configs():
 
     # 写入最终的合并配置
     with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
+        timestamp = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+        f.write(f"# 配置合并于 {timestamp}\n")
         yaml.dump(base_config, f, sort_keys=False, allow_unicode=True)
+
 
     print("\n--- 合并完成！ ---")
     print(f"成功获取了 {success_count} 个有效订阅。")
     print(f"最终配置文件 '{OUTPUT_FILE}' 共包含 {len(filtered_proxies)} 个有效代理节点。")
 
 if __name__ == "__main__":
+
     merge_configs()
