@@ -1,4 +1,4 @@
-# 配置合并于 2025-09-04 05:30:22
+# 配置合并于 2025-09-04 05:45:24
 mixed-port: 7890
 tcp-concurrent: false
 allow-lan: true
@@ -2055,7 +2055,6 @@ rules:
 - RULE-SET,apple,DIRECT
 - RULE-SET,applications,DIRECT
 - RULE-SET,cncidr,DIRECT
-- RULE-SET,direct,DIRECT
 - RULE-SET,icloud,DIRECT
 - RULE-SET,lancidr,DIRECT
 - RULE-SET,private,DIRECT
