@@ -52,8 +52,8 @@ def get_current_ip():
     """获取当前网络的出口 IP 地址。"""
     print("--- 检查网络连接 ---")
     try:
-        response = requests.get('http://httpbin.org/ip', timeout=5)
-        print(f"当前访问 IP: {response.json().get('origin')}")
+        response = requests.get('https://api.ipify.org?format=json', timeout=5)
+        print(f"当前访问 IP: {response.json().get('ip')}")
     except requests.exceptions.RequestException as e:
         print(f"无法获取当前 IP，网络可能存在问题: {e}")
     print("--------------------")
@@ -144,4 +144,5 @@ def merge_configs():
 
 
 if __name__ == "__main__":
+
     merge_configs()
