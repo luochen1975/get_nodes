@@ -1,12 +1,9 @@
 import requests
 import re
-import os
 import yaml
 import datetime
-from urllib.parse import urlparse
-
 import urllib3
-# 禁用不安全的请求警告，因为在某些代理环境下可能会遇到证书问题
+# 禁用不安全的请求警告
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 
@@ -19,9 +16,8 @@ github_urls = [
     "https://github.com/mksshare/mksshare.github.io/blob/main/README.md"
 ]
 
-# 用于下载订阅的 User-Agent，伪装成 Clash Verge 客户端
-CLASH_USER_AGENT = "FlClash/v0.8.87 clash-verge Platform/android"
-
+CLASH_USER_AGENT = "clash-verge/v1.6.6"
+TEMPLATE_FILE = "template.yaml"
 OUTPUT_FILE = "merged_config.yaml"
 
 def get_raw_url(github_url):
@@ -33,23 +29,13 @@ def get_raw_url(github_url):
     return github_url.replace("github.com", "raw.githubusercontent.com").replace("/blob/", "/")
 
 def get_subscription_link(github_url):
-    """
-    从指定的 GitHub README 中提取 Clash 订阅链接。
-    
-    Args:
-        github_url (str): GitHub README 的 URL。
-
-    Returns:
-        str or None: 找到的订阅链接，如果未找到或请求失败则返回 None。
-    """
+    """从 GitHub README 中提取 Clash 订阅链接。"""
     raw_url = get_raw_url(github_url)
     print(f"-> 尝试从 {raw_url} 获取订阅链接...")
     try:
         response = requests.get(raw_url, timeout=10, verify=False)
         response.raise_for_status()
-        
-        # 使用正则表达式匹配“Clash订阅链接”后的第一个 http/https 链接
-        # re.S 标志让 '.' 匹配包括换行符在内的所有字符
+        # 使用正则表达式匹配“Clash订阅链接”后的第一个 http/https 链接，re.S 标志让 '.' 匹配包括换行符在内的所有字符
         match = re.search(r'Clash订阅链接.*?((?:https?|http)://\S+)', response.text, re.S)
         if match:
             link = match.group(1).strip()
@@ -61,33 +47,7 @@ def get_subscription_link(github_url):
     except requests.exceptions.RequestException as e:
         print(f"  ✗ 请求 {raw_url} 失败: {e}")
         return None
-
-def download_and_extract_data(link):
-    """
-    下载并解析 Clash 配置文件，提取代理节点列表。
     
-    Args:
-        link (str): Clash 订阅链接。
-        
-    Returns:
-        dict or None: 包含 'proxies' 和 'proxy-groups' 的配置数据，如果下载或解析失败则返回 None。
-    """
-    try:
-        headers = {'User-Agent': CLASH_USER_AGENT}
-        response = requests.get(link, headers=headers, timeout=20, verify=False)
-        response.raise_for_status()
-        
-        config_data = yaml.safe_load(response.text)
-        
-        if not config_data:
-            print(f"  ✗ 警告: YAML 解析为空，链接: {link}")
-            return None
-        
-        return config_data
-    except (requests.exceptions.RequestException, yaml.YAMLError) as e:
-        print(f"  ✗ 下载或解析 {link} 失败: {e}")
-        return None
-
 def get_current_ip():
     """获取当前网络的出口 IP 地址。"""
     print("--- 检查网络连接 ---")
@@ -98,94 +58,90 @@ def get_current_ip():
         print(f"无法获取当前 IP，网络可能存在问题: {e}")
     print("--------------------")
 
+def download_and_extract_proxies(link):
+    """下载并解析 Clash 配置文件，仅提取代理节点列表。"""
+    try:
+        headers = {'User-Agent': CLASH_USER_AGENT}
+        response = requests.get(link, headers=headers, timeout=20, verify=False)
+        response.raise_for_status()
+        config_data = yaml.safe_load(response.text)
+        if not config_data or 'proxies' not in config_data:
+            print(f"  ✗ 警告: YAML 解析为空或缺少 'proxies' 部分, 链接: {link}")
+            return None
+        return config_data.get('proxies', [])
+    except (requests.exceptions.RequestException, yaml.YAMLError) as e:
+        print(f"  ✗ 下载或解析 {link} 失败: {e}")
+        return None
+
 def merge_configs():
     """
-    主函数：遍历所有 GitHub URL，下载订阅，合并所有代理节点，并更新代理组。
+    主函数：加载模板，下载并追加所有新代理节点，然后更新模板中的代理组。
     """
     get_current_ip()
-    print("\n--- 开始合并 Clash 订阅 ---")
     
-    base_config = None
-    all_proxies = []
-    seen_proxy_names = set()
+    # 1. 加载本地模板文件
+    try:
+        with open(TEMPLATE_FILE, 'r', encoding='utf-8') as f:
+            base_config = yaml.safe_load(f)
+        print(f"\n✓ 成功加载模板文件 '{TEMPLATE_FILE}'")
+    except Exception as e:
+        print(f"\n✗ 错误: 加载或解析模板文件 '{TEMPLATE_FILE}' 失败: {e}")
+        return
+    
+    print("\n--- 开始获取并合并 Clash 订阅 ---")
+    
+    all_new_proxies = []
     success_count = 0
 
+    # 2. 遍历URL，获取所有代理节点
     for url in github_urls:
-        # 从 URL 中提取作者名作为代理名称的后缀
-        # 匹配 /作者/仓库/ 格式
         author_match = re.search(r'github\.com/([a-zA-Z0-9_-]+)/', url)
         author = author_match.group(1) if author_match else "unknown"
 
         link = get_subscription_link(url)
-        
         if link:
-            config_data = download_and_extract_data(link)
-            
-            if config_data and 'proxies' in config_data:
-                # 首次成功获取的配置作为合并的基础模板
-                if not base_config:
-                    base_config = config_data
-                    print("  ✓ 已成功获取第一个有效的基础配置。")
-
-                proxies_to_add = config_data.get('proxies', [])
-                
-                # 遍历当前获取的代理，并处理名称重复问题
-                for proxy in proxies_to_add:
+            proxies_from_sub = download_and_extract_proxies(link)
+            if proxies_from_sub:
+                for proxy in proxies_from_sub:
                     if isinstance(proxy, dict) and 'name' in proxy:
-                        new_name = f"{proxy['name']} | {author}"  
-                        proxy['name'] = new_name
-                        seen_proxy_names.add(new_name)
-                        all_proxies.append(proxy)
-                
-                print(f"  ✓ 从此订阅中获取了 {len(proxies_to_add)} 个代理节点。")
+                        proxy['name'] = f"{proxy['name']} | {author}"
+                        all_new_proxies.append(proxy)
+                print(f"  ✓ 从此订阅中获取了 {len(proxies_from_sub)} 个代理节点。")
                 success_count += 1
         print("-" * 20)
     
-    # 检查是否成功下载了任何配置
-    if not base_config:
-        print("\n✗ 所有订阅链接都无法下载或解析，将生成一个空的配置文件。")
-        base_config = {'proxies': [], 'proxy-groups': [], 'rules': []}
-        with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
-            yaml.dump(base_config, f, sort_keys=False, allow_unicode=True)
-        return
+    if success_count == 0:
+        print("\n✗ 所有订阅链接均无法获取")
 
-    # 过滤掉包含特定关键字的无效节点
-    filtered_proxies = [
-        p for p in all_proxies
-        if isinstance(p, dict) and 'name' in p and
-        "剩余流量" not in p['name'] and "套餐到期" not in p['name']
+    # 3. 过滤无效节点
+    filtered_new_proxies = [
+        p for p in all_new_proxies
+        if "剩余流量" not in p.get('name', '') and "套餐到期" not in p.get('name', '')
     ]
+    new_proxy_names = [p['name'] for p in filtered_new_proxies]
 
-    # 获取过滤后的所有代理的名称列表
-    all_proxy_names = [p['name'] for p in filtered_proxies]
-
-    # 更新基础配置中的代理列表和代理组
-    base_config['proxies'] = filtered_proxies
+    # 4. 保留模板原有节点，将新节点追加到后面
+    original_proxies = base_config['proxies']
+    base_config['proxies'] = original_proxies + filtered_new_proxies
     
-    # 更新代理组中的代理列表
-    if 'proxy-groups' in base_config:
-        updated_groups = []
+    # 5. 直接查找'手动选择'代理组并追加新节点名称
+    if 'proxy-groups' in base_config and base_config['proxy-groups']:
+        anchor_group_name = "手动选择"
         for group in base_config['proxy-groups']:
-            # 只修改 select 和 url-test 类型的代理组
-            if group.get('type') in ['select', 'url-test']:
-                group['proxies'] = all_proxy_names
-                updated_groups.append(group['name'])
-        
-        if updated_groups:
-            print(f"\n已更新以下代理组的节点列表：{', '.join(updated_groups)}")
+            if group.get('name') == anchor_group_name:
+                group['proxies'].extend(new_proxy_names)
+                break
 
-    # 写入最终的合并配置
+    # 6. 写入最终的合并配置
     with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
         timestamp = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
         f.write(f"# 配置合并于 {timestamp}\n")
         yaml.dump(base_config, f, sort_keys=False, allow_unicode=True)
 
-
     print("\n--- 合并完成！ ---")
-    print(f"成功获取了 {success_count} 个有效订阅。")
-    print(f"最终配置文件 '{OUTPUT_FILE}' 共包含 {len(filtered_proxies)} 个有效代理节点。")
+    print(f"已从{success_count}个订阅链接中成功合并了 {len(new_proxy_names)} 个节点。")
+    print(f"最终配置文件 '{OUTPUT_FILE}' 已生成。")
+
 
 if __name__ == "__main__":
-
     merge_configs()
-
