@@ -165,7 +165,7 @@ proxy-groups:
   url: https://cp.cloudflare.com/generate_204
   interval: 1800
   proxies: *id001
-- name: 最终路由
+- name: 漏网之鱼
   type: select
   proxies:
   - 代理选择
@@ -265,4 +265,4 @@ rules:
 - RULE-SET,tld-not-cn,代理选择
 - GEOIP,LAN,DIRECT
 - GEOIP,CN,DIRECT
-- MATCH,最终路由
+- MATCH,漏网之鱼
