@@ -1,4 +1,4 @@
-# 配置合并于 2025-09-10 19:28:24
+# 配置合并于 2025-09-10 19:43:17
 mixed-port: 7890
 tcp-concurrent: false
 allow-lan: true
@@ -241,21 +241,21 @@ proxies:
   cipher: aes-128-gcm
   password: f1bde9fd-13aa-49f5-98d5-16b5f569768f
   udp: true
-- name: 域名访问官网9v.abclouds1.pro | abshare
+- name: 域名访问官网ua.abclouds1.pro | abshare
   type: ss
   server: 127.0.0.1
   port: '1080'
   cipher: aes-128-gcm
   password: f1bde9fd-13aa-49f5-98d5-16b5f569768f
   udp: true
-- name: go.allbluess.pro | abshare
+- name: bv.allbluess.pro | abshare
   type: ss
   server: 127.0.0.1
   port: '1080'
   cipher: aes-128-gcm
   password: f1bde9fd-13aa-49f5-98d5-16b5f569768f
   udp: true
-- name: u4.allbluess.com | abshare
+- name: aq.allbluess.com | abshare
   type: ss
   server: 127.0.0.1
   port: '1080'
@@ -920,21 +920,21 @@ proxies:
   cipher: aes-128-gcm
   password: a0300921-75fb-4baa-9282-592ea6274165
   udp: true
-- name: 域名访问官网r3.abclouds1.pro | abshare3
+- name: 域名访问官网8d.abclouds1.pro | abshare3
   type: ss
   server: 127.0.0.1
   port: '1080'
   cipher: aes-128-gcm
   password: a0300921-75fb-4baa-9282-592ea6274165
   udp: true
-- name: cp.allbluess.pro | abshare3
+- name: gd.allbluess.pro | abshare3
   type: ss
   server: 127.0.0.1
   port: '1080'
   cipher: aes-128-gcm
   password: a0300921-75fb-4baa-9282-592ea6274165
   udp: true
-- name: g9.allbluess.com | abshare3
+- name: tv.allbluess.com | abshare3
   type: ss
   server: 127.0.0.1
   port: '1080'
@@ -1225,7 +1225,7 @@ proxies:
   type: vless
   server: freem.vidalith.com
   port: 20101
-  uuid: 2b99150d-048e-4335-96ef-ac575dc0f644
+  uuid: cf9e7a87-bfad-4ace-bc58-c83a3f7ec512
   udp: true
   tls: true
   skip-cert-verify: true
@@ -1239,7 +1239,7 @@ proxies:
   type: vless
   server: freem.vidalith.com
   port: 20102
-  uuid: 2b99150d-048e-4335-96ef-ac575dc0f644
+  uuid: cf9e7a87-bfad-4ace-bc58-c83a3f7ec512
   udp: true
   tls: true
   skip-cert-verify: true
@@ -1253,7 +1253,7 @@ proxies:
   type: vless
   server: freem.vidalith.com
   port: 20103
-  uuid: 2b99150d-048e-4335-96ef-ac575dc0f644
+  uuid: cf9e7a87-bfad-4ace-bc58-c83a3f7ec512
   udp: true
   tls: true
   skip-cert-verify: true
@@ -1267,7 +1267,7 @@ proxies:
   type: vless
   server: freem.vidalith.com
   port: 20201
-  uuid: 2b99150d-048e-4335-96ef-ac575dc0f644
+  uuid: cf9e7a87-bfad-4ace-bc58-c83a3f7ec512
   udp: true
   tls: true
   skip-cert-verify: true
@@ -1281,7 +1281,7 @@ proxies:
   type: vless
   server: freem.vidalith.com
   port: 20202
-  uuid: 2b99150d-048e-4335-96ef-ac575dc0f644
+  uuid: cf9e7a87-bfad-4ace-bc58-c83a3f7ec512
   udp: true
   tls: true
   skip-cert-verify: true
@@ -1295,7 +1295,7 @@ proxies:
   type: vless
   server: freem.vidalith.com
   port: 20203
-  uuid: 2b99150d-048e-4335-96ef-ac575dc0f644
+  uuid: cf9e7a87-bfad-4ace-bc58-c83a3f7ec512
   udp: true
   tls: true
   skip-cert-verify: true
@@ -1309,7 +1309,7 @@ proxies:
   type: vless
   server: freem.vidalith.com
   port: 20301
-  uuid: 2b99150d-048e-4335-96ef-ac575dc0f644
+  uuid: cf9e7a87-bfad-4ace-bc58-c83a3f7ec512
   udp: true
   tls: true
   skip-cert-verify: true
@@ -1323,7 +1323,7 @@ proxies:
   type: vless
   server: freem.vidalith.com
   port: 20302
-  uuid: 2b99150d-048e-4335-96ef-ac575dc0f644
+  uuid: cf9e7a87-bfad-4ace-bc58-c83a3f7ec512
   udp: true
   tls: true
   skip-cert-verify: true
@@ -1337,7 +1337,7 @@ proxies:
   type: vless
   server: freem.vidalith.com
   port: 20303
-  uuid: 2b99150d-048e-4335-96ef-ac575dc0f644
+  uuid: cf9e7a87-bfad-4ace-bc58-c83a3f7ec512
   udp: true
   tls: true
   skip-cert-verify: true
@@ -1351,7 +1351,7 @@ proxies:
   type: vless
   server: freem.vidalith.com
   port: 20401
-  uuid: 2b99150d-048e-4335-96ef-ac575dc0f644
+  uuid: cf9e7a87-bfad-4ace-bc58-c83a3f7ec512
   udp: true
   tls: true
   skip-cert-verify: true
@@ -1365,7 +1365,7 @@ proxies:
   type: vless
   server: freem.vidalith.com
   port: 20402
-  uuid: 2b99150d-048e-4335-96ef-ac575dc0f644
+  uuid: cf9e7a87-bfad-4ace-bc58-c83a3f7ec512
   udp: true
   tls: true
   skip-cert-verify: true
@@ -1379,7 +1379,7 @@ proxies:
   type: vless
   server: freem.vidalith.com
   port: 20403
-  uuid: 2b99150d-048e-4335-96ef-ac575dc0f644
+  uuid: cf9e7a87-bfad-4ace-bc58-c83a3f7ec512
   udp: true
   tls: true
   skip-cert-verify: true
@@ -1393,7 +1393,7 @@ proxies:
   type: vless
   server: freem.vidalith.com
   port: 20501
-  uuid: 2b99150d-048e-4335-96ef-ac575dc0f644
+  uuid: cf9e7a87-bfad-4ace-bc58-c83a3f7ec512
   udp: true
   tls: true
   skip-cert-verify: true
@@ -1407,7 +1407,7 @@ proxies:
   type: vless
   server: freem.vidalith.com
   port: 20601
-  uuid: 2b99150d-048e-4335-96ef-ac575dc0f644
+  uuid: cf9e7a87-bfad-4ace-bc58-c83a3f7ec512
   udp: true
   tls: true
   skip-cert-verify: true
@@ -1421,7 +1421,7 @@ proxies:
   type: vless
   server: freem.vidalith.com
   port: 20701
-  uuid: 2b99150d-048e-4335-96ef-ac575dc0f644
+  uuid: cf9e7a87-bfad-4ace-bc58-c83a3f7ec512
   udp: true
   tls: true
   skip-cert-verify: true
@@ -1435,7 +1435,7 @@ proxies:
   type: vless
   server: freem.vidalith.com
   port: 20702
-  uuid: 2b99150d-048e-4335-96ef-ac575dc0f644
+  uuid: cf9e7a87-bfad-4ace-bc58-c83a3f7ec512
   udp: true
   tls: true
   skip-cert-verify: true
@@ -1449,7 +1449,7 @@ proxies:
   type: vless
   server: freem.vidalith.com
   port: 20703
-  uuid: 2b99150d-048e-4335-96ef-ac575dc0f644
+  uuid: cf9e7a87-bfad-4ace-bc58-c83a3f7ec512
   udp: true
   tls: true
   skip-cert-verify: true
@@ -1463,7 +1463,7 @@ proxies:
   type: vless
   server: freem.vidalith.com
   port: 20704
-  uuid: 2b99150d-048e-4335-96ef-ac575dc0f644
+  uuid: cf9e7a87-bfad-4ace-bc58-c83a3f7ec512
   udp: true
   tls: true
   skip-cert-verify: true
@@ -1477,7 +1477,7 @@ proxies:
   type: vless
   server: freem.vidalith.com
   port: 20705
-  uuid: 2b99150d-048e-4335-96ef-ac575dc0f644
+  uuid: cf9e7a87-bfad-4ace-bc58-c83a3f7ec512
   udp: true
   tls: true
   skip-cert-verify: true
@@ -1491,7 +1491,7 @@ proxies:
   type: vless
   server: freem.vidalith.com
   port: 20706
-  uuid: 2b99150d-048e-4335-96ef-ac575dc0f644
+  uuid: cf9e7a87-bfad-4ace-bc58-c83a3f7ec512
   udp: true
   tls: true
   skip-cert-verify: true
@@ -1527,9 +1527,9 @@ proxy-groups:
   - 客户端更新成功后 | abshare
   - 请重新更新订阅链接 | abshare
   - 可以通过以下 | abshare
-  - 域名访问官网9v.abclouds1.pro | abshare
-  - go.allbluess.pro | abshare
-  - u4.allbluess.com | abshare
+  - 域名访问官网ua.abclouds1.pro | abshare
+  - bv.allbluess.pro | abshare
+  - aq.allbluess.com | abshare
   - 🇭🇰香港 01 | 1x HK | mkshare3
   - 🇭🇰香港 02 | 1x HK | mkshare3
   - 🇭🇰香港 03 | 家宽 | 1x HK | mkshare3
@@ -1584,9 +1584,9 @@ proxy-groups:
   - 客户端更新成功后 | abshare3
   - 请重新更新订阅链接 | abshare3
   - 可以通过以下 | abshare3
-  - 域名访问官网r3.abclouds1.pro | abshare3
-  - cp.allbluess.pro | abshare3
-  - g9.allbluess.com | abshare3
+  - 域名访问官网8d.abclouds1.pro | abshare3
+  - gd.allbluess.pro | abshare3
+  - tv.allbluess.com | abshare3
   - 🇭🇰香港 01 | 1x HK | tolinkshare2
   - 🇭🇰香港 02 | 1x HK | tolinkshare2
   - 🇭🇰香港 03 | 家宽 | 1x HK | tolinkshare2
