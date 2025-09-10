@@ -16,7 +16,7 @@ github_urls = [
     "https://github.com/mksshare/mksshare.github.io/blob/main/README.md"
 ]
 
-CLASH_USER_AGENT = "clash-verge/v1.6.7"
+CLASH_USER_AGENT = "clash-verge/v2.4.0"
 TEMPLATE_FILE = "template.yaml"
 OUTPUT_FILE = "merged_config.yaml"
 
@@ -146,4 +146,5 @@ def merge_configs():
 if __name__ == "__main__":
 
     merge_configs()
+
 
