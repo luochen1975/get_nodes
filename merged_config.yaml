@@ -1,4 +1,4 @@
-# 配置合并于 2025-09-10 19:13:17
+# 配置合并于 2025-09-10 19:28:24
 mixed-port: 7890
 tcp-concurrent: false
 allow-lan: true
@@ -241,21 +241,21 @@ proxies:
   cipher: aes-128-gcm
   password: f1bde9fd-13aa-49f5-98d5-16b5f569768f
   udp: true
-- name: 域名访问官网qb.abclouds1.pro | abshare
+- name: 域名访问官网9v.abclouds1.pro | abshare
   type: ss
   server: 127.0.0.1
   port: '1080'
   cipher: aes-128-gcm
   password: f1bde9fd-13aa-49f5-98d5-16b5f569768f
   udp: true
-- name: tz.allbluess.pro | abshare
+- name: go.allbluess.pro | abshare
   type: ss
   server: 127.0.0.1
   port: '1080'
   cipher: aes-128-gcm
   password: f1bde9fd-13aa-49f5-98d5-16b5f569768f
   udp: true
-- name: ce.allbluess.com | abshare
+- name: u4.allbluess.com | abshare
   type: ss
   server: 127.0.0.1
   port: '1080'
@@ -920,21 +920,21 @@ proxies:
   cipher: aes-128-gcm
   password: a0300921-75fb-4baa-9282-592ea6274165
   udp: true
-- name: 域名访问官网m1.abclouds1.pro | abshare3
+- name: 域名访问官网r3.abclouds1.pro | abshare3
   type: ss
   server: 127.0.0.1
   port: '1080'
   cipher: aes-128-gcm
   password: a0300921-75fb-4baa-9282-592ea6274165
   udp: true
-- name: gm.allbluess.pro | abshare3
+- name: cp.allbluess.pro | abshare3
   type: ss
   server: 127.0.0.1
   port: '1080'
   cipher: aes-128-gcm
   password: a0300921-75fb-4baa-9282-592ea6274165
   udp: true
-- name: jg.allbluess.com | abshare3
+- name: g9.allbluess.com | abshare3
   type: ss
   server: 127.0.0.1
   port: '1080'
@@ -945,7 +945,7 @@ proxies:
   type: vless
   server: freet.cloudrithm.com
   port: 20101
-  uuid: e4589f15-ccdc-43fd-a045-53debbbca8f3
+  uuid: e18bfd0d-97ab-46af-a031-d06b32e0557c
   udp: true
   tls: true
   skip-cert-verify: true
@@ -959,7 +959,7 @@ proxies:
   type: vless
   server: freet.cloudrithm.com
   port: 20102
-  uuid: e4589f15-ccdc-43fd-a045-53debbbca8f3
+  uuid: e18bfd0d-97ab-46af-a031-d06b32e0557c
   udp: true
   tls: true
   skip-cert-verify: true
@@ -973,7 +973,7 @@ proxies:
   type: vless
   server: freet.cloudrithm.com
   port: 20103
-  uuid: e4589f15-ccdc-43fd-a045-53debbbca8f3
+  uuid: e18bfd0d-97ab-46af-a031-d06b32e0557c
   udp: true
   tls: true
   skip-cert-verify: true
@@ -987,7 +987,7 @@ proxies:
   type: vless
   server: freet.cloudrithm.com
   port: 20201
-  uuid: e4589f15-ccdc-43fd-a045-53debbbca8f3
+  uuid: e18bfd0d-97ab-46af-a031-d06b32e0557c
   udp: true
   tls: true
   skip-cert-verify: true
@@ -1001,7 +1001,7 @@ proxies:
   type: vless
   server: freet.cloudrithm.com
   port: 20202
-  uuid: e4589f15-ccdc-43fd-a045-53debbbca8f3
+  uuid: e18bfd0d-97ab-46af-a031-d06b32e0557c
   udp: true
   tls: true
   skip-cert-verify: true
@@ -1015,7 +1015,7 @@ proxies:
   type: vless
   server: freet.cloudrithm.com
   port: 20203
-  uuid: e4589f15-ccdc-43fd-a045-53debbbca8f3
+  uuid: e18bfd0d-97ab-46af-a031-d06b32e0557c
   udp: true
   tls: true
   skip-cert-verify: true
@@ -1029,7 +1029,7 @@ proxies:
   type: vless
   server: freet.cloudrithm.com
   port: 20301
-  uuid: e4589f15-ccdc-43fd-a045-53debbbca8f3
+  uuid: e18bfd0d-97ab-46af-a031-d06b32e0557c
   udp: true
   tls: true
   skip-cert-verify: true
@@ -1043,7 +1043,7 @@ proxies:
   type: vless
   server: freet.cloudrithm.com
   port: 20302
-  uuid: e4589f15-ccdc-43fd-a045-53debbbca8f3
+  uuid: e18bfd0d-97ab-46af-a031-d06b32e0557c
   udp: true
   tls: true
   skip-cert-verify: true
@@ -1057,7 +1057,7 @@ proxies:
   type: vless
   server: freet.cloudrithm.com
   port: 20303
-  uuid: e4589f15-ccdc-43fd-a045-53debbbca8f3
+  uuid: e18bfd0d-97ab-46af-a031-d06b32e0557c
   udp: true
   tls: true
   skip-cert-verify: true
@@ -1071,7 +1071,7 @@ proxies:
   type: vless
   server: freet.cloudrithm.com
   port: 20401
-  uuid: e4589f15-ccdc-43fd-a045-53debbbca8f3
+  uuid: e18bfd0d-97ab-46af-a031-d06b32e0557c
   udp: true
   tls: true
   skip-cert-verify: true
@@ -1085,7 +1085,7 @@ proxies:
   type: vless
   server: freet.cloudrithm.com
   port: 20402
-  uuid: e4589f15-ccdc-43fd-a045-53debbbca8f3
+  uuid: e18bfd0d-97ab-46af-a031-d06b32e0557c
   udp: true
   tls: true
   skip-cert-verify: true
@@ -1099,7 +1099,7 @@ proxies:
   type: vless
   server: freet.cloudrithm.com
   port: 20403
-  uuid: e4589f15-ccdc-43fd-a045-53debbbca8f3
+  uuid: e18bfd0d-97ab-46af-a031-d06b32e0557c
   udp: true
   tls: true
   skip-cert-verify: true
@@ -1113,7 +1113,7 @@ proxies:
   type: vless
   server: freet.cloudrithm.com
   port: 20501
-  uuid: e4589f15-ccdc-43fd-a045-53debbbca8f3
+  uuid: e18bfd0d-97ab-46af-a031-d06b32e0557c
   udp: true
   tls: true
   skip-cert-verify: true
@@ -1127,7 +1127,7 @@ proxies:
   type: vless
   server: freet.cloudrithm.com
   port: 20601
-  uuid: e4589f15-ccdc-43fd-a045-53debbbca8f3
+  uuid: e18bfd0d-97ab-46af-a031-d06b32e0557c
   udp: true
   tls: true
   skip-cert-verify: true
@@ -1141,7 +1141,7 @@ proxies:
   type: vless
   server: freet.cloudrithm.com
   port: 20701
-  uuid: e4589f15-ccdc-43fd-a045-53debbbca8f3
+  uuid: e18bfd0d-97ab-46af-a031-d06b32e0557c
   udp: true
   tls: true
   skip-cert-verify: true
@@ -1155,7 +1155,7 @@ proxies:
   type: vless
   server: freet.cloudrithm.com
   port: 20702
-  uuid: e4589f15-ccdc-43fd-a045-53debbbca8f3
+  uuid: e18bfd0d-97ab-46af-a031-d06b32e0557c
   udp: true
   tls: true
   skip-cert-verify: true
@@ -1169,7 +1169,7 @@ proxies:
   type: vless
   server: freet.cloudrithm.com
   port: 20703
-  uuid: e4589f15-ccdc-43fd-a045-53debbbca8f3
+  uuid: e18bfd0d-97ab-46af-a031-d06b32e0557c
   udp: true
   tls: true
   skip-cert-verify: true
@@ -1183,7 +1183,7 @@ proxies:
   type: vless
   server: freet.cloudrithm.com
   port: 20704
-  uuid: e4589f15-ccdc-43fd-a045-53debbbca8f3
+  uuid: e18bfd0d-97ab-46af-a031-d06b32e0557c
   udp: true
   tls: true
   skip-cert-verify: true
@@ -1197,7 +1197,7 @@ proxies:
   type: vless
   server: freet.cloudrithm.com
   port: 20705
-  uuid: e4589f15-ccdc-43fd-a045-53debbbca8f3
+  uuid: e18bfd0d-97ab-46af-a031-d06b32e0557c
   udp: true
   tls: true
   skip-cert-verify: true
@@ -1211,7 +1211,7 @@ proxies:
   type: vless
   server: freet.cloudrithm.com
   port: 20706
-  uuid: e4589f15-ccdc-43fd-a045-53debbbca8f3
+  uuid: e18bfd0d-97ab-46af-a031-d06b32e0557c
   udp: true
   tls: true
   skip-cert-verify: true
@@ -1527,9 +1527,9 @@ proxy-groups:
   - 客户端更新成功后 | abshare
   - 请重新更新订阅链接 | abshare
   - 可以通过以下 | abshare
-  - 域名访问官网qb.abclouds1.pro | abshare
-  - tz.allbluess.pro | abshare
-  - ce.allbluess.com | abshare
+  - 域名访问官网9v.abclouds1.pro | abshare
+  - go.allbluess.pro | abshare
+  - u4.allbluess.com | abshare
   - 🇭🇰香港 01 | 1x HK | mkshare3
   - 🇭🇰香港 02 | 1x HK | mkshare3
   - 🇭🇰香港 03 | 家宽 | 1x HK | mkshare3
@@ -1584,9 +1584,9 @@ proxy-groups:
   - 客户端更新成功后 | abshare3
   - 请重新更新订阅链接 | abshare3
   - 可以通过以下 | abshare3
-  - 域名访问官网m1.abclouds1.pro | abshare3
-  - gm.allbluess.pro | abshare3
-  - jg.allbluess.com | abshare3
+  - 域名访问官网r3.abclouds1.pro | abshare3
+  - cp.allbluess.pro | abshare3
+  - g9.allbluess.com | abshare3
   - 🇭🇰香港 01 | 1x HK | tolinkshare2
   - 🇭🇰香港 02 | 1x HK | tolinkshare2
   - 🇭🇰香港 03 | 家宽 | 1x HK | tolinkshare2
