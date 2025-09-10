@@ -62,22 +62,29 @@ def get_current_ip():
         print(f"当前访问 IP: {response.json().get('ip')}")
     except requests.exceptions.RequestException as e:
         print(f"无法获取当前 IP，网络可能存在问题: {e}")
-    print("--------------------")
+    print("-" * 31)
 
 
 def download_and_extract_proxies(link):
-    """下载并解析 Clash 配置文件，仅提取代理节点列表。"""
+    """下载并解析 Clash 配置文件，提取并过滤代理节点列表。"""
     try:
         headers = {'User-Agent': CLASH_USER_AGENT}
         response = requests.get(link, headers=headers, timeout=20, verify=False)
         response.raise_for_status()
         config_data = yaml.safe_load(response.text)
         if not config_data or 'proxies' not in config_data:
-            print(f"   ✗ 警告: YAML 解析为空或缺少 'proxies' 部分, 链接: {link}")
+            print(f"   ✗ 警告: YAML 解析为空或缺少 'proxies' 部分, 链接: {link}")
             return None
-        return config_data.get('proxies', [])
+        
+        proxies = config_data.get('proxies', [])
+        filtered_proxies = [
+            p for p in proxies
+            if isinstance(p, dict) and 'name' in p and "剩余流量" not in p['name'] and "套餐到期" not in p['name']
+        ]
+        return filtered_proxies
+        
     except (requests.exceptions.RequestException, yaml.YAMLError) as e:
-        print(f"   ✗ 下载或解析 {link} 失败: {e}")
+        print(f"   ✗ 下载或解析 {link} 失败: {e}")
         return None
 
 
@@ -140,13 +147,13 @@ def merge_configs():
         # 3. 检查缓存
         if url in cache and cache[url].get('clash_link') == current_clash_link:
             # 找到缓存，且clash链接没变
-            print(f"-> 订阅链接未变，使用缓存...")
+            print(f"   ✓ 订阅链接未变，使用缓存。")
             proxies_from_sub = cache[url].get('proxies')
 
         # 4. 如果没有命中缓存或者缓存节点无效，则重新下载
         if not proxies_from_sub:
             if not current_clash_link:
-                print("-" * 20)
+                print("-" * 31)
                 # 获取订阅链接失败，从缓存中删除此项，防止残留
                 if url in cache:
                     print(f"   ✗ 获取新链接失败，删除旧缓存。")
@@ -174,7 +181,7 @@ def merge_configs():
                     all_new_proxies.append(proxy)
             print(f"   ✓ 从此订阅中获取了 {len(proxies_from_sub)} 个代理节点。")
             success_count += 1
-        print("-" * 20)
+        print("-" * 31)
 
     # 保存更新后的缓存
     save_cache(cache)
@@ -182,18 +189,12 @@ def merge_configs():
     if success_count == 0:
         print("\n✗ 所有订阅链接均无法获取")
 
-    # 5. 过滤无效节点
-    filtered_new_proxies = [
-        p for p in all_new_proxies
-        if "剩余流量" not in p.get('name', '') and "套餐到期" not in p.get('name', '')
-    ]
-    new_proxy_names = [p['name'] for p in filtered_new_proxies]
-
-    # 6. 保留模板原有节点，将新节点追加到后面
+    # 5. 保留模板原有节点，将新节点追加到后面
+    new_proxy_names = [p['name'] for p in all_new_proxies]
     original_proxies = base_config['proxies']
-    base_config['proxies'] = original_proxies + filtered_new_proxies
+    base_config['proxies'] = original_proxies + all_new_proxies
 
-    # 7. 直接查找'手动选择'代理组并追加新节点名称
+    # 6. 直接查找'手动选择'代理组并追加新节点名称
     if 'proxy-groups' in base_config and base_config['proxy-groups']:
         anchor_group_name = "手动选择"
         for group in base_config['proxy-groups']:
@@ -201,7 +202,7 @@ def merge_configs():
                 group['proxies'].extend(new_proxy_names)
                 break
 
-    # 8. 写入最终的合并配置
+    # 7. 写入最终的合并配置
     with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
         timestamp = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
         f.write(f"# 配置合并于 {timestamp}\n")
