@@ -177,8 +177,9 @@ def merge_configs():
         if proxies_from_sub:
             for proxy in proxies_from_sub:
                 if isinstance(proxy, dict) and 'name' in proxy:
-                    proxy['name'] = f"{proxy['name']} | {author}"
-                    all_new_proxies.append(proxy)
+                    new_proxy = proxy.copy()  # 创建一个浅拷贝副本，防止缓存中带author，从而重复添加author
+                    new_proxy['name'] = f"{new_proxy['name']} | {author}"
+                    all_new_proxies.append(new_proxy)
             print(f"   ✓ 从此订阅中获取了 {len(proxies_from_sub)} 个代理节点。")
             success_count += 1
         print("-" * 31)
@@ -215,3 +216,4 @@ def merge_configs():
 
 if __name__ == "__main__":
     merge_configs()
+
