@@ -3,6 +3,8 @@ import re
 import yaml
 import datetime
 import urllib3
+import os
+
 # 禁用不安全的请求警告
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
@@ -19,6 +21,8 @@ github_urls = [
 CLASH_USER_AGENT = "clash-verge/v2.4.0"
 TEMPLATE_FILE = "template.yaml"
 OUTPUT_FILE = "merged_config.yaml"
+CACHE_FILE = "cache.yaml"
+
 
 def get_raw_url(github_url):
     """
@@ -27,6 +31,7 @@ def get_raw_url(github_url):
     """
     # return "https://gh.llkk.cc/" + github_url
     return github_url.replace("github.com", "raw.githubusercontent.com").replace("/blob/", "/")
+
 
 def get_subscription_link(github_url):
     """从 GitHub README 中提取 Clash 订阅链接。"""
@@ -39,15 +44,16 @@ def get_subscription_link(github_url):
         match = re.search(r'Clash订阅链接.*?((?:https?|http)://\S+)', response.text, re.S)
         if match:
             link = match.group(1).strip()
-            print(f"  ✓ 成功找到链接: {link}")
+            print(f"   ✓ 成功找到链接: {link}")
             return link
         else:
-            print(f"  ✗ 在 {raw_url} 中未找到 Clash 订阅链接。")
+            print(f"   ✗ 在 {raw_url} 中未找到 Clash 订阅链接。")
             return None
     except requests.exceptions.RequestException as e:
-        print(f"  ✗ 请求 {raw_url} 失败: {e}")
+        print(f"   ✗ 请求 {raw_url} 失败: {e}")
         return None
     
+
 def get_current_ip():
     """获取当前网络的出口 IP 地址。"""
     print("--- 检查网络连接 ---")
@@ -58,6 +64,7 @@ def get_current_ip():
         print(f"无法获取当前 IP，网络可能存在问题: {e}")
     print("--------------------")
 
+
 def download_and_extract_proxies(link):
     """下载并解析 Clash 配置文件，仅提取代理节点列表。"""
     try:
@@ -66,19 +73,43 @@ def download_and_extract_proxies(link):
         response.raise_for_status()
         config_data = yaml.safe_load(response.text)
         if not config_data or 'proxies' not in config_data:
-            print(f"  ✗ 警告: YAML 解析为空或缺少 'proxies' 部分, 链接: {link}")
+            print(f"   ✗ 警告: YAML 解析为空或缺少 'proxies' 部分, 链接: {link}")
             return None
         return config_data.get('proxies', [])
     except (requests.exceptions.RequestException, yaml.YAMLError) as e:
-        print(f"  ✗ 下载或解析 {link} 失败: {e}")
+        print(f"   ✗ 下载或解析 {link} 失败: {e}")
         return None
+
+
+def load_cache():
+    """从缓存文件加载数据。"""
+    if os.path.exists(CACHE_FILE):
+        try:
+            with open(CACHE_FILE, 'r', encoding='utf-8') as f:
+                print(f"✓ 成功加载缓存文件 '{CACHE_FILE}'")
+                return yaml.safe_load(f) or {}
+        except Exception as e:
+            print(f"✗ 警告: 加载缓存文件 '{CACHE_FILE}' 失败: {e}")
+            return {}
+    return {}
+
+
+def save_cache(cache_data):
+    """将数据保存到缓存文件。"""
+    try:
+        with open(CACHE_FILE, 'w', encoding='utf-8') as f:
+            yaml.dump(cache_data, f, sort_keys=False, allow_unicode=True)
+        print(f"✓ 成功更新缓存文件 '{CACHE_FILE}'")
+    except Exception as e:
+        print(f"✗ 警告: 保存缓存文件 '{CACHE_FILE}' 失败: {e}")
+
 
 def merge_configs():
     """
     主函数：加载模板，下载并追加所有新代理节点，然后更新模板中的代理组。
     """
     get_current_ip()
-    
+
     # 1. 加载本地模板文件
     try:
         with open(TEMPLATE_FILE, 'r', encoding='utf-8') as f:
@@ -87,9 +118,12 @@ def merge_configs():
     except Exception as e:
         print(f"\n✗ 错误: 加载或解析模板文件 '{TEMPLATE_FILE}' 失败: {e}")
         return
-    
+
+    # 加载缓存
+    cache = load_cache()
+
     print("\n--- 开始获取并合并 Clash 订阅 ---")
-    
+
     all_new_proxies = []
     success_count = 0
 
@@ -98,33 +132,68 @@ def merge_configs():
         author_match = re.search(r'github\.com/([a-zA-Z0-9_-]+)/', url)
         author = author_match.group(1) if author_match else "unknown"
 
-        link = get_subscription_link(url)
-        if link:
-            proxies_from_sub = download_and_extract_proxies(link)
+        # 从 GitHub README 中获取订阅链接
+        current_clash_link = get_subscription_link(url)
+
+        proxies_from_sub = None
+
+        # 3. 检查缓存
+        if url in cache and cache[url].get('clash_link') == current_clash_link:
+            # 找到缓存，且clash链接没变
+            print(f"-> 订阅链接未变，使用缓存...")
+            proxies_from_sub = cache[url].get('proxies')
+
+        # 4. 如果没有命中缓存或者缓存节点无效，则重新下载
+        if not proxies_from_sub:
+            if not current_clash_link:
+                print("-" * 20)
+                # 获取订阅链接失败，从缓存中删除此项，防止残留
+                if url in cache:
+                    print(f"   ✗ 获取新链接失败，删除旧缓存。")
+                    del cache[url]
+                continue
+
+            proxies_from_sub = download_and_extract_proxies(current_clash_link)
+
             if proxies_from_sub:
-                for proxy in proxies_from_sub:
-                    if isinstance(proxy, dict) and 'name' in proxy:
-                        proxy['name'] = f"{proxy['name']} | {author}"
-                        all_new_proxies.append(proxy)
-                print(f"  ✓ 从此订阅中获取了 {len(proxies_from_sub)} 个代理节点。")
-                success_count += 1
+                # 下载成功，更新缓存
+                cache[url] = {
+                    'clash_link': current_clash_link,
+                    'proxies': proxies_from_sub
+                }
+            else:
+                # 下载失败，从缓存中删除此项，防止残留
+                if url in cache:
+                    print(f"   ✗ 下载失败，删除旧缓存。")
+                    del cache[url]
+
+        if proxies_from_sub:
+            for proxy in proxies_from_sub:
+                if isinstance(proxy, dict) and 'name' in proxy:
+                    proxy['name'] = f"{proxy['name']} | {author}"
+                    all_new_proxies.append(proxy)
+            print(f"   ✓ 从此订阅中获取了 {len(proxies_from_sub)} 个代理节点。")
+            success_count += 1
         print("-" * 20)
-    
+
+    # 保存更新后的缓存
+    save_cache(cache)
+
     if success_count == 0:
         print("\n✗ 所有订阅链接均无法获取")
 
-    # 3. 过滤无效节点
+    # 5. 过滤无效节点
     filtered_new_proxies = [
         p for p in all_new_proxies
         if "剩余流量" not in p.get('name', '') and "套餐到期" not in p.get('name', '')
     ]
     new_proxy_names = [p['name'] for p in filtered_new_proxies]
 
-    # 4. 保留模板原有节点，将新节点追加到后面
+    # 6. 保留模板原有节点，将新节点追加到后面
     original_proxies = base_config['proxies']
     base_config['proxies'] = original_proxies + filtered_new_proxies
-    
-    # 5. 直接查找'手动选择'代理组并追加新节点名称
+
+    # 7. 直接查找'手动选择'代理组并追加新节点名称
     if 'proxy-groups' in base_config and base_config['proxy-groups']:
         anchor_group_name = "手动选择"
         for group in base_config['proxy-groups']:
@@ -132,7 +201,7 @@ def merge_configs():
                 group['proxies'].extend(new_proxy_names)
                 break
 
-    # 6. 写入最终的合并配置
+    # 8. 写入最终的合并配置
     with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
         timestamp = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
         f.write(f"# 配置合并于 {timestamp}\n")
@@ -144,7 +213,4 @@ def merge_configs():
 
 
 if __name__ == "__main__":
-
     merge_configs()
-
-
