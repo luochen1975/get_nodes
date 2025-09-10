@@ -1,4 +1,4 @@
-# 配置合并于 2025-09-10 19:43:17
+# 配置合并于 2025-09-10 19:58:15
 mixed-port: 7890
 tcp-concurrent: false
 allow-lan: true
@@ -241,21 +241,21 @@ proxies:
   cipher: aes-128-gcm
   password: f1bde9fd-13aa-49f5-98d5-16b5f569768f
   udp: true
-- name: 域名访问官网ua.abclouds1.pro | abshare
+- name: 域名访问官网gm.abclouds1.pro | abshare
   type: ss
   server: 127.0.0.1
   port: '1080'
   cipher: aes-128-gcm
   password: f1bde9fd-13aa-49f5-98d5-16b5f569768f
   udp: true
-- name: bv.allbluess.pro | abshare
+- name: 5q.allbluess.pro | abshare
   type: ss
   server: 127.0.0.1
   port: '1080'
   cipher: aes-128-gcm
   password: f1bde9fd-13aa-49f5-98d5-16b5f569768f
   udp: true
-- name: aq.allbluess.com | abshare
+- name: u5.allbluess.com | abshare
   type: ss
   server: 127.0.0.1
   port: '1080'
@@ -920,21 +920,21 @@ proxies:
   cipher: aes-128-gcm
   password: a0300921-75fb-4baa-9282-592ea6274165
   udp: true
-- name: 域名访问官网8d.abclouds1.pro | abshare3
+- name: 域名访问官网oc.abclouds1.pro | abshare3
   type: ss
   server: 127.0.0.1
   port: '1080'
   cipher: aes-128-gcm
   password: a0300921-75fb-4baa-9282-592ea6274165
   udp: true
-- name: gd.allbluess.pro | abshare3
+- name: qf.allbluess.pro | abshare3
   type: ss
   server: 127.0.0.1
   port: '1080'
   cipher: aes-128-gcm
   password: a0300921-75fb-4baa-9282-592ea6274165
   udp: true
-- name: tv.allbluess.com | abshare3
+- name: dh.allbluess.com | abshare3
   type: ss
   server: 127.0.0.1
   port: '1080'
@@ -1527,9 +1527,9 @@ proxy-groups:
   - 客户端更新成功后 | abshare
   - 请重新更新订阅链接 | abshare
   - 可以通过以下 | abshare
-  - 域名访问官网ua.abclouds1.pro | abshare
-  - bv.allbluess.pro | abshare
-  - aq.allbluess.com | abshare
+  - 域名访问官网gm.abclouds1.pro | abshare
+  - 5q.allbluess.pro | abshare
+  - u5.allbluess.com | abshare
   - 🇭🇰香港 01 | 1x HK | mkshare3
   - 🇭🇰香港 02 | 1x HK | mkshare3
   - 🇭🇰香港 03 | 家宽 | 1x HK | mkshare3
@@ -1584,9 +1584,9 @@ proxy-groups:
   - 客户端更新成功后 | abshare3
   - 请重新更新订阅链接 | abshare3
   - 可以通过以下 | abshare3
-  - 域名访问官网8d.abclouds1.pro | abshare3
-  - gd.allbluess.pro | abshare3
-  - tv.allbluess.com | abshare3
+  - 域名访问官网oc.abclouds1.pro | abshare3
+  - qf.allbluess.pro | abshare3
+  - dh.allbluess.com | abshare3
   - 🇭🇰香港 01 | 1x HK | tolinkshare2
   - 🇭🇰香港 02 | 1x HK | tolinkshare2
   - 🇭🇰香港 03 | 家宽 | 1x HK | tolinkshare2
