@@ -1,4 +1,4 @@
-# 配置合并于 2025-09-10 17:28:23
+# 配置合并于 2025-09-10 17:43:16
 mixed-port: 7890
 tcp-concurrent: false
 allow-lan: true
@@ -143,286 +143,125 @@ proxies:
     headers:
       Host: torjan.xn--xhq44j.eu.org
     path: /
-- name: 🇭🇰香港 01 | 1x HK | abshare
-  type: vless
-  server: freea.glyphara.com
-  port: 20101
-  uuid: f1bde9fd-13aa-49f5-98d5-16b5f569768f
+- name: Allblue 云加速器 | abshare
+  type: ss
+  server: 127.0.0.1
+  port: '1080'
+  cipher: aes-128-gcm
+  password: f1bde9fd-13aa-49f5-98d5-16b5f569768f
   udp: true
-  tls: true
-  skip-cert-verify: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  servername: dimsum01.roamspheretours.com
-  reality-opts:
-    public-key: -viwfTpCktkMEc4wYjEI93ZVuyhUGp4-XsWx7xEUkjQ
-    short-id: d97842fb
-- name: 🇭🇰香港 02 | 1x HK | abshare
-  type: vless
-  server: freea.glyphara.com
-  port: 20102
-  uuid: f1bde9fd-13aa-49f5-98d5-16b5f569768f
+- name: 提醒您 | abshare
+  type: ss
+  server: 127.0.0.1
+  port: '1080'
+  cipher: aes-128-gcm
+  password: f1bde9fd-13aa-49f5-98d5-16b5f569768f
   udp: true
-  tls: true
-  skip-cert-verify: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  servername: dimsum02.roamspheretours.com
-  reality-opts:
-    public-key: bu5j-CvxXHslShQGJrT4CrJFyrJNtc6GMfhiOD3yzSc
-    short-id: 04d9d402
-- name: 🇭🇰香港 03 | 家宽 | 1x HK | abshare
-  type: vless
-  server: freea.glyphara.com
-  port: 20103
-  uuid: f1bde9fd-13aa-49f5-98d5-16b5f569768f
+- name: 我们已升级 | abshare
+  type: ss
+  server: 127.0.0.1
+  port: '1080'
+  cipher: aes-128-gcm
+  password: f1bde9fd-13aa-49f5-98d5-16b5f569768f
   udp: true
-  tls: true
-  skip-cert-verify: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  servername: dimsum03.roamspheretours.com
-  reality-opts:
-    public-key: dkQ2z8Uqp1qU3t88CgHhCK5PL38A8gsdT1wKI_yYUFs
-    short-id: e706de84
-- name: 🇹🇼台湾 01 | 1x TW | abshare
-  type: vless
-  server: freea.glyphara.com
-  port: 20201
-  uuid: f1bde9fd-13aa-49f5-98d5-16b5f569768f
+- name: 节点协议 | abshare
+  type: ss
+  server: 127.0.0.1
+  port: '1080'
+  cipher: aes-128-gcm
+  password: f1bde9fd-13aa-49f5-98d5-16b5f569768f
   udp: true
-  tls: true
-  skip-cert-verify: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  servername: lol.secure.dyn.riotcdn.net
-  reality-opts:
-    public-key: yMvABlUHLDofAp1R-w-e_f1ka28w2nGK1ZTBJVb5Un4
-    short-id: 6699eac1
-- name: 🇹🇼台湾 02 | 1x TW | abshare
-  type: vless
-  server: freea.glyphara.com
-  port: 20202
-  uuid: f1bde9fd-13aa-49f5-98d5-16b5f569768f
+- name: 您的Clash客户端 | abshare
+  type: ss
+  server: 127.0.0.1
+  port: '1080'
+  cipher: aes-128-gcm
+  password: f1bde9fd-13aa-49f5-98d5-16b5f569768f
   udp: true
-  tls: true
-  skip-cert-verify: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  servername: bubbletea02.roamspheretours.com
-  reality-opts:
-    public-key: vtWE47ID9QdLgGTrA2dPNUAxA6t8mSv79U4F3CeKhUc
-    short-id: 33ebcbb3
-- name: 🇹🇼台湾 03 | 1x TW | abshare
-  type: vless
-  server: freea.glyphara.com
-  port: 20203
-  uuid: f1bde9fd-13aa-49f5-98d5-16b5f569768f
+- name: 版本已过时 | abshare
+  type: ss
+  server: 127.0.0.1
+  port: '1080'
+  cipher: aes-128-gcm
+  password: f1bde9fd-13aa-49f5-98d5-16b5f569768f
   udp: true
-  tls: true
-  skip-cert-verify: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  servername: bubbletea03.roamspheretours.com
-  reality-opts:
-    public-key: N01hp6Pi5JJGObxKxTQG4OtRoVxmiKF7j2_OMya-BBg
-    short-id: 9b508f32
-- name: 🇯🇵日本 01 | 1x JP | abshare
-  type: vless
-  server: freea.glyphara.com
-  port: 20301
-  uuid: f1bde9fd-13aa-49f5-98d5-16b5f569768f
+- name: 请访问我们的 | abshare
+  type: ss
+  server: 127.0.0.1
+  port: '1080'
+  cipher: aes-128-gcm
+  password: f1bde9fd-13aa-49f5-98d5-16b5f569768f
   udp: true
-  tls: true
-  skip-cert-verify: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  servername: sakura01.roamspheretours.com
-  reality-opts:
-    public-key: qIZhF6mm8bBjdFJtVwPfkPDUubW_SGSodjzlx8iMY2Y
-    short-id: 6bec95dc
-- name: 🇯🇵日本 02 | 1x JP | abshare
-  type: vless
-  server: freea.glyphara.com
-  port: 20302
-  uuid: f1bde9fd-13aa-49f5-98d5-16b5f569768f
+- name: 官方网站 | abshare
+  type: ss
+  server: 127.0.0.1
+  port: '1080'
+  cipher: aes-128-gcm
+  password: f1bde9fd-13aa-49f5-98d5-16b5f569768f
   udp: true
-  tls: true
-  skip-cert-verify: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  servername: sakura02.roamspheretours.com
-  reality-opts:
-    public-key: rWBKZ8bhqjBfroP8nEN5E2RgwwORB2rAktYa_ZHyozg
-    short-id: 12d549c2
-- name: 🇯🇵日本 03 | 1x JP | abshare
-  type: vless
-  server: freea.glyphara.com
-  port: 20303
-  uuid: f1bde9fd-13aa-49f5-98d5-16b5f569768f
+- name: 根据您的 | abshare
+  type: ss
+  server: 127.0.0.1
+  port: '1080'
+  cipher: aes-128-gcm
+  password: f1bde9fd-13aa-49f5-98d5-16b5f569768f
   udp: true
-  tls: true
-  skip-cert-verify: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  servername: sakura03.roamspheretours.com
-  reality-opts:
-    public-key: d3bsDEOVgXdLAAusPJWRNlzRmax0kgWaMR2iZSZvdzw
-    short-id: e6d6bf70
-- name: 🇸🇬新加坡 01 | 1x SG | abshare
-  type: vless
-  server: freea.glyphara.com
-  port: 20401
-  uuid: f1bde9fd-13aa-49f5-98d5-16b5f569768f
+- name: 设备和系统 | abshare
+  type: ss
+  server: 127.0.0.1
+  port: '1080'
+  cipher: aes-128-gcm
+  password: f1bde9fd-13aa-49f5-98d5-16b5f569768f
   udp: true
-  tls: true
-  skip-cert-verify: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  servername: lion01.roamspheretours.com
-  reality-opts:
-    public-key: LIo10kmniOrhuFbILuJeLCCr0duBF2mxJ6H3VcnbTx4
-    short-id: ea9259e9
-- name: 🇸🇬新加坡 02 | 1x SG | abshare
-  type: vless
-  server: freea.glyphara.com
-  port: 20402
-  uuid: f1bde9fd-13aa-49f5-98d5-16b5f569768f
+- name: 下载新版本的客户端 | abshare
+  type: ss
+  server: 127.0.0.1
+  port: '1080'
+  cipher: aes-128-gcm
+  password: f1bde9fd-13aa-49f5-98d5-16b5f569768f
   udp: true
-  tls: true
-  skip-cert-verify: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  servername: lion02.roamspheretours.com
-  reality-opts:
-    public-key: 5AHYiirPud7emKAm8gCB0TBHcB04WAqxP9ICbPg3pjQ
-    short-id: 202a3da5
-- name: 🇸🇬新加坡 03 | 1x SG | abshare
-  type: vless
-  server: freea.glyphara.com
-  port: 20403
-  uuid: f1bde9fd-13aa-49f5-98d5-16b5f569768f
+- name: 客户端更新成功后 | abshare
+  type: ss
+  server: 127.0.0.1
+  port: '1080'
+  cipher: aes-128-gcm
+  password: f1bde9fd-13aa-49f5-98d5-16b5f569768f
   udp: true
-  tls: true
-  skip-cert-verify: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  servername: lion03.roamspheretours.com
-  reality-opts:
-    public-key: k39D-GC8IG7JnJSBYjI2uRxzeckyZOFefFZxG_F1Aj4
-    short-id: 3201768b
-- name: 🇰🇷韩国 01 | 1x KR | abshare
-  type: vless
-  server: freea.glyphara.com
-  port: 20501
-  uuid: f1bde9fd-13aa-49f5-98d5-16b5f569768f
+- name: 请重新更新订阅链接 | abshare
+  type: ss
+  server: 127.0.0.1
+  port: '1080'
+  cipher: aes-128-gcm
+  password: f1bde9fd-13aa-49f5-98d5-16b5f569768f
   udp: true
-  tls: true
-  skip-cert-verify: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  servername: hibiscus01.roamspheretours.com
-  reality-opts:
-    public-key: uVViyhPABUxMBvPctD90JJ85FCV7Nr4wqgZP0ZVBUxQ
-    short-id: a307519e
-- name: 🇵🇭菲律宾 01 | 1x PH | abshare
-  type: vless
-  server: freea.glyphara.com
-  port: 20601
-  uuid: f1bde9fd-13aa-49f5-98d5-16b5f569768f
+- name: 可以通过以下 | abshare
+  type: ss
+  server: 127.0.0.1
+  port: '1080'
+  cipher: aes-128-gcm
+  password: f1bde9fd-13aa-49f5-98d5-16b5f569768f
   udp: true
-  tls: true
-  skip-cert-verify: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  servername: sampaguita01.roamspheretours.com
-  reality-opts:
-    public-key: 52FoOOOV0-jZvdFhfDLfthYcoH8_t-nER4C2F-lew3g
-    short-id: 6bfe9cd3
-- name: 🇺🇸美国 01 ChatGPT专用 | 1x US | abshare
-  type: vless
-  server: freea.glyphara.com
-  port: 20701
-  uuid: f1bde9fd-13aa-49f5-98d5-16b5f569768f
+- name: 域名访问官网cr.abclouds1.pro | abshare
+  type: ss
+  server: 127.0.0.1
+  port: '1080'
+  cipher: aes-128-gcm
+  password: f1bde9fd-13aa-49f5-98d5-16b5f569768f
   udp: true
-  tls: true
-  skip-cert-verify: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  servername: eagle01.roamspheretours.com
-  reality-opts:
-    public-key: bJSE-GBtg8wCI175fERrE_MkUD2WMhsWt2_2qszPj3w
-    short-id: 2c0ae366
-- name: 🇺🇸美国 02 ChatGPT专用 | 1x US | abshare
-  type: vless
-  server: freea.glyphara.com
-  port: 20702
-  uuid: f1bde9fd-13aa-49f5-98d5-16b5f569768f
+- name: pz.allbluess.pro | abshare
+  type: ss
+  server: 127.0.0.1
+  port: '1080'
+  cipher: aes-128-gcm
+  password: f1bde9fd-13aa-49f5-98d5-16b5f569768f
   udp: true
-  tls: true
-  skip-cert-verify: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  servername: eagle02.roamspheretours.com
-  reality-opts:
-    public-key: O7OoyrxZpZN90CvpCEhCVHEFexRQECFC7ovsf-AwdxE
-    short-id: f44f78b3
-- name: 🇺🇸美国 03 ChatGPT专用 | 1x US | abshare
-  type: vless
-  server: freea.glyphara.com
-  port: 20703
-  uuid: f1bde9fd-13aa-49f5-98d5-16b5f569768f
+- name: kb.allbluess.com | abshare
+  type: ss
+  server: 127.0.0.1
+  port: '1080'
+  cipher: aes-128-gcm
+  password: f1bde9fd-13aa-49f5-98d5-16b5f569768f
   udp: true
-  tls: true
-  skip-cert-verify: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  servername: eagle03.roamspheretours.com
-  reality-opts:
-    public-key: eMKvqGgKmjnb1Es7Nd5X-OOh7a1bssU0OfK8N_RZlhs
-    short-id: 91cf70e7
-- name: 🇺🇸美国 04 ChatGPT专用 | 1x US | abshare
-  type: vless
-  server: freea.glyphara.com
-  port: 20704
-  uuid: f1bde9fd-13aa-49f5-98d5-16b5f569768f
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  servername: eagle04.roamspheretours.com
-  reality-opts:
-    public-key: TPez-fFZn9eqbPrkh7dIFzoT_UTPI9IbnJkUaAPcjx8
-    short-id: 043d0480
-- name: 🇺🇸美国 05 ChatGPT专用 | 1x US | abshare
-  type: vless
-  server: freea.glyphara.com
-  port: 20705
-  uuid: f1bde9fd-13aa-49f5-98d5-16b5f569768f
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  servername: eagle05.roamspheretours.com
-  reality-opts:
-    public-key: 0El4ODZtnGCXTekEBmSPyVPkUqm4vK2iF3cNbqvLFm4
-    short-id: d15d1c3c
-- name: 🇺🇸美国 06 ChatGPT专用 | 1x US | abshare
-  type: vless
-  server: freea.glyphara.com
-  port: 20706
-  uuid: f1bde9fd-13aa-49f5-98d5-16b5f569768f
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  servername: eagle06.roamspheretours.com
-  reality-opts:
-    public-key: oZTlmF5xrlr0WbPUobpdBwzSA_KaFEmpskB1u4rj_UU
-    short-id: 57aad6d7
 - name: 🇭🇰香港 01 | 1x HK | mkshare3
   type: vless
   server: freem.vidalith.com
@@ -983,286 +822,125 @@ proxies:
   reality-opts:
     public-key: oZTlmF5xrlr0WbPUobpdBwzSA_KaFEmpskB1u4rj_UU
     short-id: 57aad6d7
-- name: 🇭🇰香港 01 | 1x HK | abshare3
-  type: vless
-  server: freea.glyphara.com
-  port: 20101
-  uuid: a0300921-75fb-4baa-9282-592ea6274165
+- name: Allblue 云加速器 | abshare3
+  type: ss
+  server: 127.0.0.1
+  port: '1080'
+  cipher: aes-128-gcm
+  password: a0300921-75fb-4baa-9282-592ea6274165
   udp: true
-  tls: true
-  skip-cert-verify: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  servername: dimsum01.roamspheretours.com
-  reality-opts:
-    public-key: -viwfTpCktkMEc4wYjEI93ZVuyhUGp4-XsWx7xEUkjQ
-    short-id: d97842fb
-- name: 🇭🇰香港 02 | 1x HK | abshare3
-  type: vless
-  server: freea.glyphara.com
-  port: 20102
-  uuid: a0300921-75fb-4baa-9282-592ea6274165
+- name: 提醒您 | abshare3
+  type: ss
+  server: 127.0.0.1
+  port: '1080'
+  cipher: aes-128-gcm
+  password: a0300921-75fb-4baa-9282-592ea6274165
   udp: true
-  tls: true
-  skip-cert-verify: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  servername: dimsum02.roamspheretours.com
-  reality-opts:
-    public-key: bu5j-CvxXHslShQGJrT4CrJFyrJNtc6GMfhiOD3yzSc
-    short-id: 04d9d402
-- name: 🇭🇰香港 03 | 家宽 | 1x HK | abshare3
-  type: vless
-  server: freea.glyphara.com
-  port: 20103
-  uuid: a0300921-75fb-4baa-9282-592ea6274165
+- name: 我们已升级 | abshare3
+  type: ss
+  server: 127.0.0.1
+  port: '1080'
+  cipher: aes-128-gcm
+  password: a0300921-75fb-4baa-9282-592ea6274165
   udp: true
-  tls: true
-  skip-cert-verify: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  servername: dimsum03.roamspheretours.com
-  reality-opts:
-    public-key: dkQ2z8Uqp1qU3t88CgHhCK5PL38A8gsdT1wKI_yYUFs
-    short-id: e706de84
-- name: 🇹🇼台湾 01 | 1x TW | abshare3
-  type: vless
-  server: freea.glyphara.com
-  port: 20201
-  uuid: a0300921-75fb-4baa-9282-592ea6274165
+- name: 节点协议 | abshare3
+  type: ss
+  server: 127.0.0.1
+  port: '1080'
+  cipher: aes-128-gcm
+  password: a0300921-75fb-4baa-9282-592ea6274165
   udp: true
-  tls: true
-  skip-cert-verify: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  servername: lol.secure.dyn.riotcdn.net
-  reality-opts:
-    public-key: yMvABlUHLDofAp1R-w-e_f1ka28w2nGK1ZTBJVb5Un4
-    short-id: 6699eac1
-- name: 🇹🇼台湾 02 | 1x TW | abshare3
-  type: vless
-  server: freea.glyphara.com
-  port: 20202
-  uuid: a0300921-75fb-4baa-9282-592ea6274165
+- name: 您的Clash客户端 | abshare3
+  type: ss
+  server: 127.0.0.1
+  port: '1080'
+  cipher: aes-128-gcm
+  password: a0300921-75fb-4baa-9282-592ea6274165
   udp: true
-  tls: true
-  skip-cert-verify: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  servername: bubbletea02.roamspheretours.com
-  reality-opts:
-    public-key: vtWE47ID9QdLgGTrA2dPNUAxA6t8mSv79U4F3CeKhUc
-    short-id: 33ebcbb3
-- name: 🇹🇼台湾 03 | 1x TW | abshare3
-  type: vless
-  server: freea.glyphara.com
-  port: 20203
-  uuid: a0300921-75fb-4baa-9282-592ea6274165
+- name: 版本已过时 | abshare3
+  type: ss
+  server: 127.0.0.1
+  port: '1080'
+  cipher: aes-128-gcm
+  password: a0300921-75fb-4baa-9282-592ea6274165
   udp: true
-  tls: true
-  skip-cert-verify: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  servername: bubbletea03.roamspheretours.com
-  reality-opts:
-    public-key: N01hp6Pi5JJGObxKxTQG4OtRoVxmiKF7j2_OMya-BBg
-    short-id: 9b508f32
-- name: 🇯🇵日本 01 | 1x JP | abshare3
-  type: vless
-  server: freea.glyphara.com
-  port: 20301
-  uuid: a0300921-75fb-4baa-9282-592ea6274165
+- name: 请访问我们的 | abshare3
+  type: ss
+  server: 127.0.0.1
+  port: '1080'
+  cipher: aes-128-gcm
+  password: a0300921-75fb-4baa-9282-592ea6274165
   udp: true
-  tls: true
-  skip-cert-verify: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  servername: sakura01.roamspheretours.com
-  reality-opts:
-    public-key: qIZhF6mm8bBjdFJtVwPfkPDUubW_SGSodjzlx8iMY2Y
-    short-id: 6bec95dc
-- name: 🇯🇵日本 02 | 1x JP | abshare3
-  type: vless
-  server: freea.glyphara.com
-  port: 20302
-  uuid: a0300921-75fb-4baa-9282-592ea6274165
+- name: 官方网站 | abshare3
+  type: ss
+  server: 127.0.0.1
+  port: '1080'
+  cipher: aes-128-gcm
+  password: a0300921-75fb-4baa-9282-592ea6274165
   udp: true
-  tls: true
-  skip-cert-verify: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  servername: sakura02.roamspheretours.com
-  reality-opts:
-    public-key: rWBKZ8bhqjBfroP8nEN5E2RgwwORB2rAktYa_ZHyozg
-    short-id: 12d549c2
-- name: 🇯🇵日本 03 | 1x JP | abshare3
-  type: vless
-  server: freea.glyphara.com
-  port: 20303
-  uuid: a0300921-75fb-4baa-9282-592ea6274165
+- name: 根据您的 | abshare3
+  type: ss
+  server: 127.0.0.1
+  port: '1080'
+  cipher: aes-128-gcm
+  password: a0300921-75fb-4baa-9282-592ea6274165
   udp: true
-  tls: true
-  skip-cert-verify: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  servername: sakura03.roamspheretours.com
-  reality-opts:
-    public-key: d3bsDEOVgXdLAAusPJWRNlzRmax0kgWaMR2iZSZvdzw
-    short-id: e6d6bf70
-- name: 🇸🇬新加坡 01 | 1x SG | abshare3
-  type: vless
-  server: freea.glyphara.com
-  port: 20401
-  uuid: a0300921-75fb-4baa-9282-592ea6274165
+- name: 设备和系统 | abshare3
+  type: ss
+  server: 127.0.0.1
+  port: '1080'
+  cipher: aes-128-gcm
+  password: a0300921-75fb-4baa-9282-592ea6274165
   udp: true
-  tls: true
-  skip-cert-verify: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  servername: lion01.roamspheretours.com
-  reality-opts:
-    public-key: LIo10kmniOrhuFbILuJeLCCr0duBF2mxJ6H3VcnbTx4
-    short-id: ea9259e9
-- name: 🇸🇬新加坡 02 | 1x SG | abshare3
-  type: vless
-  server: freea.glyphara.com
-  port: 20402
-  uuid: a0300921-75fb-4baa-9282-592ea6274165
+- name: 下载新版本的客户端 | abshare3
+  type: ss
+  server: 127.0.0.1
+  port: '1080'
+  cipher: aes-128-gcm
+  password: a0300921-75fb-4baa-9282-592ea6274165
   udp: true
-  tls: true
-  skip-cert-verify: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  servername: lion02.roamspheretours.com
-  reality-opts:
-    public-key: 5AHYiirPud7emKAm8gCB0TBHcB04WAqxP9ICbPg3pjQ
-    short-id: 202a3da5
-- name: 🇸🇬新加坡 03 | 1x SG | abshare3
-  type: vless
-  server: freea.glyphara.com
-  port: 20403
-  uuid: a0300921-75fb-4baa-9282-592ea6274165
+- name: 客户端更新成功后 | abshare3
+  type: ss
+  server: 127.0.0.1
+  port: '1080'
+  cipher: aes-128-gcm
+  password: a0300921-75fb-4baa-9282-592ea6274165
   udp: true
-  tls: true
-  skip-cert-verify: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  servername: lion03.roamspheretours.com
-  reality-opts:
-    public-key: k39D-GC8IG7JnJSBYjI2uRxzeckyZOFefFZxG_F1Aj4
-    short-id: 3201768b
-- name: 🇰🇷韩国 01 | 1x KR | abshare3
-  type: vless
-  server: freea.glyphara.com
-  port: 20501
-  uuid: a0300921-75fb-4baa-9282-592ea6274165
+- name: 请重新更新订阅链接 | abshare3
+  type: ss
+  server: 127.0.0.1
+  port: '1080'
+  cipher: aes-128-gcm
+  password: a0300921-75fb-4baa-9282-592ea6274165
   udp: true
-  tls: true
-  skip-cert-verify: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  servername: hibiscus01.roamspheretours.com
-  reality-opts:
-    public-key: uVViyhPABUxMBvPctD90JJ85FCV7Nr4wqgZP0ZVBUxQ
-    short-id: a307519e
-- name: 🇵🇭菲律宾 01 | 1x PH | abshare3
-  type: vless
-  server: freea.glyphara.com
-  port: 20601
-  uuid: a0300921-75fb-4baa-9282-592ea6274165
+- name: 可以通过以下 | abshare3
+  type: ss
+  server: 127.0.0.1
+  port: '1080'
+  cipher: aes-128-gcm
+  password: a0300921-75fb-4baa-9282-592ea6274165
   udp: true
-  tls: true
-  skip-cert-verify: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  servername: sampaguita01.roamspheretours.com
-  reality-opts:
-    public-key: 52FoOOOV0-jZvdFhfDLfthYcoH8_t-nER4C2F-lew3g
-    short-id: 6bfe9cd3
-- name: 🇺🇸美国 01 ChatGPT专用 | 1x US | abshare3
-  type: vless
-  server: freea.glyphara.com
-  port: 20701
-  uuid: a0300921-75fb-4baa-9282-592ea6274165
+- name: 域名访问官网9f.abclouds1.pro | abshare3
+  type: ss
+  server: 127.0.0.1
+  port: '1080'
+  cipher: aes-128-gcm
+  password: a0300921-75fb-4baa-9282-592ea6274165
   udp: true
-  tls: true
-  skip-cert-verify: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  servername: eagle01.roamspheretours.com
-  reality-opts:
-    public-key: bJSE-GBtg8wCI175fERrE_MkUD2WMhsWt2_2qszPj3w
-    short-id: 2c0ae366
-- name: 🇺🇸美国 02 ChatGPT专用 | 1x US | abshare3
-  type: vless
-  server: freea.glyphara.com
-  port: 20702
-  uuid: a0300921-75fb-4baa-9282-592ea6274165
+- name: p2.allbluess.pro | abshare3
+  type: ss
+  server: 127.0.0.1
+  port: '1080'
+  cipher: aes-128-gcm
+  password: a0300921-75fb-4baa-9282-592ea6274165
   udp: true
-  tls: true
-  skip-cert-verify: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  servername: eagle02.roamspheretours.com
-  reality-opts:
-    public-key: O7OoyrxZpZN90CvpCEhCVHEFexRQECFC7ovsf-AwdxE
-    short-id: f44f78b3
-- name: 🇺🇸美国 03 ChatGPT专用 | 1x US | abshare3
-  type: vless
-  server: freea.glyphara.com
-  port: 20703
-  uuid: a0300921-75fb-4baa-9282-592ea6274165
+- name: xq.allbluess.com | abshare3
+  type: ss
+  server: 127.0.0.1
+  port: '1080'
+  cipher: aes-128-gcm
+  password: a0300921-75fb-4baa-9282-592ea6274165
   udp: true
-  tls: true
-  skip-cert-verify: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  servername: eagle03.roamspheretours.com
-  reality-opts:
-    public-key: eMKvqGgKmjnb1Es7Nd5X-OOh7a1bssU0OfK8N_RZlhs
-    short-id: 91cf70e7
-- name: 🇺🇸美国 04 ChatGPT专用 | 1x US | abshare3
-  type: vless
-  server: freea.glyphara.com
-  port: 20704
-  uuid: a0300921-75fb-4baa-9282-592ea6274165
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  servername: eagle04.roamspheretours.com
-  reality-opts:
-    public-key: TPez-fFZn9eqbPrkh7dIFzoT_UTPI9IbnJkUaAPcjx8
-    short-id: 043d0480
-- name: 🇺🇸美国 05 ChatGPT专用 | 1x US | abshare3
-  type: vless
-  server: freea.glyphara.com
-  port: 20705
-  uuid: a0300921-75fb-4baa-9282-592ea6274165
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  servername: eagle05.roamspheretours.com
-  reality-opts:
-    public-key: 0El4ODZtnGCXTekEBmSPyVPkUqm4vK2iF3cNbqvLFm4
-    short-id: d15d1c3c
-- name: 🇺🇸美国 06 ChatGPT专用 | 1x US | abshare3
-  type: vless
-  server: freea.glyphara.com
-  port: 20706
-  uuid: a0300921-75fb-4baa-9282-592ea6274165
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  servername: eagle06.roamspheretours.com
-  reality-opts:
-    public-key: oZTlmF5xrlr0WbPUobpdBwzSA_KaFEmpskB1u4rj_UU
-    short-id: 57aad6d7
 - name: 🇭🇰香港 01 | 1x HK | tolinkshare2
   type: vless
   server: freet.cloudrithm.com
@@ -1547,7 +1225,7 @@ proxies:
   type: vless
   server: freem.vidalith.com
   port: 20101
-  uuid: 5437def3-3a67-4d59-868e-494c7a999833
+  uuid: c66be2ac-007b-42d9-be97-bd99b60ade2d
   udp: true
   tls: true
   skip-cert-verify: true
@@ -1561,7 +1239,7 @@ proxies:
   type: vless
   server: freem.vidalith.com
   port: 20102
-  uuid: 5437def3-3a67-4d59-868e-494c7a999833
+  uuid: c66be2ac-007b-42d9-be97-bd99b60ade2d
   udp: true
   tls: true
   skip-cert-verify: true
@@ -1575,7 +1253,7 @@ proxies:
   type: vless
   server: freem.vidalith.com
   port: 20103
-  uuid: 5437def3-3a67-4d59-868e-494c7a999833
+  uuid: c66be2ac-007b-42d9-be97-bd99b60ade2d
   udp: true
   tls: true
   skip-cert-verify: true
@@ -1589,7 +1267,7 @@ proxies:
   type: vless
   server: freem.vidalith.com
   port: 20201
-  uuid: 5437def3-3a67-4d59-868e-494c7a999833
+  uuid: c66be2ac-007b-42d9-be97-bd99b60ade2d
   udp: true
   tls: true
   skip-cert-verify: true
@@ -1603,7 +1281,7 @@ proxies:
   type: vless
   server: freem.vidalith.com
   port: 20202
-  uuid: 5437def3-3a67-4d59-868e-494c7a999833
+  uuid: c66be2ac-007b-42d9-be97-bd99b60ade2d
   udp: true
   tls: true
   skip-cert-verify: true
@@ -1617,7 +1295,7 @@ proxies:
   type: vless
   server: freem.vidalith.com
   port: 20203
-  uuid: 5437def3-3a67-4d59-868e-494c7a999833
+  uuid: c66be2ac-007b-42d9-be97-bd99b60ade2d
   udp: true
   tls: true
   skip-cert-verify: true
@@ -1631,7 +1309,7 @@ proxies:
   type: vless
   server: freem.vidalith.com
   port: 20301
-  uuid: 5437def3-3a67-4d59-868e-494c7a999833
+  uuid: c66be2ac-007b-42d9-be97-bd99b60ade2d
   udp: true
   tls: true
   skip-cert-verify: true
@@ -1645,7 +1323,7 @@ proxies:
   type: vless
   server: freem.vidalith.com
   port: 20302
-  uuid: 5437def3-3a67-4d59-868e-494c7a999833
+  uuid: c66be2ac-007b-42d9-be97-bd99b60ade2d
   udp: true
   tls: true
   skip-cert-verify: true
@@ -1659,7 +1337,7 @@ proxies:
   type: vless
   server: freem.vidalith.com
   port: 20303
-  uuid: 5437def3-3a67-4d59-868e-494c7a999833
+  uuid: c66be2ac-007b-42d9-be97-bd99b60ade2d
   udp: true
   tls: true
   skip-cert-verify: true
@@ -1673,7 +1351,7 @@ proxies:
   type: vless
   server: freem.vidalith.com
   port: 20401
-  uuid: 5437def3-3a67-4d59-868e-494c7a999833
+  uuid: c66be2ac-007b-42d9-be97-bd99b60ade2d
   udp: true
   tls: true
   skip-cert-verify: true
@@ -1687,7 +1365,7 @@ proxies:
   type: vless
   server: freem.vidalith.com
   port: 20402
-  uuid: 5437def3-3a67-4d59-868e-494c7a999833
+  uuid: c66be2ac-007b-42d9-be97-bd99b60ade2d
   udp: true
   tls: true
   skip-cert-verify: true
@@ -1701,7 +1379,7 @@ proxies:
   type: vless
   server: freem.vidalith.com
   port: 20403
-  uuid: 5437def3-3a67-4d59-868e-494c7a999833
+  uuid: c66be2ac-007b-42d9-be97-bd99b60ade2d
   udp: true
   tls: true
   skip-cert-verify: true
@@ -1715,7 +1393,7 @@ proxies:
   type: vless
   server: freem.vidalith.com
   port: 20501
-  uuid: 5437def3-3a67-4d59-868e-494c7a999833
+  uuid: c66be2ac-007b-42d9-be97-bd99b60ade2d
   udp: true
   tls: true
   skip-cert-verify: true
@@ -1729,7 +1407,7 @@ proxies:
   type: vless
   server: freem.vidalith.com
   port: 20601
-  uuid: 5437def3-3a67-4d59-868e-494c7a999833
+  uuid: c66be2ac-007b-42d9-be97-bd99b60ade2d
   udp: true
   tls: true
   skip-cert-verify: true
@@ -1743,7 +1421,7 @@ proxies:
   type: vless
   server: freem.vidalith.com
   port: 20701
-  uuid: 5437def3-3a67-4d59-868e-494c7a999833
+  uuid: c66be2ac-007b-42d9-be97-bd99b60ade2d
   udp: true
   tls: true
   skip-cert-verify: true
@@ -1757,7 +1435,7 @@ proxies:
   type: vless
   server: freem.vidalith.com
   port: 20702
-  uuid: 5437def3-3a67-4d59-868e-494c7a999833
+  uuid: c66be2ac-007b-42d9-be97-bd99b60ade2d
   udp: true
   tls: true
   skip-cert-verify: true
@@ -1771,7 +1449,7 @@ proxies:
   type: vless
   server: freem.vidalith.com
   port: 20703
-  uuid: 5437def3-3a67-4d59-868e-494c7a999833
+  uuid: c66be2ac-007b-42d9-be97-bd99b60ade2d
   udp: true
   tls: true
   skip-cert-verify: true
@@ -1785,7 +1463,7 @@ proxies:
   type: vless
   server: freem.vidalith.com
   port: 20704
-  uuid: 5437def3-3a67-4d59-868e-494c7a999833
+  uuid: c66be2ac-007b-42d9-be97-bd99b60ade2d
   udp: true
   tls: true
   skip-cert-verify: true
@@ -1799,7 +1477,7 @@ proxies:
   type: vless
   server: freem.vidalith.com
   port: 20705
-  uuid: 5437def3-3a67-4d59-868e-494c7a999833
+  uuid: c66be2ac-007b-42d9-be97-bd99b60ade2d
   udp: true
   tls: true
   skip-cert-verify: true
@@ -1813,7 +1491,7 @@ proxies:
   type: vless
   server: freem.vidalith.com
   port: 20706
-  uuid: 5437def3-3a67-4d59-868e-494c7a999833
+  uuid: c66be2ac-007b-42d9-be97-bd99b60ade2d
   udp: true
   tls: true
   skip-cert-verify: true
@@ -1835,26 +1513,23 @@ proxy-groups:
   type: select
   proxies: &id001
   - 测试节点
-  - 🇭🇰香港 01 | 1x HK | abshare
-  - 🇭🇰香港 02 | 1x HK | abshare
-  - 🇭🇰香港 03 | 家宽 | 1x HK | abshare
-  - 🇹🇼台湾 01 | 1x TW | abshare
-  - 🇹🇼台湾 02 | 1x TW | abshare
-  - 🇹🇼台湾 03 | 1x TW | abshare
-  - 🇯🇵日本 01 | 1x JP | abshare
-  - 🇯🇵日本 02 | 1x JP | abshare
-  - 🇯🇵日本 03 | 1x JP | abshare
-  - 🇸🇬新加坡 01 | 1x SG | abshare
-  - 🇸🇬新加坡 02 | 1x SG | abshare
-  - 🇸🇬新加坡 03 | 1x SG | abshare
-  - 🇰🇷韩国 01 | 1x KR | abshare
-  - 🇵🇭菲律宾 01 | 1x PH | abshare
-  - 🇺🇸美国 01 ChatGPT专用 | 1x US | abshare
-  - 🇺🇸美国 02 ChatGPT专用 | 1x US | abshare
-  - 🇺🇸美国 03 ChatGPT专用 | 1x US | abshare
-  - 🇺🇸美国 04 ChatGPT专用 | 1x US | abshare
-  - 🇺🇸美国 05 ChatGPT专用 | 1x US | abshare
-  - 🇺🇸美国 06 ChatGPT专用 | 1x US | abshare
+  - Allblue 云加速器 | abshare
+  - 提醒您 | abshare
+  - 我们已升级 | abshare
+  - 节点协议 | abshare
+  - 您的Clash客户端 | abshare
+  - 版本已过时 | abshare
+  - 请访问我们的 | abshare
+  - 官方网站 | abshare
+  - 根据您的 | abshare
+  - 设备和系统 | abshare
+  - 下载新版本的客户端 | abshare
+  - 客户端更新成功后 | abshare
+  - 请重新更新订阅链接 | abshare
+  - 可以通过以下 | abshare
+  - 域名访问官网cr.abclouds1.pro | abshare
+  - pz.allbluess.pro | abshare
+  - kb.allbluess.com | abshare
   - 🇭🇰香港 01 | 1x HK | mkshare3
   - 🇭🇰香港 02 | 1x HK | mkshare3
   - 🇭🇰香港 03 | 家宽 | 1x HK | mkshare3
@@ -1895,26 +1570,23 @@ proxy-groups:
   - 🇺🇸美国 04 ChatGPT专用 | 1x US | toshare5
   - 🇺🇸美国 05 ChatGPT专用 | 1x US | toshare5
   - 🇺🇸美国 06 ChatGPT专用 | 1x US | toshare5
-  - 🇭🇰香港 01 | 1x HK | abshare3
-  - 🇭🇰香港 02 | 1x HK | abshare3
-  - 🇭🇰香港 03 | 家宽 | 1x HK | abshare3
-  - 🇹🇼台湾 01 | 1x TW | abshare3
-  - 🇹🇼台湾 02 | 1x TW | abshare3
-  - 🇹🇼台湾 03 | 1x TW | abshare3
-  - 🇯🇵日本 01 | 1x JP | abshare3
-  - 🇯🇵日本 02 | 1x JP | abshare3
-  - 🇯🇵日本 03 | 1x JP | abshare3
-  - 🇸🇬新加坡 01 | 1x SG | abshare3
-  - 🇸🇬新加坡 02 | 1x SG | abshare3
-  - 🇸🇬新加坡 03 | 1x SG | abshare3
-  - 🇰🇷韩国 01 | 1x KR | abshare3
-  - 🇵🇭菲律宾 01 | 1x PH | abshare3
-  - 🇺🇸美国 01 ChatGPT专用 | 1x US | abshare3
-  - 🇺🇸美国 02 ChatGPT专用 | 1x US | abshare3
-  - 🇺🇸美国 03 ChatGPT专用 | 1x US | abshare3
-  - 🇺🇸美国 04 ChatGPT专用 | 1x US | abshare3
-  - 🇺🇸美国 05 ChatGPT专用 | 1x US | abshare3
-  - 🇺🇸美国 06 ChatGPT专用 | 1x US | abshare3
+  - Allblue 云加速器 | abshare3
+  - 提醒您 | abshare3
+  - 我们已升级 | abshare3
+  - 节点协议 | abshare3
+  - 您的Clash客户端 | abshare3
+  - 版本已过时 | abshare3
+  - 请访问我们的 | abshare3
+  - 官方网站 | abshare3
+  - 根据您的 | abshare3
+  - 设备和系统 | abshare3
+  - 下载新版本的客户端 | abshare3
+  - 客户端更新成功后 | abshare3
+  - 请重新更新订阅链接 | abshare3
+  - 可以通过以下 | abshare3
+  - 域名访问官网9f.abclouds1.pro | abshare3
+  - p2.allbluess.pro | abshare3
+  - xq.allbluess.com | abshare3
   - 🇭🇰香港 01 | 1x HK | tolinkshare2
   - 🇭🇰香港 02 | 1x HK | tolinkshare2
   - 🇭🇰香港 03 | 家宽 | 1x HK | tolinkshare2
