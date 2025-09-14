@@ -565,13 +565,13 @@ https://github.com/mkshare3/mkshare3.github.io/blob/main/README.md:
       public-key: oZTlmF5xrlr0WbPUobpdBwzSA_KaFEmpskB1u4rj_UU
       short-id: 57aad6d7
 https://github.com/toshare5/toshare5.github.io/blob/main/README.md:
-  clash_link: https://8hSiiM.tosslk.xyz/6cfa3f864142ef8d343fafe4d1f2ee31
+  clash_link: https://jAbbeZ.tosslk.xyz/cbc6e723e4e2708905250d378b5a54d5
   proxies:
   - name: 🇭🇰香港 01 | 1x HK
     type: vless
     server: freet.cloudrithm.com
     port: 20101
-    uuid: cfa95852-b87c-40d3-8f25-bae828ab467e
+    uuid: 465b9e59-7243-4412-a334-03518a03dd6a
     udp: true
     tls: true
     skip-cert-verify: true
@@ -585,7 +585,7 @@ https://github.com/toshare5/toshare5.github.io/blob/main/README.md:
     type: vless
     server: freet.cloudrithm.com
     port: 20102
-    uuid: cfa95852-b87c-40d3-8f25-bae828ab467e
+    uuid: 465b9e59-7243-4412-a334-03518a03dd6a
     udp: true
     tls: true
     skip-cert-verify: true
@@ -599,7 +599,7 @@ https://github.com/toshare5/toshare5.github.io/blob/main/README.md:
     type: vless
     server: freet.cloudrithm.com
     port: 20103
-    uuid: cfa95852-b87c-40d3-8f25-bae828ab467e
+    uuid: 465b9e59-7243-4412-a334-03518a03dd6a
     udp: true
     tls: true
     skip-cert-verify: true
@@ -613,7 +613,7 @@ https://github.com/toshare5/toshare5.github.io/blob/main/README.md:
     type: vless
     server: freet.cloudrithm.com
     port: 20201
-    uuid: cfa95852-b87c-40d3-8f25-bae828ab467e
+    uuid: 465b9e59-7243-4412-a334-03518a03dd6a
     udp: true
     tls: true
     skip-cert-verify: true
@@ -627,7 +627,7 @@ https://github.com/toshare5/toshare5.github.io/blob/main/README.md:
     type: vless
     server: freet.cloudrithm.com
     port: 20202
-    uuid: cfa95852-b87c-40d3-8f25-bae828ab467e
+    uuid: 465b9e59-7243-4412-a334-03518a03dd6a
     udp: true
     tls: true
     skip-cert-verify: true
@@ -641,7 +641,7 @@ https://github.com/toshare5/toshare5.github.io/blob/main/README.md:
     type: vless
     server: freet.cloudrithm.com
     port: 20203
-    uuid: cfa95852-b87c-40d3-8f25-bae828ab467e
+    uuid: 465b9e59-7243-4412-a334-03518a03dd6a
     udp: true
     tls: true
     skip-cert-verify: true
@@ -655,7 +655,7 @@ https://github.com/toshare5/toshare5.github.io/blob/main/README.md:
     type: vless
     server: freet.cloudrithm.com
     port: 20301
-    uuid: cfa95852-b87c-40d3-8f25-bae828ab467e
+    uuid: 465b9e59-7243-4412-a334-03518a03dd6a
     udp: true
     tls: true
     skip-cert-verify: true
@@ -669,7 +669,7 @@ https://github.com/toshare5/toshare5.github.io/blob/main/README.md:
     type: vless
     server: freet.cloudrithm.com
     port: 20302
-    uuid: cfa95852-b87c-40d3-8f25-bae828ab467e
+    uuid: 465b9e59-7243-4412-a334-03518a03dd6a
     udp: true
     tls: true
     skip-cert-verify: true
@@ -683,7 +683,7 @@ https://github.com/toshare5/toshare5.github.io/blob/main/README.md:
     type: vless
     server: freet.cloudrithm.com
     port: 20303
-    uuid: cfa95852-b87c-40d3-8f25-bae828ab467e
+    uuid: 465b9e59-7243-4412-a334-03518a03dd6a
     udp: true
     tls: true
     skip-cert-verify: true
@@ -697,7 +697,7 @@ https://github.com/toshare5/toshare5.github.io/blob/main/README.md:
     type: vless
     server: freet.cloudrithm.com
     port: 20401
-    uuid: cfa95852-b87c-40d3-8f25-bae828ab467e
+    uuid: 465b9e59-7243-4412-a334-03518a03dd6a
     udp: true
     tls: true
     skip-cert-verify: true
@@ -711,7 +711,7 @@ https://github.com/toshare5/toshare5.github.io/blob/main/README.md:
     type: vless
     server: freet.cloudrithm.com
     port: 20402
-    uuid: cfa95852-b87c-40d3-8f25-bae828ab467e
+    uuid: 465b9e59-7243-4412-a334-03518a03dd6a
     udp: true
     tls: true
     skip-cert-verify: true
@@ -725,7 +725,7 @@ https://github.com/toshare5/toshare5.github.io/blob/main/README.md:
     type: vless
     server: freet.cloudrithm.com
     port: 20403
-    uuid: cfa95852-b87c-40d3-8f25-bae828ab467e
+    uuid: 465b9e59-7243-4412-a334-03518a03dd6a
     udp: true
     tls: true
     skip-cert-verify: true
@@ -739,7 +739,7 @@ https://github.com/toshare5/toshare5.github.io/blob/main/README.md:
     type: vless
     server: freet.cloudrithm.com
     port: 20501
-    uuid: cfa95852-b87c-40d3-8f25-bae828ab467e
+    uuid: 465b9e59-7243-4412-a334-03518a03dd6a
     udp: true
     tls: true
     skip-cert-verify: true
@@ -753,7 +753,7 @@ https://github.com/toshare5/toshare5.github.io/blob/main/README.md:
     type: vless
     server: freet.cloudrithm.com
     port: 20601
-    uuid: cfa95852-b87c-40d3-8f25-bae828ab467e
+    uuid: 465b9e59-7243-4412-a334-03518a03dd6a
     udp: true
     tls: true
     skip-cert-verify: true
@@ -767,7 +767,7 @@ https://github.com/toshare5/toshare5.github.io/blob/main/README.md:
     type: vless
     server: freet.cloudrithm.com
     port: 20701
-    uuid: cfa95852-b87c-40d3-8f25-bae828ab467e
+    uuid: 465b9e59-7243-4412-a334-03518a03dd6a
     udp: true
     tls: true
     skip-cert-verify: true
@@ -781,7 +781,7 @@ https://github.com/toshare5/toshare5.github.io/blob/main/README.md:
     type: vless
     server: freet.cloudrithm.com
     port: 20702
-    uuid: cfa95852-b87c-40d3-8f25-bae828ab467e
+    uuid: 465b9e59-7243-4412-a334-03518a03dd6a
     udp: true
     tls: true
     skip-cert-verify: true
@@ -795,7 +795,7 @@ https://github.com/toshare5/toshare5.github.io/blob/main/README.md:
     type: vless
     server: freet.cloudrithm.com
     port: 20703
-    uuid: cfa95852-b87c-40d3-8f25-bae828ab467e
+    uuid: 465b9e59-7243-4412-a334-03518a03dd6a
     udp: true
     tls: true
     skip-cert-verify: true
@@ -809,7 +809,7 @@ https://github.com/toshare5/toshare5.github.io/blob/main/README.md:
     type: vless
     server: freet.cloudrithm.com
     port: 20704
-    uuid: cfa95852-b87c-40d3-8f25-bae828ab467e
+    uuid: 465b9e59-7243-4412-a334-03518a03dd6a
     udp: true
     tls: true
     skip-cert-verify: true
@@ -823,7 +823,7 @@ https://github.com/toshare5/toshare5.github.io/blob/main/README.md:
     type: vless
     server: freet.cloudrithm.com
     port: 20705
-    uuid: cfa95852-b87c-40d3-8f25-bae828ab467e
+    uuid: 465b9e59-7243-4412-a334-03518a03dd6a
     udp: true
     tls: true
     skip-cert-verify: true
@@ -837,7 +837,7 @@ https://github.com/toshare5/toshare5.github.io/blob/main/README.md:
     type: vless
     server: freet.cloudrithm.com
     port: 20706
-    uuid: cfa95852-b87c-40d3-8f25-bae828ab467e
+    uuid: 465b9e59-7243-4412-a334-03518a03dd6a
     udp: true
     tls: true
     skip-cert-verify: true
