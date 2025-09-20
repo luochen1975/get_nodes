@@ -282,13 +282,13 @@ https://github.com/abshare/abshare.github.io/blob/main/README.md:
       public-key: oZTlmF5xrlr0WbPUobpdBwzSA_KaFEmpskB1u4rj_UU
       short-id: 57aad6d7
 https://github.com/mkshare3/mkshare3.github.io/blob/main/README.md:
-  clash_link: https://K1M9Z6.mcsslk.xyz/4a0c9700c81cacc076e0b6e0584b9eb8
+  clash_link: https://ACb0Pm.mcsslk.xyz/c81a52ba145adad70e11595572d29c6b
   proxies:
   - name: 🇭🇰香港 01 | 1x HK
     type: vless
     server: freem.vidalith.com
     port: 20101
-    uuid: d405d34f-f8f7-4daf-a8d3-0fa1edf94547
+    uuid: 9c296630-1ec0-442d-92b6-0e6e1b3f557a
     udp: true
     tls: true
     skip-cert-verify: true
@@ -302,7 +302,7 @@ https://github.com/mkshare3/mkshare3.github.io/blob/main/README.md:
     type: vless
     server: freem.vidalith.com
     port: 20102
-    uuid: d405d34f-f8f7-4daf-a8d3-0fa1edf94547
+    uuid: 9c296630-1ec0-442d-92b6-0e6e1b3f557a
     udp: true
     tls: true
     skip-cert-verify: true
@@ -316,7 +316,7 @@ https://github.com/mkshare3/mkshare3.github.io/blob/main/README.md:
     type: vless
     server: freem.vidalith.com
     port: 20103
-    uuid: d405d34f-f8f7-4daf-a8d3-0fa1edf94547
+    uuid: 9c296630-1ec0-442d-92b6-0e6e1b3f557a
     udp: true
     tls: true
     skip-cert-verify: true
@@ -330,7 +330,7 @@ https://github.com/mkshare3/mkshare3.github.io/blob/main/README.md:
     type: vless
     server: freem.vidalith.com
     port: 20201
-    uuid: d405d34f-f8f7-4daf-a8d3-0fa1edf94547
+    uuid: 9c296630-1ec0-442d-92b6-0e6e1b3f557a
     udp: true
     tls: true
     skip-cert-verify: true
@@ -344,7 +344,7 @@ https://github.com/mkshare3/mkshare3.github.io/blob/main/README.md:
     type: vless
     server: freem.vidalith.com
     port: 20202
-    uuid: d405d34f-f8f7-4daf-a8d3-0fa1edf94547
+    uuid: 9c296630-1ec0-442d-92b6-0e6e1b3f557a
     udp: true
     tls: true
     skip-cert-verify: true
@@ -358,7 +358,7 @@ https://github.com/mkshare3/mkshare3.github.io/blob/main/README.md:
     type: vless
     server: freem.vidalith.com
     port: 20203
-    uuid: d405d34f-f8f7-4daf-a8d3-0fa1edf94547
+    uuid: 9c296630-1ec0-442d-92b6-0e6e1b3f557a
     udp: true
     tls: true
     skip-cert-verify: true
@@ -372,7 +372,7 @@ https://github.com/mkshare3/mkshare3.github.io/blob/main/README.md:
     type: vless
     server: freem.vidalith.com
     port: 20301
-    uuid: d405d34f-f8f7-4daf-a8d3-0fa1edf94547
+    uuid: 9c296630-1ec0-442d-92b6-0e6e1b3f557a
     udp: true
     tls: true
     skip-cert-verify: true
@@ -386,7 +386,7 @@ https://github.com/mkshare3/mkshare3.github.io/blob/main/README.md:
     type: vless
     server: freem.vidalith.com
     port: 20302
-    uuid: d405d34f-f8f7-4daf-a8d3-0fa1edf94547
+    uuid: 9c296630-1ec0-442d-92b6-0e6e1b3f557a
     udp: true
     tls: true
     skip-cert-verify: true
@@ -400,7 +400,7 @@ https://github.com/mkshare3/mkshare3.github.io/blob/main/README.md:
     type: vless
     server: freem.vidalith.com
     port: 20303
-    uuid: d405d34f-f8f7-4daf-a8d3-0fa1edf94547
+    uuid: 9c296630-1ec0-442d-92b6-0e6e1b3f557a
     udp: true
     tls: true
     skip-cert-verify: true
@@ -414,7 +414,7 @@ https://github.com/mkshare3/mkshare3.github.io/blob/main/README.md:
     type: vless
     server: freem.vidalith.com
     port: 20401
-    uuid: d405d34f-f8f7-4daf-a8d3-0fa1edf94547
+    uuid: 9c296630-1ec0-442d-92b6-0e6e1b3f557a
     udp: true
     tls: true
     skip-cert-verify: true
@@ -428,7 +428,7 @@ https://github.com/mkshare3/mkshare3.github.io/blob/main/README.md:
     type: vless
     server: freem.vidalith.com
     port: 20402
-    uuid: d405d34f-f8f7-4daf-a8d3-0fa1edf94547
+    uuid: 9c296630-1ec0-442d-92b6-0e6e1b3f557a
     udp: true
     tls: true
     skip-cert-verify: true
@@ -442,7 +442,7 @@ https://github.com/mkshare3/mkshare3.github.io/blob/main/README.md:
     type: vless
     server: freem.vidalith.com
     port: 20403
-    uuid: d405d34f-f8f7-4daf-a8d3-0fa1edf94547
+    uuid: 9c296630-1ec0-442d-92b6-0e6e1b3f557a
     udp: true
     tls: true
     skip-cert-verify: true
@@ -456,7 +456,7 @@ https://github.com/mkshare3/mkshare3.github.io/blob/main/README.md:
     type: vless
     server: freem.vidalith.com
     port: 20501
-    uuid: d405d34f-f8f7-4daf-a8d3-0fa1edf94547
+    uuid: 9c296630-1ec0-442d-92b6-0e6e1b3f557a
     udp: true
     tls: true
     skip-cert-verify: true
@@ -470,7 +470,7 @@ https://github.com/mkshare3/mkshare3.github.io/blob/main/README.md:
     type: vless
     server: freem.vidalith.com
     port: 20601
-    uuid: d405d34f-f8f7-4daf-a8d3-0fa1edf94547
+    uuid: 9c296630-1ec0-442d-92b6-0e6e1b3f557a
     udp: true
     tls: true
     skip-cert-verify: true
@@ -484,7 +484,7 @@ https://github.com/mkshare3/mkshare3.github.io/blob/main/README.md:
     type: vless
     server: freem.vidalith.com
     port: 20701
-    uuid: d405d34f-f8f7-4daf-a8d3-0fa1edf94547
+    uuid: 9c296630-1ec0-442d-92b6-0e6e1b3f557a
     udp: true
     tls: true
     skip-cert-verify: true
@@ -498,7 +498,7 @@ https://github.com/mkshare3/mkshare3.github.io/blob/main/README.md:
     type: vless
     server: freem.vidalith.com
     port: 20702
-    uuid: d405d34f-f8f7-4daf-a8d3-0fa1edf94547
+    uuid: 9c296630-1ec0-442d-92b6-0e6e1b3f557a
     udp: true
     tls: true
     skip-cert-verify: true
@@ -512,7 +512,7 @@ https://github.com/mkshare3/mkshare3.github.io/blob/main/README.md:
     type: vless
     server: freem.vidalith.com
     port: 20703
-    uuid: d405d34f-f8f7-4daf-a8d3-0fa1edf94547
+    uuid: 9c296630-1ec0-442d-92b6-0e6e1b3f557a
     udp: true
     tls: true
     skip-cert-verify: true
@@ -526,7 +526,7 @@ https://github.com/mkshare3/mkshare3.github.io/blob/main/README.md:
     type: vless
     server: freem.vidalith.com
     port: 20704
-    uuid: d405d34f-f8f7-4daf-a8d3-0fa1edf94547
+    uuid: 9c296630-1ec0-442d-92b6-0e6e1b3f557a
     udp: true
     tls: true
     skip-cert-verify: true
@@ -540,7 +540,7 @@ https://github.com/mkshare3/mkshare3.github.io/blob/main/README.md:
     type: vless
     server: freem.vidalith.com
     port: 20705
-    uuid: d405d34f-f8f7-4daf-a8d3-0fa1edf94547
+    uuid: 9c296630-1ec0-442d-92b6-0e6e1b3f557a
     udp: true
     tls: true
     skip-cert-verify: true
@@ -554,7 +554,7 @@ https://github.com/mkshare3/mkshare3.github.io/blob/main/README.md:
     type: vless
     server: freem.vidalith.com
     port: 20706
-    uuid: d405d34f-f8f7-4daf-a8d3-0fa1edf94547
+    uuid: 9c296630-1ec0-442d-92b6-0e6e1b3f557a
     udp: true
     tls: true
     skip-cert-verify: true
