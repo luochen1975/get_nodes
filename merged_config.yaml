@@ -1,4 +1,4 @@
-# 配置合并于 2025-09-27 00:28:18
+# 配置合并于 2025-09-27 00:43:17
 mixed-port: 7890
 tcp-concurrent: false
 allow-lan: true
@@ -355,51 +355,51 @@ proxies:
     short-id: af33703e
 - name: 🇭🇰香港 01 | 1x HK | mkshare3
   type: vless
-  server: freem.vidalith.com
-  port: 20101
-  uuid: 2bf5bff6-4539-42bc-91d4-ae8647a5baa7
+  server: freea.glyphara.com
+  port: 10101
+  uuid: c622d3b1-3f3d-4d2d-abc7-59fe98154ecb
   udp: true
   tls: true
   skip-cert-verify: true
   flow: xtls-rprx-vision
   client-fingerprint: chrome
-  servername: dimsum01.roamspheretours.com
+  servername: itunes.apple.com
   reality-opts:
-    public-key: -viwfTpCktkMEc4wYjEI93ZVuyhUGp4-XsWx7xEUkjQ
-    short-id: d97842fb
+    public-key: Oxny-QZDuN1gZiDG4i4CpzssfwmyubVuQaWeDNIaR2c
+    short-id: 3bfafa0d
 - name: 🇭🇰香港 02 | 1x HK | mkshare3
   type: vless
-  server: freem.vidalith.com
-  port: 20102
-  uuid: 2bf5bff6-4539-42bc-91d4-ae8647a5baa7
+  server: freea.glyphara.com
+  port: 10102
+  uuid: c622d3b1-3f3d-4d2d-abc7-59fe98154ecb
   udp: true
   tls: true
   skip-cert-verify: true
   flow: xtls-rprx-vision
   client-fingerprint: chrome
-  servername: dimsum02.roamspheretours.com
+  servername: www.amd.com
   reality-opts:
-    public-key: bu5j-CvxXHslShQGJrT4CrJFyrJNtc6GMfhiOD3yzSc
-    short-id: 04d9d402
+    public-key: lxniYaoMB3pwyTdzz0ac-SyVstJzh4jFR_LGnCafJmY
+    short-id: ab1fe212
 - name: 🇭🇰香港 03 | 家宽 | 1x HK | mkshare3
   type: vless
-  server: freem.vidalith.com
-  port: 20103
-  uuid: 2bf5bff6-4539-42bc-91d4-ae8647a5baa7
+  server: freea.glyphara.com
+  port: 10103
+  uuid: c622d3b1-3f3d-4d2d-abc7-59fe98154ecb
   udp: true
   tls: true
   skip-cert-verify: true
   flow: xtls-rprx-vision
   client-fingerprint: chrome
-  servername: dimsum03.roamspheretours.com
+  servername: learn.microsoft.com
   reality-opts:
-    public-key: dkQ2z8Uqp1qU3t88CgHhCK5PL38A8gsdT1wKI_yYUFs
-    short-id: e706de84
+    public-key: 0ttWq9Y-RxVRN-pTG1DJy5FtGucHDi3iISxxQJQlQG4
+    short-id: 57b44e1b
 - name: 🇹🇼台湾 01 | 1x TW | mkshare3
   type: vless
-  server: freem.vidalith.com
-  port: 20201
-  uuid: 2bf5bff6-4539-42bc-91d4-ae8647a5baa7
+  server: freea.glyphara.com
+  port: 10201
+  uuid: c622d3b1-3f3d-4d2d-abc7-59fe98154ecb
   udp: true
   tls: true
   skip-cert-verify: true
@@ -407,232 +407,162 @@ proxies:
   client-fingerprint: chrome
   servername: lol.secure.dyn.riotcdn.net
   reality-opts:
-    public-key: yMvABlUHLDofAp1R-w-e_f1ka28w2nGK1ZTBJVb5Un4
-    short-id: 6699eac1
+    public-key: ycXJZWrff0ye4IwGGkcAdICgILE73x_4NteTk0_B0mk
+    short-id: b95a1d5a
 - name: 🇹🇼台湾 02 | 1x TW | mkshare3
   type: vless
-  server: freem.vidalith.com
-  port: 20202
-  uuid: 2bf5bff6-4539-42bc-91d4-ae8647a5baa7
+  server: freea.glyphara.com
+  port: 10202
+  uuid: c622d3b1-3f3d-4d2d-abc7-59fe98154ecb
   udp: true
   tls: true
   skip-cert-verify: true
   flow: xtls-rprx-vision
   client-fingerprint: chrome
-  servername: bubbletea02.roamspheretours.com
+  servername: www.samsung.com
   reality-opts:
-    public-key: vtWE47ID9QdLgGTrA2dPNUAxA6t8mSv79U4F3CeKhUc
-    short-id: 33ebcbb3
+    public-key: zwa-1DZq-PIYt1ikoW-4o791AOfai7o8ArDynGfDT1Q
+    short-id: 56332aef
 - name: 🇹🇼台湾 03 | 1x TW | mkshare3
   type: vless
-  server: freem.vidalith.com
-  port: 20203
-  uuid: 2bf5bff6-4539-42bc-91d4-ae8647a5baa7
+  server: freea.glyphara.com
+  port: 10203
+  uuid: c622d3b1-3f3d-4d2d-abc7-59fe98154ecb
   udp: true
   tls: true
   skip-cert-verify: true
   flow: xtls-rprx-vision
   client-fingerprint: chrome
-  servername: bubbletea03.roamspheretours.com
+  servername: learn.microsoft.com
   reality-opts:
-    public-key: N01hp6Pi5JJGObxKxTQG4OtRoVxmiKF7j2_OMya-BBg
-    short-id: 9b508f32
+    public-key: b_oJS2CybK60KHdriKo8W6PH9n5P4EP6aQtu4PKa_kY
+    short-id: c6299255
 - name: 🇯🇵日本 01 | 1x JP | mkshare3
   type: vless
-  server: freem.vidalith.com
-  port: 20301
-  uuid: 2bf5bff6-4539-42bc-91d4-ae8647a5baa7
+  server: freea.glyphara.com
+  port: 10301
+  uuid: c622d3b1-3f3d-4d2d-abc7-59fe98154ecb
   udp: true
   tls: true
   skip-cert-verify: true
   flow: xtls-rprx-vision
   client-fingerprint: chrome
-  servername: sakura01.roamspheretours.com
+  servername: lol.secure.dyn.riotcdn.net
   reality-opts:
-    public-key: qIZhF6mm8bBjdFJtVwPfkPDUubW_SGSodjzlx8iMY2Y
-    short-id: 6bec95dc
+    public-key: 5O0xclCijKudVBbAI7iHDHU2XSWFT65sPjjIB_EpCW0
+    short-id: 61b11982
 - name: 🇯🇵日本 02 | 1x JP | mkshare3
   type: vless
-  server: freem.vidalith.com
-  port: 20302
-  uuid: 2bf5bff6-4539-42bc-91d4-ae8647a5baa7
+  server: freea.glyphara.com
+  port: 10302
+  uuid: c622d3b1-3f3d-4d2d-abc7-59fe98154ecb
   udp: true
   tls: true
   skip-cert-verify: true
   flow: xtls-rprx-vision
   client-fingerprint: chrome
-  servername: sakura02.roamspheretours.com
+  servername: updates.cdn-apple.com
   reality-opts:
-    public-key: rWBKZ8bhqjBfroP8nEN5E2RgwwORB2rAktYa_ZHyozg
-    short-id: 12d549c2
+    public-key: lmFyS9lNX3H_ekYIV0M7GHu7OGTXDw6YnbAkKzpDjEM
+    short-id: d08a45bb
 - name: 🇯🇵日本 03 | 1x JP | mkshare3
   type: vless
-  server: freem.vidalith.com
-  port: 20303
-  uuid: 2bf5bff6-4539-42bc-91d4-ae8647a5baa7
+  server: freea.glyphara.com
+  port: 10303
+  uuid: c622d3b1-3f3d-4d2d-abc7-59fe98154ecb
   udp: true
   tls: true
   skip-cert-verify: true
   flow: xtls-rprx-vision
   client-fingerprint: chrome
-  servername: sakura03.roamspheretours.com
+  servername: mensura.cdn-apple.com
   reality-opts:
-    public-key: d3bsDEOVgXdLAAusPJWRNlzRmax0kgWaMR2iZSZvdzw
-    short-id: e6d6bf70
+    public-key: eUfsI_--upEKzxUZjvYIlEZuAmqdbyIdLVI0e-SHKXs
+    short-id: 7b520aea
 - name: 🇸🇬新加坡 01 | 1x SG | mkshare3
   type: vless
-  server: freem.vidalith.com
-  port: 20401
-  uuid: 2bf5bff6-4539-42bc-91d4-ae8647a5baa7
+  server: freea.glyphara.com
+  port: 10401
+  uuid: c622d3b1-3f3d-4d2d-abc7-59fe98154ecb
   udp: true
   tls: true
   skip-cert-verify: true
   flow: xtls-rprx-vision
   client-fingerprint: chrome
-  servername: lion01.roamspheretours.com
+  servername: learn.microsoft.com
   reality-opts:
-    public-key: LIo10kmniOrhuFbILuJeLCCr0duBF2mxJ6H3VcnbTx4
-    short-id: ea9259e9
+    public-key: Yfj_b51yjrpk_SsudiAn7eypforpsjyyq9ii2jOIj1Y
+    short-id: 0ae5a1db
 - name: 🇸🇬新加坡 02 | 1x SG | mkshare3
   type: vless
-  server: freem.vidalith.com
-  port: 20402
-  uuid: 2bf5bff6-4539-42bc-91d4-ae8647a5baa7
+  server: freea.glyphara.com
+  port: 10402
+  uuid: c622d3b1-3f3d-4d2d-abc7-59fe98154ecb
   udp: true
   tls: true
   skip-cert-verify: true
   flow: xtls-rprx-vision
   client-fingerprint: chrome
-  servername: lion02.roamspheretours.com
+  servername: itunes.apple.com
   reality-opts:
-    public-key: 5AHYiirPud7emKAm8gCB0TBHcB04WAqxP9ICbPg3pjQ
-    short-id: 202a3da5
+    public-key: iXQCe8UlkT4P4XvMLZHGlxvMWnEKsfOrZRqUrUdeGy8
+    short-id: 8978c6af
 - name: 🇸🇬新加坡 03 | 1x SG | mkshare3
   type: vless
-  server: freem.vidalith.com
-  port: 20403
-  uuid: 2bf5bff6-4539-42bc-91d4-ae8647a5baa7
+  server: freea.glyphara.com
+  port: 10403
+  uuid: c622d3b1-3f3d-4d2d-abc7-59fe98154ecb
   udp: true
   tls: true
   skip-cert-verify: true
   flow: xtls-rprx-vision
   client-fingerprint: chrome
-  servername: lion03.roamspheretours.com
+  servername: www.samsung.com
   reality-opts:
-    public-key: k39D-GC8IG7JnJSBYjI2uRxzeckyZOFefFZxG_F1Aj4
-    short-id: 3201768b
-- name: 🇰🇷韩国 01 | 1x KR | mkshare3
-  type: vless
-  server: freem.vidalith.com
-  port: 20501
-  uuid: 2bf5bff6-4539-42bc-91d4-ae8647a5baa7
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  servername: hibiscus01.roamspheretours.com
-  reality-opts:
-    public-key: uVViyhPABUxMBvPctD90JJ85FCV7Nr4wqgZP0ZVBUxQ
-    short-id: a307519e
-- name: 🇵🇭菲律宾 01 | 1x PH | mkshare3
-  type: vless
-  server: freem.vidalith.com
-  port: 20601
-  uuid: 2bf5bff6-4539-42bc-91d4-ae8647a5baa7
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  servername: sampaguita01.roamspheretours.com
-  reality-opts:
-    public-key: 52FoOOOV0-jZvdFhfDLfthYcoH8_t-nER4C2F-lew3g
-    short-id: 6bfe9cd3
+    public-key: JiXAdYw2UimHFD-FA9V6zQMvu0fDnhIwSDinsXd8ByE
+    short-id: b01bd834
 - name: 🇺🇸美国 01 ChatGPT专用 | 1x US | mkshare3
   type: vless
-  server: freem.vidalith.com
-  port: 20701
-  uuid: 2bf5bff6-4539-42bc-91d4-ae8647a5baa7
+  server: freea.glyphara.com
+  port: 10701
+  uuid: c622d3b1-3f3d-4d2d-abc7-59fe98154ecb
   udp: true
   tls: true
   skip-cert-verify: true
   flow: xtls-rprx-vision
   client-fingerprint: chrome
-  servername: eagle01.roamspheretours.com
+  servername: www.amd.com
   reality-opts:
-    public-key: bJSE-GBtg8wCI175fERrE_MkUD2WMhsWt2_2qszPj3w
-    short-id: 2c0ae366
+    public-key: N2tG_gTPiZ6h1hRm6Ddo2F58xaZcSJxA9AzTLJ77dig
+    short-id: ca8f2085
 - name: 🇺🇸美国 02 ChatGPT专用 | 1x US | mkshare3
   type: vless
-  server: freem.vidalith.com
-  port: 20702
-  uuid: 2bf5bff6-4539-42bc-91d4-ae8647a5baa7
+  server: freea.glyphara.com
+  port: 10702
+  uuid: c622d3b1-3f3d-4d2d-abc7-59fe98154ecb
   udp: true
   tls: true
   skip-cert-verify: true
   flow: xtls-rprx-vision
   client-fingerprint: chrome
-  servername: eagle02.roamspheretours.com
+  servername: learn.microsoft.com
   reality-opts:
-    public-key: O7OoyrxZpZN90CvpCEhCVHEFexRQECFC7ovsf-AwdxE
-    short-id: f44f78b3
+    public-key: rTK_3WPhJIY8fFpogPmRdRIEDbIjzQ-FUf3Blan2FUo
+    short-id: a5523ed7
 - name: 🇺🇸美国 03 ChatGPT专用 | 1x US | mkshare3
   type: vless
-  server: freem.vidalith.com
-  port: 20703
-  uuid: 2bf5bff6-4539-42bc-91d4-ae8647a5baa7
+  server: freea.glyphara.com
+  port: 10703
+  uuid: c622d3b1-3f3d-4d2d-abc7-59fe98154ecb
   udp: true
   tls: true
   skip-cert-verify: true
   flow: xtls-rprx-vision
   client-fingerprint: chrome
-  servername: eagle03.roamspheretours.com
+  servername: mensura.cdn-apple.com
   reality-opts:
-    public-key: eMKvqGgKmjnb1Es7Nd5X-OOh7a1bssU0OfK8N_RZlhs
-    short-id: 91cf70e7
-- name: 🇺🇸美国 04 ChatGPT专用 | 1x US | mkshare3
-  type: vless
-  server: freem.vidalith.com
-  port: 20704
-  uuid: 2bf5bff6-4539-42bc-91d4-ae8647a5baa7
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  servername: eagle04.roamspheretours.com
-  reality-opts:
-    public-key: TPez-fFZn9eqbPrkh7dIFzoT_UTPI9IbnJkUaAPcjx8
-    short-id: 043d0480
-- name: 🇺🇸美国 05 ChatGPT专用 | 1x US | mkshare3
-  type: vless
-  server: freem.vidalith.com
-  port: 20705
-  uuid: 2bf5bff6-4539-42bc-91d4-ae8647a5baa7
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  servername: eagle05.roamspheretours.com
-  reality-opts:
-    public-key: 0El4ODZtnGCXTekEBmSPyVPkUqm4vK2iF3cNbqvLFm4
-    short-id: d15d1c3c
-- name: 🇺🇸美国 06 ChatGPT专用 | 1x US | mkshare3
-  type: vless
-  server: freem.vidalith.com
-  port: 20706
-  uuid: 2bf5bff6-4539-42bc-91d4-ae8647a5baa7
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  servername: eagle06.roamspheretours.com
-  reality-opts:
-    public-key: oZTlmF5xrlr0WbPUobpdBwzSA_KaFEmpskB1u4rj_UU
-    short-id: 57aad6d7
+    public-key: Elg7Z8U33fyKhNJRJRXm79wsKiR6DZxMzV90md0Yix0
+    short-id: af33703e
 - name: 🇭🇰香港 01 | 1x HK | toshare5
   type: vless
   server: freea.glyphara.com
@@ -1057,7 +987,7 @@ proxies:
   type: vless
   server: freea.glyphara.com
   port: 10101
-  uuid: a6a63ccc-431b-4e18-bf6c-b8f20e649fec
+  uuid: cc962215-7b2e-4bfc-a0df-5c3776098853
   udp: true
   tls: true
   skip-cert-verify: true
@@ -1071,7 +1001,7 @@ proxies:
   type: vless
   server: freea.glyphara.com
   port: 10102
-  uuid: a6a63ccc-431b-4e18-bf6c-b8f20e649fec
+  uuid: cc962215-7b2e-4bfc-a0df-5c3776098853
   udp: true
   tls: true
   skip-cert-verify: true
@@ -1085,7 +1015,7 @@ proxies:
   type: vless
   server: freea.glyphara.com
   port: 10103
-  uuid: a6a63ccc-431b-4e18-bf6c-b8f20e649fec
+  uuid: cc962215-7b2e-4bfc-a0df-5c3776098853
   udp: true
   tls: true
   skip-cert-verify: true
@@ -1099,7 +1029,7 @@ proxies:
   type: vless
   server: freea.glyphara.com
   port: 10201
-  uuid: a6a63ccc-431b-4e18-bf6c-b8f20e649fec
+  uuid: cc962215-7b2e-4bfc-a0df-5c3776098853
   udp: true
   tls: true
   skip-cert-verify: true
@@ -1113,7 +1043,7 @@ proxies:
   type: vless
   server: freea.glyphara.com
   port: 10202
-  uuid: a6a63ccc-431b-4e18-bf6c-b8f20e649fec
+  uuid: cc962215-7b2e-4bfc-a0df-5c3776098853
   udp: true
   tls: true
   skip-cert-verify: true
@@ -1127,7 +1057,7 @@ proxies:
   type: vless
   server: freea.glyphara.com
   port: 10203
-  uuid: a6a63ccc-431b-4e18-bf6c-b8f20e649fec
+  uuid: cc962215-7b2e-4bfc-a0df-5c3776098853
   udp: true
   tls: true
   skip-cert-verify: true
@@ -1141,7 +1071,7 @@ proxies:
   type: vless
   server: freea.glyphara.com
   port: 10301
-  uuid: a6a63ccc-431b-4e18-bf6c-b8f20e649fec
+  uuid: cc962215-7b2e-4bfc-a0df-5c3776098853
   udp: true
   tls: true
   skip-cert-verify: true
@@ -1155,7 +1085,7 @@ proxies:
   type: vless
   server: freea.glyphara.com
   port: 10302
-  uuid: a6a63ccc-431b-4e18-bf6c-b8f20e649fec
+  uuid: cc962215-7b2e-4bfc-a0df-5c3776098853
   udp: true
   tls: true
   skip-cert-verify: true
@@ -1169,7 +1099,7 @@ proxies:
   type: vless
   server: freea.glyphara.com
   port: 10303
-  uuid: a6a63ccc-431b-4e18-bf6c-b8f20e649fec
+  uuid: cc962215-7b2e-4bfc-a0df-5c3776098853
   udp: true
   tls: true
   skip-cert-verify: true
@@ -1183,7 +1113,7 @@ proxies:
   type: vless
   server: freea.glyphara.com
   port: 10401
-  uuid: a6a63ccc-431b-4e18-bf6c-b8f20e649fec
+  uuid: cc962215-7b2e-4bfc-a0df-5c3776098853
   udp: true
   tls: true
   skip-cert-verify: true
@@ -1197,7 +1127,7 @@ proxies:
   type: vless
   server: freea.glyphara.com
   port: 10402
-  uuid: a6a63ccc-431b-4e18-bf6c-b8f20e649fec
+  uuid: cc962215-7b2e-4bfc-a0df-5c3776098853
   udp: true
   tls: true
   skip-cert-verify: true
@@ -1211,7 +1141,7 @@ proxies:
   type: vless
   server: freea.glyphara.com
   port: 10403
-  uuid: a6a63ccc-431b-4e18-bf6c-b8f20e649fec
+  uuid: cc962215-7b2e-4bfc-a0df-5c3776098853
   udp: true
   tls: true
   skip-cert-verify: true
@@ -1225,7 +1155,7 @@ proxies:
   type: vless
   server: freea.glyphara.com
   port: 10701
-  uuid: a6a63ccc-431b-4e18-bf6c-b8f20e649fec
+  uuid: cc962215-7b2e-4bfc-a0df-5c3776098853
   udp: true
   tls: true
   skip-cert-verify: true
@@ -1239,7 +1169,7 @@ proxies:
   type: vless
   server: freea.glyphara.com
   port: 10702
-  uuid: a6a63ccc-431b-4e18-bf6c-b8f20e649fec
+  uuid: cc962215-7b2e-4bfc-a0df-5c3776098853
   udp: true
   tls: true
   skip-cert-verify: true
@@ -1253,7 +1183,7 @@ proxies:
   type: vless
   server: freea.glyphara.com
   port: 10703
-  uuid: a6a63ccc-431b-4e18-bf6c-b8f20e649fec
+  uuid: cc962215-7b2e-4bfc-a0df-5c3776098853
   udp: true
   tls: true
   skip-cert-verify: true
@@ -1512,14 +1442,9 @@ proxy-groups:
   - 🇸🇬新加坡 01 | 1x SG | mkshare3
   - 🇸🇬新加坡 02 | 1x SG | mkshare3
   - 🇸🇬新加坡 03 | 1x SG | mkshare3
-  - 🇰🇷韩国 01 | 1x KR | mkshare3
-  - 🇵🇭菲律宾 01 | 1x PH | mkshare3
   - 🇺🇸美国 01 ChatGPT专用 | 1x US | mkshare3
   - 🇺🇸美国 02 ChatGPT专用 | 1x US | mkshare3
   - 🇺🇸美国 03 ChatGPT专用 | 1x US | mkshare3
-  - 🇺🇸美国 04 ChatGPT专用 | 1x US | mkshare3
-  - 🇺🇸美国 05 ChatGPT专用 | 1x US | mkshare3
-  - 🇺🇸美国 06 ChatGPT专用 | 1x US | mkshare3
   - 🇭🇰香港 01 | 1x HK | toshare5
   - 🇭🇰香港 02 | 1x HK | toshare5
   - 🇭🇰香港 03 | 家宽 | 1x HK | toshare5
