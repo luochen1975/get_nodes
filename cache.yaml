@@ -93,98 +93,98 @@ https://github.com/mkshare3/mkshare3.github.io/blob/main/README.md:
     password: 823c1905-194f-4b91-b165-779f326f3c14
     udp: true
 https://github.com/toshare5/toshare5.github.io/blob/main/README.md:
-  clash_link: https://KbBjF7.tosslk.xyz/f78e84621675c1e27014bcbaac858d8a
+  clash_link: https://FqUFjR.tosslk.xyz/6a327f644e7121f04e68a61d91ff653a
   proxies:
   - name: 节点加速器
     type: ss
     server: 127.0.0.1
     port: '1080'
     cipher: aes-128-gcm
-    password: 0bb2a63f-872a-45e6-b31b-154caf0e3002
+    password: 86fbe0bd-c21c-4648-8bf1-7dadce0451ee
     udp: true
   - name: 提醒您
     type: ss
     server: 127.0.0.1
     port: '1080'
     cipher: aes-128-gcm
-    password: 0bb2a63f-872a-45e6-b31b-154caf0e3002
+    password: 86fbe0bd-c21c-4648-8bf1-7dadce0451ee
     udp: true
   - name: 我们已升级
     type: ss
     server: 127.0.0.1
     port: '1080'
     cipher: aes-128-gcm
-    password: 0bb2a63f-872a-45e6-b31b-154caf0e3002
+    password: 86fbe0bd-c21c-4648-8bf1-7dadce0451ee
     udp: true
   - name: 节点协议
     type: ss
     server: 127.0.0.1
     port: '1080'
     cipher: aes-128-gcm
-    password: 0bb2a63f-872a-45e6-b31b-154caf0e3002
+    password: 86fbe0bd-c21c-4648-8bf1-7dadce0451ee
     udp: true
   - name: 您的Clash客户端
     type: ss
     server: 127.0.0.1
     port: '1080'
     cipher: aes-128-gcm
-    password: 0bb2a63f-872a-45e6-b31b-154caf0e3002
+    password: 86fbe0bd-c21c-4648-8bf1-7dadce0451ee
     udp: true
   - name: 版本已过时
     type: ss
     server: 127.0.0.1
     port: '1080'
     cipher: aes-128-gcm
-    password: 0bb2a63f-872a-45e6-b31b-154caf0e3002
+    password: 86fbe0bd-c21c-4648-8bf1-7dadce0451ee
     udp: true
   - name: 请访问我们的
     type: ss
     server: 127.0.0.1
     port: '1080'
     cipher: aes-128-gcm
-    password: 0bb2a63f-872a-45e6-b31b-154caf0e3002
+    password: 86fbe0bd-c21c-4648-8bf1-7dadce0451ee
     udp: true
   - name: 官方网站
     type: ss
     server: 127.0.0.1
     port: '1080'
     cipher: aes-128-gcm
-    password: 0bb2a63f-872a-45e6-b31b-154caf0e3002
+    password: 86fbe0bd-c21c-4648-8bf1-7dadce0451ee
     udp: true
   - name: 根据您的
     type: ss
     server: 127.0.0.1
     port: '1080'
     cipher: aes-128-gcm
-    password: 0bb2a63f-872a-45e6-b31b-154caf0e3002
+    password: 86fbe0bd-c21c-4648-8bf1-7dadce0451ee
     udp: true
   - name: 设备和系统
     type: ss
     server: 127.0.0.1
     port: '1080'
     cipher: aes-128-gcm
-    password: 0bb2a63f-872a-45e6-b31b-154caf0e3002
+    password: 86fbe0bd-c21c-4648-8bf1-7dadce0451ee
     udp: true
   - name: 下载新版本的客户端
     type: ss
     server: 127.0.0.1
     port: '1080'
     cipher: aes-128-gcm
-    password: 0bb2a63f-872a-45e6-b31b-154caf0e3002
+    password: 86fbe0bd-c21c-4648-8bf1-7dadce0451ee
     udp: true
   - name: 客户端更新成功后
     type: ss
     server: 127.0.0.1
     port: '1080'
     cipher: aes-128-gcm
-    password: 0bb2a63f-872a-45e6-b31b-154caf0e3002
+    password: 86fbe0bd-c21c-4648-8bf1-7dadce0451ee
     udp: true
   - name: 请重新更新订阅链接
     type: ss
     server: 127.0.0.1
     port: '1080'
     cipher: aes-128-gcm
-    password: 0bb2a63f-872a-45e6-b31b-154caf0e3002
+    password: 86fbe0bd-c21c-4648-8bf1-7dadce0451ee
     udp: true
 https://github.com/mksshare/mksshare.github.io/blob/main/README.md:
   clash_link: https://Ni5ExR.mcsslk.xyz/ad54994c77fa707d97f3f4719730e1cc
@@ -400,218 +400,99 @@ https://github.com/mksshare/mksshare.github.io/blob/main/README.md:
       public-key: Elg7Z8U33fyKhNJRJRXm79wsKiR6DZxMzV90md0Yix0
       short-id: af33703e
 https://github.com/abshare3/abshare3.github.io/blob/main/README.md:
-  clash_link: https://3ELGZc.absslk.xyz/eb603e3765b6ca47b00ca1648a4cb9dc
+  clash_link: https://q5Nybn.absslk.xyz/dd7217e1e16eaee00254c2d6fce86a58
   proxies:
-  - name: 🇭🇰香港 01 | 1x HK
-    type: vless
-    server: freea.glyphara.com
-    port: 10101
-    uuid: 27fb2ba0-bff1-476f-806d-0776effe305c
+  - name: 节点加速器
+    type: ss
+    server: 127.0.0.1
+    port: '1080'
+    cipher: aes-128-gcm
+    password: 30da620d-2583-46c5-be23-b96b3d84b6e2
     udp: true
-    tls: true
-    skip-cert-verify: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    servername: itunes.apple.com
-    reality-opts:
-      public-key: Oxny-QZDuN1gZiDG4i4CpzssfwmyubVuQaWeDNIaR2c
-      short-id: 3bfafa0d
-  - name: 🇭🇰香港 02 | 1x HK
-    type: vless
-    server: freea.glyphara.com
-    port: 10102
-    uuid: 27fb2ba0-bff1-476f-806d-0776effe305c
+  - name: 提醒您
+    type: ss
+    server: 127.0.0.1
+    port: '1080'
+    cipher: aes-128-gcm
+    password: 30da620d-2583-46c5-be23-b96b3d84b6e2
     udp: true
-    tls: true
-    skip-cert-verify: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    servername: www.amd.com
-    reality-opts:
-      public-key: lxniYaoMB3pwyTdzz0ac-SyVstJzh4jFR_LGnCafJmY
-      short-id: ab1fe212
-  - name: 🇭🇰香港 03 | 家宽 | 1x HK
-    type: vless
-    server: freea.glyphara.com
-    port: 10103
-    uuid: 27fb2ba0-bff1-476f-806d-0776effe305c
+  - name: 我们已升级
+    type: ss
+    server: 127.0.0.1
+    port: '1080'
+    cipher: aes-128-gcm
+    password: 30da620d-2583-46c5-be23-b96b3d84b6e2
     udp: true
-    tls: true
-    skip-cert-verify: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    servername: learn.microsoft.com
-    reality-opts:
-      public-key: 0ttWq9Y-RxVRN-pTG1DJy5FtGucHDi3iISxxQJQlQG4
-      short-id: 57b44e1b
-  - name: 🇹🇼台湾 01 | 1x TW
-    type: vless
-    server: freea.glyphara.com
-    port: 10201
-    uuid: 27fb2ba0-bff1-476f-806d-0776effe305c
+  - name: 节点协议
+    type: ss
+    server: 127.0.0.1
+    port: '1080'
+    cipher: aes-128-gcm
+    password: 30da620d-2583-46c5-be23-b96b3d84b6e2
     udp: true
-    tls: true
-    skip-cert-verify: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    servername: lol.secure.dyn.riotcdn.net
-    reality-opts:
-      public-key: ycXJZWrff0ye4IwGGkcAdICgILE73x_4NteTk0_B0mk
-      short-id: b95a1d5a
-  - name: 🇹🇼台湾 02 | 1x TW
-    type: vless
-    server: freea.glyphara.com
-    port: 10202
-    uuid: 27fb2ba0-bff1-476f-806d-0776effe305c
+  - name: 您的Clash客户端
+    type: ss
+    server: 127.0.0.1
+    port: '1080'
+    cipher: aes-128-gcm
+    password: 30da620d-2583-46c5-be23-b96b3d84b6e2
     udp: true
-    tls: true
-    skip-cert-verify: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    servername: www.samsung.com
-    reality-opts:
-      public-key: zwa-1DZq-PIYt1ikoW-4o791AOfai7o8ArDynGfDT1Q
-      short-id: 56332aef
-  - name: 🇹🇼台湾 03 | 1x TW
-    type: vless
-    server: freea.glyphara.com
-    port: 10203
-    uuid: 27fb2ba0-bff1-476f-806d-0776effe305c
+  - name: 版本已过时
+    type: ss
+    server: 127.0.0.1
+    port: '1080'
+    cipher: aes-128-gcm
+    password: 30da620d-2583-46c5-be23-b96b3d84b6e2
     udp: true
-    tls: true
-    skip-cert-verify: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    servername: learn.microsoft.com
-    reality-opts:
-      public-key: b_oJS2CybK60KHdriKo8W6PH9n5P4EP6aQtu4PKa_kY
-      short-id: c6299255
-  - name: 🇯🇵日本 01 | 1x JP
-    type: vless
-    server: freea.glyphara.com
-    port: 10301
-    uuid: 27fb2ba0-bff1-476f-806d-0776effe305c
+  - name: 请访问我们的
+    type: ss
+    server: 127.0.0.1
+    port: '1080'
+    cipher: aes-128-gcm
+    password: 30da620d-2583-46c5-be23-b96b3d84b6e2
     udp: true
-    tls: true
-    skip-cert-verify: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    servername: lol.secure.dyn.riotcdn.net
-    reality-opts:
-      public-key: 5O0xclCijKudVBbAI7iHDHU2XSWFT65sPjjIB_EpCW0
-      short-id: 61b11982
-  - name: 🇯🇵日本 02 | 1x JP
-    type: vless
-    server: freea.glyphara.com
-    port: 10302
-    uuid: 27fb2ba0-bff1-476f-806d-0776effe305c
+  - name: 官方网站
+    type: ss
+    server: 127.0.0.1
+    port: '1080'
+    cipher: aes-128-gcm
+    password: 30da620d-2583-46c5-be23-b96b3d84b6e2
     udp: true
-    tls: true
-    skip-cert-verify: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    servername: updates.cdn-apple.com
-    reality-opts:
-      public-key: lmFyS9lNX3H_ekYIV0M7GHu7OGTXDw6YnbAkKzpDjEM
-      short-id: d08a45bb
-  - name: 🇯🇵日本 03 | 1x JP
-    type: vless
-    server: freea.glyphara.com
-    port: 10303
-    uuid: 27fb2ba0-bff1-476f-806d-0776effe305c
+  - name: 根据您的
+    type: ss
+    server: 127.0.0.1
+    port: '1080'
+    cipher: aes-128-gcm
+    password: 30da620d-2583-46c5-be23-b96b3d84b6e2
     udp: true
-    tls: true
-    skip-cert-verify: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    servername: mensura.cdn-apple.com
-    reality-opts:
-      public-key: eUfsI_--upEKzxUZjvYIlEZuAmqdbyIdLVI0e-SHKXs
-      short-id: 7b520aea
-  - name: 🇸🇬新加坡 01 | 1x SG
-    type: vless
-    server: freea.glyphara.com
-    port: 10401
-    uuid: 27fb2ba0-bff1-476f-806d-0776effe305c
+  - name: 设备和系统
+    type: ss
+    server: 127.0.0.1
+    port: '1080'
+    cipher: aes-128-gcm
+    password: 30da620d-2583-46c5-be23-b96b3d84b6e2
     udp: true
-    tls: true
-    skip-cert-verify: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    servername: learn.microsoft.com
-    reality-opts:
-      public-key: Yfj_b51yjrpk_SsudiAn7eypforpsjyyq9ii2jOIj1Y
-      short-id: 0ae5a1db
-  - name: 🇸🇬新加坡 02 | 1x SG
-    type: vless
-    server: freea.glyphara.com
-    port: 10402
-    uuid: 27fb2ba0-bff1-476f-806d-0776effe305c
+  - name: 下载新版本的客户端
+    type: ss
+    server: 127.0.0.1
+    port: '1080'
+    cipher: aes-128-gcm
+    password: 30da620d-2583-46c5-be23-b96b3d84b6e2
     udp: true
-    tls: true
-    skip-cert-verify: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    servername: itunes.apple.com
-    reality-opts:
-      public-key: iXQCe8UlkT4P4XvMLZHGlxvMWnEKsfOrZRqUrUdeGy8
-      short-id: 8978c6af
-  - name: 🇸🇬新加坡 03 | 1x SG
-    type: vless
-    server: freea.glyphara.com
-    port: 10403
-    uuid: 27fb2ba0-bff1-476f-806d-0776effe305c
+  - name: 客户端更新成功后
+    type: ss
+    server: 127.0.0.1
+    port: '1080'
+    cipher: aes-128-gcm
+    password: 30da620d-2583-46c5-be23-b96b3d84b6e2
     udp: true
-    tls: true
-    skip-cert-verify: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    servername: www.samsung.com
-    reality-opts:
-      public-key: JiXAdYw2UimHFD-FA9V6zQMvu0fDnhIwSDinsXd8ByE
-      short-id: b01bd834
-  - name: 🇺🇸美国 01 ChatGPT专用 | 1x US
-    type: vless
-    server: freea.glyphara.com
-    port: 10701
-    uuid: 27fb2ba0-bff1-476f-806d-0776effe305c
+  - name: 请重新更新订阅链接
+    type: ss
+    server: 127.0.0.1
+    port: '1080'
+    cipher: aes-128-gcm
+    password: 30da620d-2583-46c5-be23-b96b3d84b6e2
     udp: true
-    tls: true
-    skip-cert-verify: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    servername: www.amd.com
-    reality-opts:
-      public-key: N2tG_gTPiZ6h1hRm6Ddo2F58xaZcSJxA9AzTLJ77dig
-      short-id: ca8f2085
-  - name: 🇺🇸美国 02 ChatGPT专用 | 1x US
-    type: vless
-    server: freea.glyphara.com
-    port: 10702
-    uuid: 27fb2ba0-bff1-476f-806d-0776effe305c
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    servername: learn.microsoft.com
-    reality-opts:
-      public-key: rTK_3WPhJIY8fFpogPmRdRIEDbIjzQ-FUf3Blan2FUo
-      short-id: a5523ed7
-  - name: 🇺🇸美国 03 ChatGPT专用 | 1x US
-    type: vless
-    server: freea.glyphara.com
-    port: 10703
-    uuid: 27fb2ba0-bff1-476f-806d-0776effe305c
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    servername: mensura.cdn-apple.com
-    reality-opts:
-      public-key: Elg7Z8U33fyKhNJRJRXm79wsKiR6DZxMzV90md0Yix0
-      short-id: af33703e
 https://github.com/tolinkshare2/tolinkshare2.github.io/blob/main/README.md:
   clash_link: https://3m5kTE.tosslk.xyz/b0f5c3130255fe0e6ece4ccd8214db42
   proxies:
@@ -707,215 +588,96 @@ https://github.com/tolinkshare2/tolinkshare2.github.io/blob/main/README.md:
     password: 7da3ecba-5a17-4b23-b263-db5450271dcb
     udp: true
 https://github.com/abshare/abshare.github.io/blob/main/README.md:
-  clash_link: https://xouuKR.absslk.xyz/7b97638197a3ceab5c7454bdb937c0fb
+  clash_link: https://fzRA0l.absslk.xyz/7b2d6d2a7f54d8e158d9d8a669b02bd6
   proxies:
-  - name: 🇭🇰香港 01 | 1x HK
-    type: vless
-    server: freea.glyphara.com
-    port: 10101
-    uuid: 9062173b-304b-472b-9457-e53f209787d7
+  - name: 节点加速器
+    type: ss
+    server: 127.0.0.1
+    port: '1080'
+    cipher: aes-128-gcm
+    password: 9b36c82f-604c-4947-8b9a-bb979b587057
     udp: true
-    tls: true
-    skip-cert-verify: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    servername: itunes.apple.com
-    reality-opts:
-      public-key: Oxny-QZDuN1gZiDG4i4CpzssfwmyubVuQaWeDNIaR2c
-      short-id: 3bfafa0d
-  - name: 🇭🇰香港 02 | 1x HK
-    type: vless
-    server: freea.glyphara.com
-    port: 10102
-    uuid: 9062173b-304b-472b-9457-e53f209787d7
+  - name: 提醒您
+    type: ss
+    server: 127.0.0.1
+    port: '1080'
+    cipher: aes-128-gcm
+    password: 9b36c82f-604c-4947-8b9a-bb979b587057
     udp: true
-    tls: true
-    skip-cert-verify: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    servername: www.amd.com
-    reality-opts:
-      public-key: lxniYaoMB3pwyTdzz0ac-SyVstJzh4jFR_LGnCafJmY
-      short-id: ab1fe212
-  - name: 🇭🇰香港 03 | 家宽 | 1x HK
-    type: vless
-    server: freea.glyphara.com
-    port: 10103
-    uuid: 9062173b-304b-472b-9457-e53f209787d7
+  - name: 我们已升级
+    type: ss
+    server: 127.0.0.1
+    port: '1080'
+    cipher: aes-128-gcm
+    password: 9b36c82f-604c-4947-8b9a-bb979b587057
     udp: true
-    tls: true
-    skip-cert-verify: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    servername: learn.microsoft.com
-    reality-opts:
-      public-key: 0ttWq9Y-RxVRN-pTG1DJy5FtGucHDi3iISxxQJQlQG4
-      short-id: 57b44e1b
-  - name: 🇹🇼台湾 01 | 1x TW
-    type: vless
-    server: freea.glyphara.com
-    port: 10201
-    uuid: 9062173b-304b-472b-9457-e53f209787d7
+  - name: 节点协议
+    type: ss
+    server: 127.0.0.1
+    port: '1080'
+    cipher: aes-128-gcm
+    password: 9b36c82f-604c-4947-8b9a-bb979b587057
     udp: true
-    tls: true
-    skip-cert-verify: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    servername: lol.secure.dyn.riotcdn.net
-    reality-opts:
-      public-key: ycXJZWrff0ye4IwGGkcAdICgILE73x_4NteTk0_B0mk
-      short-id: b95a1d5a
-  - name: 🇹🇼台湾 02 | 1x TW
-    type: vless
-    server: freea.glyphara.com
-    port: 10202
-    uuid: 9062173b-304b-472b-9457-e53f209787d7
+  - name: 您的Clash客户端
+    type: ss
+    server: 127.0.0.1
+    port: '1080'
+    cipher: aes-128-gcm
+    password: 9b36c82f-604c-4947-8b9a-bb979b587057
     udp: true
-    tls: true
-    skip-cert-verify: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    servername: www.samsung.com
-    reality-opts:
-      public-key: zwa-1DZq-PIYt1ikoW-4o791AOfai7o8ArDynGfDT1Q
-      short-id: 56332aef
-  - name: 🇹🇼台湾 03 | 1x TW
-    type: vless
-    server: freea.glyphara.com
-    port: 10203
-    uuid: 9062173b-304b-472b-9457-e53f209787d7
+  - name: 版本已过时
+    type: ss
+    server: 127.0.0.1
+    port: '1080'
+    cipher: aes-128-gcm
+    password: 9b36c82f-604c-4947-8b9a-bb979b587057
     udp: true
-    tls: true
-    skip-cert-verify: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    servername: learn.microsoft.com
-    reality-opts:
-      public-key: b_oJS2CybK60KHdriKo8W6PH9n5P4EP6aQtu4PKa_kY
-      short-id: c6299255
-  - name: 🇯🇵日本 01 | 1x JP
-    type: vless
-    server: freea.glyphara.com
-    port: 10301
-    uuid: 9062173b-304b-472b-9457-e53f209787d7
+  - name: 请访问我们的
+    type: ss
+    server: 127.0.0.1
+    port: '1080'
+    cipher: aes-128-gcm
+    password: 9b36c82f-604c-4947-8b9a-bb979b587057
     udp: true
-    tls: true
-    skip-cert-verify: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    servername: lol.secure.dyn.riotcdn.net
-    reality-opts:
-      public-key: 5O0xclCijKudVBbAI7iHDHU2XSWFT65sPjjIB_EpCW0
-      short-id: 61b11982
-  - name: 🇯🇵日本 02 | 1x JP
-    type: vless
-    server: freea.glyphara.com
-    port: 10302
-    uuid: 9062173b-304b-472b-9457-e53f209787d7
+  - name: 官方网站
+    type: ss
+    server: 127.0.0.1
+    port: '1080'
+    cipher: aes-128-gcm
+    password: 9b36c82f-604c-4947-8b9a-bb979b587057
     udp: true
-    tls: true
-    skip-cert-verify: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    servername: updates.cdn-apple.com
-    reality-opts:
-      public-key: lmFyS9lNX3H_ekYIV0M7GHu7OGTXDw6YnbAkKzpDjEM
-      short-id: d08a45bb
-  - name: 🇯🇵日本 03 | 1x JP
-    type: vless
-    server: freea.glyphara.com
-    port: 10303
-    uuid: 9062173b-304b-472b-9457-e53f209787d7
+  - name: 根据您的
+    type: ss
+    server: 127.0.0.1
+    port: '1080'
+    cipher: aes-128-gcm
+    password: 9b36c82f-604c-4947-8b9a-bb979b587057
     udp: true
-    tls: true
-    skip-cert-verify: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    servername: mensura.cdn-apple.com
-    reality-opts:
-      public-key: eUfsI_--upEKzxUZjvYIlEZuAmqdbyIdLVI0e-SHKXs
-      short-id: 7b520aea
-  - name: 🇸🇬新加坡 01 | 1x SG
-    type: vless
-    server: freea.glyphara.com
-    port: 10401
-    uuid: 9062173b-304b-472b-9457-e53f209787d7
+  - name: 设备和系统
+    type: ss
+    server: 127.0.0.1
+    port: '1080'
+    cipher: aes-128-gcm
+    password: 9b36c82f-604c-4947-8b9a-bb979b587057
     udp: true
-    tls: true
-    skip-cert-verify: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    servername: learn.microsoft.com
-    reality-opts:
-      public-key: Yfj_b51yjrpk_SsudiAn7eypforpsjyyq9ii2jOIj1Y
-      short-id: 0ae5a1db
-  - name: 🇸🇬新加坡 02 | 1x SG
-    type: vless
-    server: freea.glyphara.com
-    port: 10402
-    uuid: 9062173b-304b-472b-9457-e53f209787d7
+  - name: 下载新版本的客户端
+    type: ss
+    server: 127.0.0.1
+    port: '1080'
+    cipher: aes-128-gcm
+    password: 9b36c82f-604c-4947-8b9a-bb979b587057
     udp: true
-    tls: true
-    skip-cert-verify: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    servername: itunes.apple.com
-    reality-opts:
-      public-key: iXQCe8UlkT4P4XvMLZHGlxvMWnEKsfOrZRqUrUdeGy8
-      short-id: 8978c6af
-  - name: 🇸🇬新加坡 03 | 1x SG
-    type: vless
-    server: freea.glyphara.com
-    port: 10403
-    uuid: 9062173b-304b-472b-9457-e53f209787d7
+  - name: 客户端更新成功后
+    type: ss
+    server: 127.0.0.1
+    port: '1080'
+    cipher: aes-128-gcm
+    password: 9b36c82f-604c-4947-8b9a-bb979b587057
     udp: true
-    tls: true
-    skip-cert-verify: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    servername: www.samsung.com
-    reality-opts:
-      public-key: JiXAdYw2UimHFD-FA9V6zQMvu0fDnhIwSDinsXd8ByE
-      short-id: b01bd834
-  - name: 🇺🇸美国 01 ChatGPT专用 | 1x US
-    type: vless
-    server: freea.glyphara.com
-    port: 10701
-    uuid: 9062173b-304b-472b-9457-e53f209787d7
+  - name: 请重新更新订阅链接
+    type: ss
+    server: 127.0.0.1
+    port: '1080'
+    cipher: aes-128-gcm
+    password: 9b36c82f-604c-4947-8b9a-bb979b587057
     udp: true
-    tls: true
-    skip-cert-verify: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    servername: www.amd.com
-    reality-opts:
-      public-key: N2tG_gTPiZ6h1hRm6Ddo2F58xaZcSJxA9AzTLJ77dig
-      short-id: ca8f2085
-  - name: 🇺🇸美国 02 ChatGPT专用 | 1x US
-    type: vless
-    server: freea.glyphara.com
-    port: 10702
-    uuid: 9062173b-304b-472b-9457-e53f209787d7
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    servername: learn.microsoft.com
-    reality-opts:
-      public-key: rTK_3WPhJIY8fFpogPmRdRIEDbIjzQ-FUf3Blan2FUo
-      short-id: a5523ed7
-  - name: 🇺🇸美国 03 ChatGPT专用 | 1x US
-    type: vless
-    server: freea.glyphara.com
-    port: 10703
-    uuid: 9062173b-304b-472b-9457-e53f209787d7
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    servername: mensura.cdn-apple.com
-    reality-opts:
-      public-key: Elg7Z8U33fyKhNJRJRXm79wsKiR6DZxMzV90md0Yix0
-      short-id: af33703e
