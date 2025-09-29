@@ -1,4 +1,4 @@
-# 配置合并于 2025-09-29 22:58:20
+# 配置合并于 2025-09-29 23:13:14
 mixed-port: 7890
 tcp-concurrent: false
 allow-lan: true
@@ -330,182 +330,182 @@ proxies:
   server: 127.0.0.1
   port: '1080'
   cipher: aes-128-gcm
-  password: 5df6e5c4-8f49-43ab-ae36-05214c90988b
+  password: 939f5f82-fee7-49ba-8800-2225fc0bd62e
   udp: true
 - name: 提醒您 | toshare5
   type: ss
   server: 127.0.0.1
   port: '1080'
   cipher: aes-128-gcm
-  password: 5df6e5c4-8f49-43ab-ae36-05214c90988b
+  password: 939f5f82-fee7-49ba-8800-2225fc0bd62e
   udp: true
 - name: 我们已升级 | toshare5
   type: ss
   server: 127.0.0.1
   port: '1080'
   cipher: aes-128-gcm
-  password: 5df6e5c4-8f49-43ab-ae36-05214c90988b
+  password: 939f5f82-fee7-49ba-8800-2225fc0bd62e
   udp: true
 - name: 节点协议 | toshare5
   type: ss
   server: 127.0.0.1
   port: '1080'
   cipher: aes-128-gcm
-  password: 5df6e5c4-8f49-43ab-ae36-05214c90988b
+  password: 939f5f82-fee7-49ba-8800-2225fc0bd62e
   udp: true
 - name: 您的Clash客户端 | toshare5
   type: ss
   server: 127.0.0.1
   port: '1080'
   cipher: aes-128-gcm
-  password: 5df6e5c4-8f49-43ab-ae36-05214c90988b
+  password: 939f5f82-fee7-49ba-8800-2225fc0bd62e
   udp: true
 - name: 版本已过时 | toshare5
   type: ss
   server: 127.0.0.1
   port: '1080'
   cipher: aes-128-gcm
-  password: 5df6e5c4-8f49-43ab-ae36-05214c90988b
+  password: 939f5f82-fee7-49ba-8800-2225fc0bd62e
   udp: true
 - name: 请访问我们的 | toshare5
   type: ss
   server: 127.0.0.1
   port: '1080'
   cipher: aes-128-gcm
-  password: 5df6e5c4-8f49-43ab-ae36-05214c90988b
+  password: 939f5f82-fee7-49ba-8800-2225fc0bd62e
   udp: true
 - name: 官方网站 | toshare5
   type: ss
   server: 127.0.0.1
   port: '1080'
   cipher: aes-128-gcm
-  password: 5df6e5c4-8f49-43ab-ae36-05214c90988b
+  password: 939f5f82-fee7-49ba-8800-2225fc0bd62e
   udp: true
 - name: 根据您的 | toshare5
   type: ss
   server: 127.0.0.1
   port: '1080'
   cipher: aes-128-gcm
-  password: 5df6e5c4-8f49-43ab-ae36-05214c90988b
+  password: 939f5f82-fee7-49ba-8800-2225fc0bd62e
   udp: true
 - name: 设备和系统 | toshare5
   type: ss
   server: 127.0.0.1
   port: '1080'
   cipher: aes-128-gcm
-  password: 5df6e5c4-8f49-43ab-ae36-05214c90988b
+  password: 939f5f82-fee7-49ba-8800-2225fc0bd62e
   udp: true
 - name: 下载新版本的客户端 | toshare5
   type: ss
   server: 127.0.0.1
   port: '1080'
   cipher: aes-128-gcm
-  password: 5df6e5c4-8f49-43ab-ae36-05214c90988b
+  password: 939f5f82-fee7-49ba-8800-2225fc0bd62e
   udp: true
 - name: 客户端更新成功后 | toshare5
   type: ss
   server: 127.0.0.1
   port: '1080'
   cipher: aes-128-gcm
-  password: 5df6e5c4-8f49-43ab-ae36-05214c90988b
+  password: 939f5f82-fee7-49ba-8800-2225fc0bd62e
   udp: true
 - name: 请重新更新订阅链接 | toshare5
   type: ss
   server: 127.0.0.1
   port: '1080'
   cipher: aes-128-gcm
-  password: 5df6e5c4-8f49-43ab-ae36-05214c90988b
+  password: 939f5f82-fee7-49ba-8800-2225fc0bd62e
   udp: true
 - name: 节点加速器 | abshare3
   type: ss
   server: 127.0.0.1
   port: '1080'
   cipher: aes-128-gcm
-  password: 3f938af7-93ef-4c70-8195-9345a5a22ca0
+  password: a509c41c-1f42-45d8-9e5d-e80163080643
   udp: true
 - name: 提醒您 | abshare3
   type: ss
   server: 127.0.0.1
   port: '1080'
   cipher: aes-128-gcm
-  password: 3f938af7-93ef-4c70-8195-9345a5a22ca0
+  password: a509c41c-1f42-45d8-9e5d-e80163080643
   udp: true
 - name: 我们已升级 | abshare3
   type: ss
   server: 127.0.0.1
   port: '1080'
   cipher: aes-128-gcm
-  password: 3f938af7-93ef-4c70-8195-9345a5a22ca0
+  password: a509c41c-1f42-45d8-9e5d-e80163080643
   udp: true
 - name: 节点协议 | abshare3
   type: ss
   server: 127.0.0.1
   port: '1080'
   cipher: aes-128-gcm
-  password: 3f938af7-93ef-4c70-8195-9345a5a22ca0
+  password: a509c41c-1f42-45d8-9e5d-e80163080643
   udp: true
 - name: 您的Clash客户端 | abshare3
   type: ss
   server: 127.0.0.1
   port: '1080'
   cipher: aes-128-gcm
-  password: 3f938af7-93ef-4c70-8195-9345a5a22ca0
+  password: a509c41c-1f42-45d8-9e5d-e80163080643
   udp: true
 - name: 版本已过时 | abshare3
   type: ss
   server: 127.0.0.1
   port: '1080'
   cipher: aes-128-gcm
-  password: 3f938af7-93ef-4c70-8195-9345a5a22ca0
+  password: a509c41c-1f42-45d8-9e5d-e80163080643
   udp: true
 - name: 请访问我们的 | abshare3
   type: ss
   server: 127.0.0.1
   port: '1080'
   cipher: aes-128-gcm
-  password: 3f938af7-93ef-4c70-8195-9345a5a22ca0
+  password: a509c41c-1f42-45d8-9e5d-e80163080643
   udp: true
 - name: 官方网站 | abshare3
   type: ss
   server: 127.0.0.1
   port: '1080'
   cipher: aes-128-gcm
-  password: 3f938af7-93ef-4c70-8195-9345a5a22ca0
+  password: a509c41c-1f42-45d8-9e5d-e80163080643
   udp: true
 - name: 根据您的 | abshare3
   type: ss
   server: 127.0.0.1
   port: '1080'
   cipher: aes-128-gcm
-  password: 3f938af7-93ef-4c70-8195-9345a5a22ca0
+  password: a509c41c-1f42-45d8-9e5d-e80163080643
   udp: true
 - name: 设备和系统 | abshare3
   type: ss
   server: 127.0.0.1
   port: '1080'
   cipher: aes-128-gcm
-  password: 3f938af7-93ef-4c70-8195-9345a5a22ca0
+  password: a509c41c-1f42-45d8-9e5d-e80163080643
   udp: true
 - name: 下载新版本的客户端 | abshare3
   type: ss
   server: 127.0.0.1
   port: '1080'
   cipher: aes-128-gcm
-  password: 3f938af7-93ef-4c70-8195-9345a5a22ca0
+  password: a509c41c-1f42-45d8-9e5d-e80163080643
   udp: true
 - name: 客户端更新成功后 | abshare3
   type: ss
   server: 127.0.0.1
   port: '1080'
   cipher: aes-128-gcm
-  password: 3f938af7-93ef-4c70-8195-9345a5a22ca0
+  password: a509c41c-1f42-45d8-9e5d-e80163080643
   udp: true
 - name: 请重新更新订阅链接 | abshare3
   type: ss
   server: 127.0.0.1
   port: '1080'
   cipher: aes-128-gcm
-  password: 3f938af7-93ef-4c70-8195-9345a5a22ca0
+  password: a509c41c-1f42-45d8-9e5d-e80163080643
   udp: true
 - name: 节点加速器 | tolinkshare2
   type: ss
@@ -603,91 +603,91 @@ proxies:
   server: 127.0.0.1
   port: '1080'
   cipher: aes-128-gcm
-  password: 2b4c5bc9-9725-448d-b740-ece03567d9f6
+  password: 29f6dfb1-1735-4211-8a75-0c17a86156bb
   udp: true
 - name: 提醒您 | mksshare
   type: ss
   server: 127.0.0.1
   port: '1080'
   cipher: aes-128-gcm
-  password: 2b4c5bc9-9725-448d-b740-ece03567d9f6
+  password: 29f6dfb1-1735-4211-8a75-0c17a86156bb
   udp: true
 - name: 我们已升级 | mksshare
   type: ss
   server: 127.0.0.1
   port: '1080'
   cipher: aes-128-gcm
-  password: 2b4c5bc9-9725-448d-b740-ece03567d9f6
+  password: 29f6dfb1-1735-4211-8a75-0c17a86156bb
   udp: true
 - name: 节点协议 | mksshare
   type: ss
   server: 127.0.0.1
   port: '1080'
   cipher: aes-128-gcm
-  password: 2b4c5bc9-9725-448d-b740-ece03567d9f6
+  password: 29f6dfb1-1735-4211-8a75-0c17a86156bb
   udp: true
 - name: 您的Clash客户端 | mksshare
   type: ss
   server: 127.0.0.1
   port: '1080'
   cipher: aes-128-gcm
-  password: 2b4c5bc9-9725-448d-b740-ece03567d9f6
+  password: 29f6dfb1-1735-4211-8a75-0c17a86156bb
   udp: true
 - name: 版本已过时 | mksshare
   type: ss
   server: 127.0.0.1
   port: '1080'
   cipher: aes-128-gcm
-  password: 2b4c5bc9-9725-448d-b740-ece03567d9f6
+  password: 29f6dfb1-1735-4211-8a75-0c17a86156bb
   udp: true
 - name: 请访问我们的 | mksshare
   type: ss
   server: 127.0.0.1
   port: '1080'
   cipher: aes-128-gcm
-  password: 2b4c5bc9-9725-448d-b740-ece03567d9f6
+  password: 29f6dfb1-1735-4211-8a75-0c17a86156bb
   udp: true
 - name: 官方网站 | mksshare
   type: ss
   server: 127.0.0.1
   port: '1080'
   cipher: aes-128-gcm
-  password: 2b4c5bc9-9725-448d-b740-ece03567d9f6
+  password: 29f6dfb1-1735-4211-8a75-0c17a86156bb
   udp: true
 - name: 根据您的 | mksshare
   type: ss
   server: 127.0.0.1
   port: '1080'
   cipher: aes-128-gcm
-  password: 2b4c5bc9-9725-448d-b740-ece03567d9f6
+  password: 29f6dfb1-1735-4211-8a75-0c17a86156bb
   udp: true
 - name: 设备和系统 | mksshare
   type: ss
   server: 127.0.0.1
   port: '1080'
   cipher: aes-128-gcm
-  password: 2b4c5bc9-9725-448d-b740-ece03567d9f6
+  password: 29f6dfb1-1735-4211-8a75-0c17a86156bb
   udp: true
 - name: 下载新版本的客户端 | mksshare
   type: ss
   server: 127.0.0.1
   port: '1080'
   cipher: aes-128-gcm
-  password: 2b4c5bc9-9725-448d-b740-ece03567d9f6
+  password: 29f6dfb1-1735-4211-8a75-0c17a86156bb
   udp: true
 - name: 客户端更新成功后 | mksshare
   type: ss
   server: 127.0.0.1
   port: '1080'
   cipher: aes-128-gcm
-  password: 2b4c5bc9-9725-448d-b740-ece03567d9f6
+  password: 29f6dfb1-1735-4211-8a75-0c17a86156bb
   udp: true
 - name: 请重新更新订阅链接 | mksshare
   type: ss
   server: 127.0.0.1
   port: '1080'
   cipher: aes-128-gcm
-  password: 2b4c5bc9-9725-448d-b740-ece03567d9f6
+  password: 29f6dfb1-1735-4211-8a75-0c17a86156bb
   udp: true
 proxy-groups:
 - name: 代理选择
