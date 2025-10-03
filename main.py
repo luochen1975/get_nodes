@@ -87,19 +87,25 @@ def download_and_extract_proxies(link):
         print(f"   ✗ 下载或解析 {link} 失败: {e}")
         return None
 
-
 def load_cache():
-    """从缓存文件加载数据。"""
-    if os.path.exists(CACHE_FILE):
-        try:
-            with open(CACHE_FILE, 'r', encoding='utf-8') as f:
-                print(f"✓ 成功加载缓存文件 '{CACHE_FILE}'")
-                return yaml.safe_load(f) or {}
-        except Exception as e:
-            print(f"✗ 警告: 加载缓存文件 '{CACHE_FILE}' 失败: {e}")
-            return {}
+    """优先从远程 cache.yaml 加载数据，失败则回退本地缓存。"""
+    remote_url = "https://raw.githubusercontent.com/lkchx123/get_nodes/main/cache.yaml"
+    try:
+        print(f"-> 尝试从远程加载缓存: {remote_url}")
+        response = requests.get(remote_url, timeout=10)
+        response.raise_for_status()
+        print(f"✓ 成功加载远程缓存文件")
+        return yaml.safe_load(response.text) or {}
+    except Exception as e:
+        print(f"✗ 警告: 加载远程缓存失败: {e}")
+        if os.path.exists(CACHE_FILE):
+            try:
+                with open(CACHE_FILE, 'r', encoding='utf-8') as f:
+                    print(f"✓ 成功加载本地缓存文件 '{CACHE_FILE}'")
+                    return yaml.safe_load(f) or {}
+            except Exception as e:
+                print(f"✗ 警告: 加载本地缓存文件 '{CACHE_FILE}' 失败: {e}")
     return {}
-
 
 def save_cache(cache_data):
     """将数据保存到缓存文件。"""
@@ -216,5 +222,6 @@ def merge_configs():
 
 if __name__ == "__main__":
     merge_configs()
+
 
 
