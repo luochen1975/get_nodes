@@ -425,18 +425,18 @@ https://github.com/abshare3/abshare3.github.io/blob/main/README.md:
       public-key: Elg7Z8U33fyKhNJRJRXm79wsKiR6DZxMzV90md0Yix0
       short-id: af33703e
 https://github.com/tolinkshare2/tolinkshare2.github.io/blob/main/README.md:
-  clash_link: https://PD97m9.tosslk.xyz/424f1b7759eeddc16b9181b7ff701d3a
+  clash_link: https://Et6VtY.tosslk.xyz/61228e7e0cc3ce46c5dad0d8c65a43a3
   proxies:
   - name: 🇭🇰香港 01 | 1x HK
     type: vless
     server: freea.glyphara.com
     port: 10101
-    uuid: 78d4473c-e5eb-40ce-90d8-de5af34a8e52
+    uuid: 28f29de7-cbe1-48b0-8401-6419dd475193
     udp: true
     tls: true
     skip-cert-verify: true
     flow: xtls-rprx-vision
-    client-fingerprint: chrome
+    client-fingerprint: firefox
     servername: itunes.apple.com
     reality-opts:
       public-key: Oxny-QZDuN1gZiDG4i4CpzssfwmyubVuQaWeDNIaR2c
@@ -445,12 +445,12 @@ https://github.com/tolinkshare2/tolinkshare2.github.io/blob/main/README.md:
     type: vless
     server: freea.glyphara.com
     port: 10102
-    uuid: 78d4473c-e5eb-40ce-90d8-de5af34a8e52
+    uuid: 28f29de7-cbe1-48b0-8401-6419dd475193
     udp: true
     tls: true
     skip-cert-verify: true
     flow: xtls-rprx-vision
-    client-fingerprint: chrome
+    client-fingerprint: firefox
     servername: www.amd.com
     reality-opts:
       public-key: lxniYaoMB3pwyTdzz0ac-SyVstJzh4jFR_LGnCafJmY
@@ -459,12 +459,12 @@ https://github.com/tolinkshare2/tolinkshare2.github.io/blob/main/README.md:
     type: vless
     server: freea.glyphara.com
     port: 10103
-    uuid: 78d4473c-e5eb-40ce-90d8-de5af34a8e52
+    uuid: 28f29de7-cbe1-48b0-8401-6419dd475193
     udp: true
     tls: true
     skip-cert-verify: true
     flow: xtls-rprx-vision
-    client-fingerprint: chrome
+    client-fingerprint: firefox
     servername: learn.microsoft.com
     reality-opts:
       public-key: 0ttWq9Y-RxVRN-pTG1DJy5FtGucHDi3iISxxQJQlQG4
@@ -473,12 +473,12 @@ https://github.com/tolinkshare2/tolinkshare2.github.io/blob/main/README.md:
     type: vless
     server: freea.glyphara.com
     port: 10201
-    uuid: 78d4473c-e5eb-40ce-90d8-de5af34a8e52
+    uuid: 28f29de7-cbe1-48b0-8401-6419dd475193
     udp: true
     tls: true
     skip-cert-verify: true
     flow: xtls-rprx-vision
-    client-fingerprint: chrome
+    client-fingerprint: firefox
     servername: lol.secure.dyn.riotcdn.net
     reality-opts:
       public-key: ycXJZWrff0ye4IwGGkcAdICgILE73x_4NteTk0_B0mk
@@ -487,12 +487,12 @@ https://github.com/tolinkshare2/tolinkshare2.github.io/blob/main/README.md:
     type: vless
     server: freea.glyphara.com
     port: 10202
-    uuid: 78d4473c-e5eb-40ce-90d8-de5af34a8e52
+    uuid: 28f29de7-cbe1-48b0-8401-6419dd475193
     udp: true
     tls: true
     skip-cert-verify: true
     flow: xtls-rprx-vision
-    client-fingerprint: chrome
+    client-fingerprint: firefox
     servername: www.samsung.com
     reality-opts:
       public-key: zwa-1DZq-PIYt1ikoW-4o791AOfai7o8ArDynGfDT1Q
@@ -501,12 +501,12 @@ https://github.com/tolinkshare2/tolinkshare2.github.io/blob/main/README.md:
     type: vless
     server: freea.glyphara.com
     port: 10203
-    uuid: 78d4473c-e5eb-40ce-90d8-de5af34a8e52
+    uuid: 28f29de7-cbe1-48b0-8401-6419dd475193
     udp: true
     tls: true
     skip-cert-verify: true
     flow: xtls-rprx-vision
-    client-fingerprint: chrome
+    client-fingerprint: firefox
     servername: learn.microsoft.com
     reality-opts:
       public-key: b_oJS2CybK60KHdriKo8W6PH9n5P4EP6aQtu4PKa_kY
@@ -515,12 +515,12 @@ https://github.com/tolinkshare2/tolinkshare2.github.io/blob/main/README.md:
     type: vless
     server: freea.glyphara.com
     port: 10301
-    uuid: 78d4473c-e5eb-40ce-90d8-de5af34a8e52
+    uuid: 28f29de7-cbe1-48b0-8401-6419dd475193
     udp: true
     tls: true
     skip-cert-verify: true
     flow: xtls-rprx-vision
-    client-fingerprint: chrome
+    client-fingerprint: firefox
     servername: lol.secure.dyn.riotcdn.net
     reality-opts:
       public-key: 5O0xclCijKudVBbAI7iHDHU2XSWFT65sPjjIB_EpCW0
@@ -529,12 +529,12 @@ https://github.com/tolinkshare2/tolinkshare2.github.io/blob/main/README.md:
     type: vless
     server: freea.glyphara.com
     port: 10302
-    uuid: 78d4473c-e5eb-40ce-90d8-de5af34a8e52
+    uuid: 28f29de7-cbe1-48b0-8401-6419dd475193
     udp: true
     tls: true
     skip-cert-verify: true
     flow: xtls-rprx-vision
-    client-fingerprint: chrome
+    client-fingerprint: firefox
     servername: updates.cdn-apple.com
     reality-opts:
       public-key: lmFyS9lNX3H_ekYIV0M7GHu7OGTXDw6YnbAkKzpDjEM
@@ -543,12 +543,12 @@ https://github.com/tolinkshare2/tolinkshare2.github.io/blob/main/README.md:
     type: vless
     server: freea.glyphara.com
     port: 10303
-    uuid: 78d4473c-e5eb-40ce-90d8-de5af34a8e52
+    uuid: 28f29de7-cbe1-48b0-8401-6419dd475193
     udp: true
     tls: true
     skip-cert-verify: true
     flow: xtls-rprx-vision
-    client-fingerprint: chrome
+    client-fingerprint: firefox
     servername: mensura.cdn-apple.com
     reality-opts:
       public-key: eUfsI_--upEKzxUZjvYIlEZuAmqdbyIdLVI0e-SHKXs
@@ -557,12 +557,12 @@ https://github.com/tolinkshare2/tolinkshare2.github.io/blob/main/README.md:
     type: vless
     server: freea.glyphara.com
     port: 10401
-    uuid: 78d4473c-e5eb-40ce-90d8-de5af34a8e52
+    uuid: 28f29de7-cbe1-48b0-8401-6419dd475193
     udp: true
     tls: true
     skip-cert-verify: true
     flow: xtls-rprx-vision
-    client-fingerprint: chrome
+    client-fingerprint: firefox
     servername: learn.microsoft.com
     reality-opts:
       public-key: Yfj_b51yjrpk_SsudiAn7eypforpsjyyq9ii2jOIj1Y
@@ -571,12 +571,12 @@ https://github.com/tolinkshare2/tolinkshare2.github.io/blob/main/README.md:
     type: vless
     server: freea.glyphara.com
     port: 10402
-    uuid: 78d4473c-e5eb-40ce-90d8-de5af34a8e52
+    uuid: 28f29de7-cbe1-48b0-8401-6419dd475193
     udp: true
     tls: true
     skip-cert-verify: true
     flow: xtls-rprx-vision
-    client-fingerprint: chrome
+    client-fingerprint: firefox
     servername: itunes.apple.com
     reality-opts:
       public-key: iXQCe8UlkT4P4XvMLZHGlxvMWnEKsfOrZRqUrUdeGy8
@@ -585,12 +585,12 @@ https://github.com/tolinkshare2/tolinkshare2.github.io/blob/main/README.md:
     type: vless
     server: freea.glyphara.com
     port: 10403
-    uuid: 78d4473c-e5eb-40ce-90d8-de5af34a8e52
+    uuid: 28f29de7-cbe1-48b0-8401-6419dd475193
     udp: true
     tls: true
     skip-cert-verify: true
     flow: xtls-rprx-vision
-    client-fingerprint: chrome
+    client-fingerprint: firefox
     servername: www.samsung.com
     reality-opts:
       public-key: JiXAdYw2UimHFD-FA9V6zQMvu0fDnhIwSDinsXd8ByE
@@ -599,12 +599,12 @@ https://github.com/tolinkshare2/tolinkshare2.github.io/blob/main/README.md:
     type: vless
     server: freea.glyphara.com
     port: 10701
-    uuid: 78d4473c-e5eb-40ce-90d8-de5af34a8e52
+    uuid: 28f29de7-cbe1-48b0-8401-6419dd475193
     udp: true
     tls: true
     skip-cert-verify: true
     flow: xtls-rprx-vision
-    client-fingerprint: chrome
+    client-fingerprint: firefox
     servername: www.amd.com
     reality-opts:
       public-key: N2tG_gTPiZ6h1hRm6Ddo2F58xaZcSJxA9AzTLJ77dig
@@ -613,12 +613,12 @@ https://github.com/tolinkshare2/tolinkshare2.github.io/blob/main/README.md:
     type: vless
     server: freea.glyphara.com
     port: 10702
-    uuid: 78d4473c-e5eb-40ce-90d8-de5af34a8e52
+    uuid: 28f29de7-cbe1-48b0-8401-6419dd475193
     udp: true
     tls: true
     skip-cert-verify: true
     flow: xtls-rprx-vision
-    client-fingerprint: chrome
+    client-fingerprint: firefox
     servername: learn.microsoft.com
     reality-opts:
       public-key: rTK_3WPhJIY8fFpogPmRdRIEDbIjzQ-FUf3Blan2FUo
@@ -627,12 +627,12 @@ https://github.com/tolinkshare2/tolinkshare2.github.io/blob/main/README.md:
     type: vless
     server: freea.glyphara.com
     port: 10703
-    uuid: 78d4473c-e5eb-40ce-90d8-de5af34a8e52
+    uuid: 28f29de7-cbe1-48b0-8401-6419dd475193
     udp: true
     tls: true
     skip-cert-verify: true
     flow: xtls-rprx-vision
-    client-fingerprint: chrome
+    client-fingerprint: firefox
     servername: mensura.cdn-apple.com
     reality-opts:
       public-key: Elg7Z8U33fyKhNJRJRXm79wsKiR6DZxMzV90md0Yix0
@@ -851,18 +851,18 @@ https://github.com/toshare5/toshare5.github.io/blob/main/README.md:
       public-key: Elg7Z8U33fyKhNJRJRXm79wsKiR6DZxMzV90md0Yix0
       short-id: af33703e
 https://github.com/abshare/abshare.github.io/blob/main/README.md:
-  clash_link: https://p7cuzw.absslk.xyz/7eabfd154048efc62e7607d3c657d735
+  clash_link: https://u2J42T.absslk.xyz/9b49438342d6a22b00f9517b91480ab1
   proxies:
   - name: 🇭🇰香港 01 | 1x HK
     type: vless
     server: freea.glyphara.com
     port: 10101
-    uuid: 0a91b672-8418-4781-b1c5-4170ed3c179a
+    uuid: b7fd0d6c-a5a4-40f8-a839-a717a9ff2459
     udp: true
     tls: true
     skip-cert-verify: true
     flow: xtls-rprx-vision
-    client-fingerprint: chrome
+    client-fingerprint: firefox
     servername: itunes.apple.com
     reality-opts:
       public-key: Oxny-QZDuN1gZiDG4i4CpzssfwmyubVuQaWeDNIaR2c
@@ -871,12 +871,12 @@ https://github.com/abshare/abshare.github.io/blob/main/README.md:
     type: vless
     server: freea.glyphara.com
     port: 10102
-    uuid: 0a91b672-8418-4781-b1c5-4170ed3c179a
+    uuid: b7fd0d6c-a5a4-40f8-a839-a717a9ff2459
     udp: true
     tls: true
     skip-cert-verify: true
     flow: xtls-rprx-vision
-    client-fingerprint: chrome
+    client-fingerprint: firefox
     servername: www.amd.com
     reality-opts:
       public-key: lxniYaoMB3pwyTdzz0ac-SyVstJzh4jFR_LGnCafJmY
@@ -885,12 +885,12 @@ https://github.com/abshare/abshare.github.io/blob/main/README.md:
     type: vless
     server: freea.glyphara.com
     port: 10103
-    uuid: 0a91b672-8418-4781-b1c5-4170ed3c179a
+    uuid: b7fd0d6c-a5a4-40f8-a839-a717a9ff2459
     udp: true
     tls: true
     skip-cert-verify: true
     flow: xtls-rprx-vision
-    client-fingerprint: chrome
+    client-fingerprint: firefox
     servername: learn.microsoft.com
     reality-opts:
       public-key: 0ttWq9Y-RxVRN-pTG1DJy5FtGucHDi3iISxxQJQlQG4
@@ -899,12 +899,12 @@ https://github.com/abshare/abshare.github.io/blob/main/README.md:
     type: vless
     server: freea.glyphara.com
     port: 10201
-    uuid: 0a91b672-8418-4781-b1c5-4170ed3c179a
+    uuid: b7fd0d6c-a5a4-40f8-a839-a717a9ff2459
     udp: true
     tls: true
     skip-cert-verify: true
     flow: xtls-rprx-vision
-    client-fingerprint: chrome
+    client-fingerprint: firefox
     servername: lol.secure.dyn.riotcdn.net
     reality-opts:
       public-key: ycXJZWrff0ye4IwGGkcAdICgILE73x_4NteTk0_B0mk
@@ -913,12 +913,12 @@ https://github.com/abshare/abshare.github.io/blob/main/README.md:
     type: vless
     server: freea.glyphara.com
     port: 10202
-    uuid: 0a91b672-8418-4781-b1c5-4170ed3c179a
+    uuid: b7fd0d6c-a5a4-40f8-a839-a717a9ff2459
     udp: true
     tls: true
     skip-cert-verify: true
     flow: xtls-rprx-vision
-    client-fingerprint: chrome
+    client-fingerprint: firefox
     servername: www.samsung.com
     reality-opts:
       public-key: zwa-1DZq-PIYt1ikoW-4o791AOfai7o8ArDynGfDT1Q
@@ -927,12 +927,12 @@ https://github.com/abshare/abshare.github.io/blob/main/README.md:
     type: vless
     server: freea.glyphara.com
     port: 10203
-    uuid: 0a91b672-8418-4781-b1c5-4170ed3c179a
+    uuid: b7fd0d6c-a5a4-40f8-a839-a717a9ff2459
     udp: true
     tls: true
     skip-cert-verify: true
     flow: xtls-rprx-vision
-    client-fingerprint: chrome
+    client-fingerprint: firefox
     servername: learn.microsoft.com
     reality-opts:
       public-key: b_oJS2CybK60KHdriKo8W6PH9n5P4EP6aQtu4PKa_kY
@@ -941,12 +941,12 @@ https://github.com/abshare/abshare.github.io/blob/main/README.md:
     type: vless
     server: freea.glyphara.com
     port: 10301
-    uuid: 0a91b672-8418-4781-b1c5-4170ed3c179a
+    uuid: b7fd0d6c-a5a4-40f8-a839-a717a9ff2459
     udp: true
     tls: true
     skip-cert-verify: true
     flow: xtls-rprx-vision
-    client-fingerprint: chrome
+    client-fingerprint: firefox
     servername: lol.secure.dyn.riotcdn.net
     reality-opts:
       public-key: 5O0xclCijKudVBbAI7iHDHU2XSWFT65sPjjIB_EpCW0
@@ -955,12 +955,12 @@ https://github.com/abshare/abshare.github.io/blob/main/README.md:
     type: vless
     server: freea.glyphara.com
     port: 10302
-    uuid: 0a91b672-8418-4781-b1c5-4170ed3c179a
+    uuid: b7fd0d6c-a5a4-40f8-a839-a717a9ff2459
     udp: true
     tls: true
     skip-cert-verify: true
     flow: xtls-rprx-vision
-    client-fingerprint: chrome
+    client-fingerprint: firefox
     servername: updates.cdn-apple.com
     reality-opts:
       public-key: lmFyS9lNX3H_ekYIV0M7GHu7OGTXDw6YnbAkKzpDjEM
@@ -969,12 +969,12 @@ https://github.com/abshare/abshare.github.io/blob/main/README.md:
     type: vless
     server: freea.glyphara.com
     port: 10303
-    uuid: 0a91b672-8418-4781-b1c5-4170ed3c179a
+    uuid: b7fd0d6c-a5a4-40f8-a839-a717a9ff2459
     udp: true
     tls: true
     skip-cert-verify: true
     flow: xtls-rprx-vision
-    client-fingerprint: chrome
+    client-fingerprint: firefox
     servername: mensura.cdn-apple.com
     reality-opts:
       public-key: eUfsI_--upEKzxUZjvYIlEZuAmqdbyIdLVI0e-SHKXs
@@ -983,12 +983,12 @@ https://github.com/abshare/abshare.github.io/blob/main/README.md:
     type: vless
     server: freea.glyphara.com
     port: 10401
-    uuid: 0a91b672-8418-4781-b1c5-4170ed3c179a
+    uuid: b7fd0d6c-a5a4-40f8-a839-a717a9ff2459
     udp: true
     tls: true
     skip-cert-verify: true
     flow: xtls-rprx-vision
-    client-fingerprint: chrome
+    client-fingerprint: firefox
     servername: learn.microsoft.com
     reality-opts:
       public-key: Yfj_b51yjrpk_SsudiAn7eypforpsjyyq9ii2jOIj1Y
@@ -997,12 +997,12 @@ https://github.com/abshare/abshare.github.io/blob/main/README.md:
     type: vless
     server: freea.glyphara.com
     port: 10402
-    uuid: 0a91b672-8418-4781-b1c5-4170ed3c179a
+    uuid: b7fd0d6c-a5a4-40f8-a839-a717a9ff2459
     udp: true
     tls: true
     skip-cert-verify: true
     flow: xtls-rprx-vision
-    client-fingerprint: chrome
+    client-fingerprint: firefox
     servername: itunes.apple.com
     reality-opts:
       public-key: iXQCe8UlkT4P4XvMLZHGlxvMWnEKsfOrZRqUrUdeGy8
@@ -1011,12 +1011,12 @@ https://github.com/abshare/abshare.github.io/blob/main/README.md:
     type: vless
     server: freea.glyphara.com
     port: 10403
-    uuid: 0a91b672-8418-4781-b1c5-4170ed3c179a
+    uuid: b7fd0d6c-a5a4-40f8-a839-a717a9ff2459
     udp: true
     tls: true
     skip-cert-verify: true
     flow: xtls-rprx-vision
-    client-fingerprint: chrome
+    client-fingerprint: firefox
     servername: www.samsung.com
     reality-opts:
       public-key: JiXAdYw2UimHFD-FA9V6zQMvu0fDnhIwSDinsXd8ByE
@@ -1025,12 +1025,12 @@ https://github.com/abshare/abshare.github.io/blob/main/README.md:
     type: vless
     server: freea.glyphara.com
     port: 10701
-    uuid: 0a91b672-8418-4781-b1c5-4170ed3c179a
+    uuid: b7fd0d6c-a5a4-40f8-a839-a717a9ff2459
     udp: true
     tls: true
     skip-cert-verify: true
     flow: xtls-rprx-vision
-    client-fingerprint: chrome
+    client-fingerprint: firefox
     servername: www.amd.com
     reality-opts:
       public-key: N2tG_gTPiZ6h1hRm6Ddo2F58xaZcSJxA9AzTLJ77dig
@@ -1039,12 +1039,12 @@ https://github.com/abshare/abshare.github.io/blob/main/README.md:
     type: vless
     server: freea.glyphara.com
     port: 10702
-    uuid: 0a91b672-8418-4781-b1c5-4170ed3c179a
+    uuid: b7fd0d6c-a5a4-40f8-a839-a717a9ff2459
     udp: true
     tls: true
     skip-cert-verify: true
     flow: xtls-rprx-vision
-    client-fingerprint: chrome
+    client-fingerprint: firefox
     servername: learn.microsoft.com
     reality-opts:
       public-key: rTK_3WPhJIY8fFpogPmRdRIEDbIjzQ-FUf3Blan2FUo
@@ -1053,12 +1053,12 @@ https://github.com/abshare/abshare.github.io/blob/main/README.md:
     type: vless
     server: freea.glyphara.com
     port: 10703
-    uuid: 0a91b672-8418-4781-b1c5-4170ed3c179a
+    uuid: b7fd0d6c-a5a4-40f8-a839-a717a9ff2459
     udp: true
     tls: true
     skip-cert-verify: true
     flow: xtls-rprx-vision
-    client-fingerprint: chrome
+    client-fingerprint: firefox
     servername: mensura.cdn-apple.com
     reality-opts:
       public-key: Elg7Z8U33fyKhNJRJRXm79wsKiR6DZxMzV90md0Yix0
