@@ -1,4 +1,4 @@
-# 配置合并于 2025-10-29 12:58:16
+# 配置合并于 2025-10-29 13:13:12
 mixed-port: 7890
 tcp-concurrent: false
 allow-lan: true
@@ -1197,7 +1197,7 @@ proxies:
   type: vless
   server: freea.glyphara.com
   port: 10101
-  uuid: 6b66fb3b-bdfd-45a6-b744-a3ee6cb0b96b
+  uuid: 715a1d6a-0690-44a5-aeca-2c9b60b632d4
   udp: true
   tls: true
   skip-cert-verify: true
@@ -1211,7 +1211,7 @@ proxies:
   type: vless
   server: freea.glyphara.com
   port: 10102
-  uuid: 6b66fb3b-bdfd-45a6-b744-a3ee6cb0b96b
+  uuid: 715a1d6a-0690-44a5-aeca-2c9b60b632d4
   udp: true
   tls: true
   skip-cert-verify: true
@@ -1225,7 +1225,7 @@ proxies:
   type: vless
   server: freea.glyphara.com
   port: 10103
-  uuid: 6b66fb3b-bdfd-45a6-b744-a3ee6cb0b96b
+  uuid: 715a1d6a-0690-44a5-aeca-2c9b60b632d4
   udp: true
   tls: true
   skip-cert-verify: true
@@ -1239,7 +1239,7 @@ proxies:
   type: vless
   server: freea.glyphara.com
   port: 10201
-  uuid: 6b66fb3b-bdfd-45a6-b744-a3ee6cb0b96b
+  uuid: 715a1d6a-0690-44a5-aeca-2c9b60b632d4
   udp: true
   tls: true
   skip-cert-verify: true
@@ -1253,7 +1253,7 @@ proxies:
   type: vless
   server: freea.glyphara.com
   port: 10202
-  uuid: 6b66fb3b-bdfd-45a6-b744-a3ee6cb0b96b
+  uuid: 715a1d6a-0690-44a5-aeca-2c9b60b632d4
   udp: true
   tls: true
   skip-cert-verify: true
@@ -1267,7 +1267,7 @@ proxies:
   type: vless
   server: freea.glyphara.com
   port: 10203
-  uuid: 6b66fb3b-bdfd-45a6-b744-a3ee6cb0b96b
+  uuid: 715a1d6a-0690-44a5-aeca-2c9b60b632d4
   udp: true
   tls: true
   skip-cert-verify: true
@@ -1281,7 +1281,7 @@ proxies:
   type: vless
   server: freea.glyphara.com
   port: 10301
-  uuid: 6b66fb3b-bdfd-45a6-b744-a3ee6cb0b96b
+  uuid: 715a1d6a-0690-44a5-aeca-2c9b60b632d4
   udp: true
   tls: true
   skip-cert-verify: true
@@ -1295,7 +1295,7 @@ proxies:
   type: vless
   server: freea.glyphara.com
   port: 10302
-  uuid: 6b66fb3b-bdfd-45a6-b744-a3ee6cb0b96b
+  uuid: 715a1d6a-0690-44a5-aeca-2c9b60b632d4
   udp: true
   tls: true
   skip-cert-verify: true
@@ -1309,7 +1309,7 @@ proxies:
   type: vless
   server: freea.glyphara.com
   port: 10303
-  uuid: 6b66fb3b-bdfd-45a6-b744-a3ee6cb0b96b
+  uuid: 715a1d6a-0690-44a5-aeca-2c9b60b632d4
   udp: true
   tls: true
   skip-cert-verify: true
@@ -1323,7 +1323,7 @@ proxies:
   type: vless
   server: freea.glyphara.com
   port: 10401
-  uuid: 6b66fb3b-bdfd-45a6-b744-a3ee6cb0b96b
+  uuid: 715a1d6a-0690-44a5-aeca-2c9b60b632d4
   udp: true
   tls: true
   skip-cert-verify: true
@@ -1337,7 +1337,7 @@ proxies:
   type: vless
   server: freea.glyphara.com
   port: 10402
-  uuid: 6b66fb3b-bdfd-45a6-b744-a3ee6cb0b96b
+  uuid: 715a1d6a-0690-44a5-aeca-2c9b60b632d4
   udp: true
   tls: true
   skip-cert-verify: true
@@ -1351,7 +1351,7 @@ proxies:
   type: vless
   server: freea.glyphara.com
   port: 10403
-  uuid: 6b66fb3b-bdfd-45a6-b744-a3ee6cb0b96b
+  uuid: 715a1d6a-0690-44a5-aeca-2c9b60b632d4
   udp: true
   tls: true
   skip-cert-verify: true
@@ -1365,7 +1365,7 @@ proxies:
   type: vless
   server: freea.glyphara.com
   port: 10701
-  uuid: 6b66fb3b-bdfd-45a6-b744-a3ee6cb0b96b
+  uuid: 715a1d6a-0690-44a5-aeca-2c9b60b632d4
   udp: true
   tls: true
   skip-cert-verify: true
@@ -1379,7 +1379,7 @@ proxies:
   type: vless
   server: freea.glyphara.com
   port: 10702
-  uuid: 6b66fb3b-bdfd-45a6-b744-a3ee6cb0b96b
+  uuid: 715a1d6a-0690-44a5-aeca-2c9b60b632d4
   udp: true
   tls: true
   skip-cert-verify: true
@@ -1393,7 +1393,7 @@ proxies:
   type: vless
   server: freea.glyphara.com
   port: 10703
-  uuid: 6b66fb3b-bdfd-45a6-b744-a3ee6cb0b96b
+  uuid: 715a1d6a-0690-44a5-aeca-2c9b60b632d4
   udp: true
   tls: true
   skip-cert-verify: true
