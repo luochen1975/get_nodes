@@ -1,0 +1,25 @@
+name: Daily Cache Cleanup
+
+on:
+  schedule:
+    - cron: '0 22 * * *'   # 每天北京时间凌晨 6 点
+  workflow_dispatch:
+
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Remove cache.yaml
+        run: git rm -f cache.yaml || echo "No cache.yaml to remove"
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Daily cleanup: remove cache.yaml' || echo "No changes to commit."
+          git push
