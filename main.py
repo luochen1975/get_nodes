@@ -208,12 +208,14 @@ def merge_configs():
             if group.get('name') == anchor_group_name:
                 group['proxies'].extend(new_proxy_names)
                 break
-
+    
     # 7. 写入最终的合并配置
+    timestamp = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+    yaml_content = yaml.dump(base_config, sort_keys=False, allow_unicode=True)
+    
     with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
-        timestamp = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
-        f.write(f"# 配置合并于 {timestamp}\n")
-        yaml.dump(base_config, f, sort_keys=False, allow_unicode=True)
+        f.write(f"# ⏰配置合并于 {timestamp}\n")
+        f.write(yaml_content.replace("测试节点", f"⏰配置合并于 {timestamp}"))
 
     print("\n--- 合并完成！ ---")
     print(f"已从{success_count}个订阅链接中成功合并了 {len(new_proxy_names)} 个节点。")
@@ -222,6 +224,7 @@ def merge_configs():
 
 if __name__ == "__main__":
     merge_configs()
+
 
 
 
