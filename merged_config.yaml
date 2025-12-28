@@ -1,4 +1,4 @@
-# ⏰配置合并于 2025-12-29 03:28:14
+# ⏰配置合并于 2025-12-29 03:43:14
 mixed-port: 7890
 tcp-concurrent: false
 allow-lan: true
@@ -130,7 +130,7 @@ dns:
     - +.googleapis.cn
     - +.googleapis.com
 proxies:
-- name: ⏰配置合并于 2025-12-29 03:28:14
+- name: ⏰配置合并于 2025-12-29 03:43:14
   type: trojan
   network: ws
   server: 194.76.18.129
@@ -994,7 +994,7 @@ proxy-groups:
 - name: 手动选择
   type: select
   proxies: &id001
-  - ⏰配置合并于 2025-12-29 03:28:14
+  - ⏰配置合并于 2025-12-29 03:43:14
   - 🇭🇰香港 101 | 1x HK | mkshare3
   - 🇭🇰香港 102 | 1x HK | mkshare3
   - 🇭🇰香港 103 | 家宽 | 1x HK | mkshare3
