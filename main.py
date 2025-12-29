@@ -215,7 +215,7 @@ def merge_configs():
     
     with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
         f.write(f"# ⏰配置合并于 {timestamp}\n")
-        f.write(yaml_content.replace("测试节点", f"⏰配置合并于 {timestamp}"))
+        f.write(yaml_content.replace("测试节点", f"⏰⏰⏰配置合并于 {timestamp}"))
 
     print("\n--- 合并完成！ ---")
     print(f"已从{success_count}个订阅链接中成功合并了 {len(new_proxy_names)} 个节点。")
@@ -224,6 +224,7 @@ def merge_configs():
 
 if __name__ == "__main__":
     merge_configs()
+
 
 
 
