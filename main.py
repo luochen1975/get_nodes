@@ -211,6 +211,7 @@ def merge_configs():
     
     # 7. 写入最终的合并配置
     timestamp = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+    timestamp = timestamp.translate(str.maketrans('0123456789', '𝟬𝟭𝟮𝟯𝟰𝟱𝟲𝟳𝟴𝟵'))
     yaml_content = yaml.dump(base_config, sort_keys=False, allow_unicode=True)
     
     with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
@@ -224,6 +225,7 @@ def merge_configs():
 
 if __name__ == "__main__":
     merge_configs()
+
 
 
 
