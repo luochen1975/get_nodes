@@ -2,7 +2,7 @@ name: Daily Cache Cleanup
 
 on:
   schedule:
-    - cron: '0 22 * * *'   # 每天北京时间凌晨 6 点
+    - cron: '15 0, 4, 8, 12, 16, 20 * * *'   # 每天北京时间凌晨 0, 4, 8, 12, 16, 20 点15
   workflow_dispatch:
 
 jobs:
